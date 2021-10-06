@@ -2,7 +2,9 @@
 <div class="row g-0">
     <div class="col-lg-4">
         <div class="logo">
-            <img src="{{asset('images/negeri_jahe_merah_logo.png')}}" width="80px" alt="" srcset="">
+            <a href="{{route('home')}}">
+                <img src="{{asset('images/negeri_jahe_merah_logo.png')}}" width="80px" alt="" srcset="">
+            </a>
         </div>
     </div>
     <div class="col-lg-6">
