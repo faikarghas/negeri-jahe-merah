@@ -1,0 +1,187 @@
+header[page=contact]{
+    background-color: $color_red;
+    .background__header{
+        display:flex;
+        .slide-img{
+            img{
+                filter: grayscale(0.3) brightness(0.8);
+            }
+            .test1{
+                object-fit:cover;
+                transition: 0.5s all;
+                position: absolute;
+                bottom: 150px;
+                border-radius: 0px;
+                width: 100%;
+                height: 100%;
+                bottom: 0;
+                right: 0 !important;
+            }
+            .test2{
+                object-fit:cover;
+                transition: 0.5s all;
+                position: absolute;
+                bottom: 150px;
+                right: 260px;
+                border-radius: 20px;
+                width: 220px;
+                height: 270px;
+                &.active{
+                    width: 100%;
+                    height: 100%;
+                    bottom: 0;
+                    right: 0 !important;
+                    border-radius: 0;
+                }
+            }
+            .test3{
+                object-fit:cover;
+                transition: 0.5s all;
+                position: absolute;
+                bottom: 150px;
+                right: 20px;
+                border-radius: 20px;
+                width: 220px;
+                height: 270px;
+                &.active{
+                    right: 260px !important;
+                }
+            }
+        }
+    }
+}
+
+main[page=contact]{
+    .section__first{
+        .header__sec1{
+            padding: 14rem 8rem 0rem 8rem;
+            background-color: $color_red;
+            height: 100%;
+            h2{
+                font-size: 4rem;
+            }
+        }
+        .proflie__sec1{
+            display: flex;
+            flex-direction: row;
+            &-left{
+                width: 50%;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                img{
+                    width: 50%;
+                    height: 350px;
+                    object-fit: cover;
+                }
+            }
+            &-right{
+                width: 50%;
+                padding: 8rem;
+                h3{
+                    font-size: 4rem;
+                    margin-bottom: 3rem;
+                }
+                .tag{
+                    font-size: 4rem;
+                    margin-top: 4rem;
+                }
+            }
+        }
+    }
+
+    .section__second{
+        display: flex;
+        flex-direction: row;
+        padding-right: 8rem;
+        align-items: center;
+        background-color: $color_red;
+        &-map{
+            width: 70%;
+        }
+        &-form{
+            height: 410px;
+            width: 30%;
+            background-color: $color_yellow;
+            border-radius: 35px;
+            padding: 4rem;
+            h4{
+                font-size: 3rem;
+                color: $color_red;
+                margin-bottom: 2rem;
+            }
+            p{
+                color: $color_red;
+                line-height: 1.2em;
+                font-family: "JosefinSans-SemiBold";
+                margin-bottom: 3rem;
+            }
+            form{
+                input{
+                    background-color: transparent;
+                    border: none;
+                    border-bottom: 1px solid $color_red;
+                    padding-left: 0;
+                    padding-bottom: 1rem;
+                    &::placeholder{
+                        color: $color_red;
+                        padding-left: 0;
+                        font-size: 1.4rem;
+                        font-family: "JosefinSans-SemiBold";
+                        padding-bottom: 1rem;
+                    }
+                }
+                .btn-form{
+                    margin-top: 4rem;
+                }
+            }
+        }
+    }
+
+    .section__third{
+        background: $color_red;
+        padding: 8rem 16rem;
+        hr{
+            background-color: $color_yellow;
+            margin: 4rem 0;
+            height: 2.5px;
+        }
+        .addr{
+            padding-right: 4rem;
+            h6{
+                color: $color_yellow;
+                font-size: 2rem;
+                margin-bottom: 2rem;
+            }
+            p{
+                color: white;
+                margin-bottom: 2rem;
+            }
+            .op{
+                color: $color_yellow;
+                margin-bottom: 0;
+            }
+            ul{
+                padding-left: 0;
+                margin-bottom: 0;
+                margin-bottom: 2rem;
+                li{
+                    list-style: none;
+                    span{
+                        color: white;
+                        font-size: 1.4rem;
+                        width: 130px;
+                        display: block;
+                        position: relative;
+                        &::after{
+                            content: ':';
+                            color: white;
+                            position: absolute;
+                            right: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

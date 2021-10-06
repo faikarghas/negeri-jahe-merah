@@ -1,0 +1,227 @@
+header[page=business]{
+    // height: 100vh;
+    background-color: $color_red;
+    .background__header{
+        display:flex;
+        .slide-img{
+            img{
+                filter: grayscale(0.3) brightness(0.8);
+            }
+            .test1{
+                object-fit:cover;
+                transition: 0.5s all;
+                position: absolute;
+                bottom: 150px;
+                border-radius: 0px;
+                width: 100%;
+                height: 100%;
+                bottom: 0;
+                right: 0 !important;
+            }
+            .test2{
+                object-fit:cover;
+                transition: 0.5s all;
+                position: absolute;
+                bottom: 150px;
+                right: 260px;
+                border-radius: 20px;
+                width: 220px;
+                height: 270px;
+                &.active{
+                    width: 100%;
+                    height: 100%;
+                    bottom: 0;
+                    right: 0 !important;
+                    border-radius: 0;
+                }
+            }
+            .test3{
+                object-fit:cover;
+                transition: 0.5s all;
+                position: absolute;
+                bottom: 150px;
+                right: 20px;
+                border-radius: 20px;
+                width: 220px;
+                height: 270px;
+                &.active{
+                    right: 260px !important;
+                }
+            }
+        }
+    }
+}
+
+main[page=business]{
+    .section__first{
+        background-color: $color_red;
+        padding: 12rem;
+        .header-business{
+            h2{
+                font-size: 4rem;
+            }
+        }
+        .top-img{
+            img{
+                object-fit: contain;
+                width: 100%;
+            }
+        }
+
+        .top-desc{
+            padding-left: 12rem;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            h3{
+                font-size: 5rem;
+                margin-bottom: 2rem;
+            }
+        }
+
+        .slider-profile{
+            margin-top: 4rem;
+            &-item{
+                width: 33.33%;
+                height: 400px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+                .item-wrapper{
+                    position: relative;
+                    height: 100%;
+                    .info{
+                        position: absolute;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        left: 4rem;
+                        h5{
+                            color: white;
+                            font-size: 3.5rem;
+                        }
+                        p{
+                            color: white;
+                            font-size: 1.4rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .slider-desc{
+            padding: 4rem 7rem 4rem 7rem;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            p{
+                margin-bottom: 0;
+                border-left: 2px solid $color_yellow;
+                padding-left: 3rem;
+            }
+        }
+
+        .contact__business{
+            display: flex;
+            flex-direction: row;
+            height: 570px;
+            background-color: #530201;
+            border-radius: 35px;
+            &-left{
+                width: 30%;
+                height: 100%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-bottom-left-radius: 35px;
+                    border-top-left-radius: 35px;
+                }
+            }
+            &-right{
+                width: 70%;
+                padding: 5rem 12rem;
+                h3{
+                    font-size: 3rem;
+                    margin-bottom: 2rem;
+                    padding: 0 1rem;
+                }
+                form{
+                    .form-gr{
+                        display: flex;
+                        flex-direction: row;
+                        .box-icon{
+                            height: 40px;
+                            border-left: 1px solid #E19E9C;
+                            border-top: 1px solid #E19E9C;
+                            border-bottom: 1px solid #E19E9C;
+                            width: 40px;
+                        }
+                        .box-input{
+                            border-right: 1px solid #E19E9C;
+                            border-left: none;
+                            border-top: 1px solid #E19E9C;
+                            border-bottom: 1px solid #E19E9C;
+                            height: 40px;
+                            width: 100%;
+                            input{
+                                background-color: transparent;
+                                box-shadow: none;
+                                height: 100%;
+                                border: none;
+                                color: white;
+                                font-size: 1.4rem;
+                                &::placeholder{
+                                    color: white;
+                                    font-size: 1.4rem;
+                                }
+                            }
+                            select{
+                                background-color: transparent;
+                                box-shadow: none;
+                                height: 100%;
+                                border: none;
+                                color: white;
+                                font-size: 1.4rem;
+                                option{
+                                    font-size: 1.4rem;
+                                    color: black;
+                                }
+                            }
+                        }
+                        .box-input-area{
+                            border-right: 1px solid #E19E9C;
+                            border-left: 1px solid #E19E9C;
+                            border-top: 1px solid #E19E9C;
+                            border-bottom: 1px solid #E19E9C;
+                            height: 80px;
+                            width: 100%;
+                            margin-bottom: 3rem;
+                            textarea{
+                                background-color: transparent;
+                                box-shadow: none;
+                                border: none;
+                                height: 100%;
+                                padding-left: 44px;
+                                color: white;
+                                font-size: 1.4rem;
+                                &::placeholder{
+                                    color: white;
+                                    font-size: 1.4rem;
+                                }
+                            }
+                        }
+                    }
+                    .form-wr{
+                        display: flex;
+                        justify-content: space-between;
+                        .form-50{
+                            width: 49%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

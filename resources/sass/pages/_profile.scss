@@ -1,0 +1,194 @@
+header[page=profile]{
+    // height: 100vh;
+    background-color: $color_red;
+    .background__header{
+        display:flex;
+        .slide-img{
+            img{
+                filter: grayscale(0.3) brightness(0.8);
+            }
+            .test1{
+                object-fit:cover;
+                transition: 0.5s all;
+                position: absolute;
+                bottom: 150px;
+                border-radius: 0px;
+                width: 100%;
+                height: 100%;
+                bottom: 0;
+                right: 0 !important;
+            }
+            .test2{
+                object-fit:cover;
+                transition: 0.5s all;
+                position: absolute;
+                bottom: 150px;
+                right: 260px;
+                border-radius: 20px;
+                width: 220px;
+                height: 270px;
+                &.active{
+                    width: 100%;
+                    height: 100%;
+                    bottom: 0;
+                    right: 0 !important;
+                    border-radius: 0;
+                }
+            }
+            .test3{
+                object-fit:cover;
+                transition: 0.5s all;
+                position: absolute;
+                bottom: 150px;
+                right: 20px;
+                border-radius: 20px;
+                width: 220px;
+                height: 270px;
+                &.active{
+                    right: 260px !important;
+                }
+            }
+        }
+    }
+}
+
+main[page=profile]{
+    .section__first{
+        .header__sec1{
+            padding: 14rem 8rem 4rem 8rem;
+            background-color: $color_red;
+            h2{
+                font-size: 4rem;
+            }
+        }
+        .proflie__sec1{
+            display: flex;
+            flex-direction: row;
+            &-left{
+                width: 50%;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                img{
+                    width: 50%;
+                    height: 350px;
+                    object-fit: cover;
+                }
+            }
+            &-right{
+                width: 50%;
+                padding: 8rem;
+                h3{
+                    font-size: 4rem;
+                    margin-bottom: 3rem;
+                }
+                .tag{
+                    font-size: 4rem;
+                    margin-top: 4rem;
+                }
+            }
+        }
+    }
+
+    .section__second{
+        &-left{
+            padding: 15rem 8rem;
+            height: 100%;
+            h3{
+                font-size: 5rem;
+                margin-bottom: 4rem;
+            }
+            p{
+                margin-bottom: 2rem;
+            }
+        }
+
+        &-right{
+            height: 100%;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .section__third{
+        background-color: $color_red;
+        padding: 12rem;
+        .top-img{
+            img{
+                object-fit: contain;
+                width: 100%;
+            }
+        }
+
+        .top-desc{
+            padding-left: 12rem;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            h3{
+                font-size: 5rem;
+                margin-bottom: 2rem;
+            }
+        }
+
+        .slider-profile{
+            margin-top: 4rem;
+            &-item{
+                width: 33.33%;
+                height: 400px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+                .item-wrapper{
+                    position: relative;
+                    height: 100%;
+                    .info{
+                        position: absolute;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        left: 4rem;
+                        h5{
+                            color: white;
+                            font-size: 3.5rem;
+                        }
+                        p{
+                            color: white;
+                            font-size: 1.4rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .slider-desc{
+            padding: 4rem 0 4rem 7rem;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            p{
+                margin-bottom: 0;
+                border-left: 2px solid $color_yellow;
+                padding-left: 3rem;
+            }
+        }
+    }
+
+    .section__fourth{
+        background-color: $color_yellow;
+        padding: 8rem;
+        h3{
+            font-size: 5rem;
+            color: $color_red;
+            margin-bottom: 2rem;
+        }
+
+        &-desc{
+            padding-right: 8rem;
+        }
+    }
+}

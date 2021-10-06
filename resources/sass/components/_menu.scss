@@ -1,0 +1,95 @@
+menu{
+    position: relative;
+    z-index: 5;
+    padding: 3.5rem 4rem;
+    .logo{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        img{
+            width: 95px;
+            object-fit: contain;
+        }
+    }
+    .logo2{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        img{
+            width: 140px;
+            object-fit: contain;
+        }
+    }
+    .menu__wrapper{
+        padding-left: 1rem;
+        &-top{
+            ul{
+                text-align: end;
+                li{
+                    list-style: none;
+
+                    select{
+                        box-shadow: none;
+                        border: none;
+                        background-color: transparent;
+                        color: white;
+                        font-size: 1.4rem;
+                        font-family: "JosefinSans-Regular";
+                        &:focus{
+                            border: none;
+                        }
+                        option{
+                            color: white;
+                            font-family: "JosefinSans-Regular";
+                            background-color: black;
+                        }
+                    }
+                }
+            }
+        }
+        &-bottom{
+            padding-top: 1.5rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.678);
+            ul{
+                margin-bottom: 0;
+                padding-left: 0;
+                display: flex;
+                justify-content: space-between;
+                li{
+                    list-style: none;
+                    display: inline-block;
+                    position: relative;
+                    a{
+                        color: white;
+                        text-decoration: none;
+                        font-size: 1.4rem;
+                        letter-spacing: 0;
+                    }
+                }
+                .sub-init{
+                    &:hover{
+                        ul{
+                            display: block;
+                        }
+                    }
+                    ul{
+                        display: none;
+                        position: absolute;
+                        left: 0%;
+                        top: 0;
+                        padding-top: 50px;
+                        padding-left: 0;
+                        margin-bottom: 0;
+                        li{
+                            display: block;
+                            margin-bottom: 1rem;
+                            width: 200px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
