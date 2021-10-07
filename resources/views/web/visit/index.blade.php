@@ -77,10 +77,10 @@
                                     <img src="{{asset('images/anak_tanam_bibit_jahe_merah.jpg')}}" width="100%" height="100%"/>
                                 </div>
                                 <div class="col-12 col-lg-6">
-                                    <img src="{{asset('images/tanam_bibit_jahe_merah.jpg')}}" width="100%" height="100%"/>
+                                    <img src="{{asset('images/edukasi_taman_jahe_merah.jpg')}}" width="100%" height="100%"/>
                                 </div>
                                 <div class="col-12 col-lg-6">
-                                    <img src="{{asset('images/tanam_bibit_jahe_merah.jpg')}}" width="100%" height="100%"/>
+                                    <img src="{{asset('images/pengembangan_produk_taman_jahe_merah.jpg')}}" width="100%" height="100%"/>
                                 </div>
                             </div>
                         </div>
@@ -90,19 +90,51 @@
         </section>
         <section class="section__fullSlider">
             <div class="slider-visit-1">
-                <img src="https://source.unsplash.com/random/800x501" width="100%" height="100%"/>
-                <img src="https://source.unsplash.com/random/800x502" width="100%" height="100%"/>
-                <img src="https://source.unsplash.com/random/800x503" width="100%" height="100%"/>
-                <img src="https://source.unsplash.com/random/800x504" width="100%" height="100%"/>
-                <img src="https://source.unsplash.com/random/800x505" width="100%" height="100%"/>
+                <img src="{{asset('images/taman_jahe_merah_konsep.jpg')}}" width="100%" height="100%"/>
             </div>
         </section>
-        <section class="section__third"></section>
+        <section class="section__third">
+            <div class="section__third-legenda">
+                <h5>Legenda Taman Jahe Merah</h5>
+                <ol>
+                    <li>Amphiteatre</li>
+                    <li>Nursery Class</li>
+                    <li>Parking Area</li>
+                    <li>Taman Nusantara</li>
+                    <li>Out Nursery</li>
+                    <li>Cultivation</li>
+                    <li>Composting</li>
+                    <li>Herbal Galery</li>
+                    <li>Green House</li>
+                    <li>Kls Pengolahan</li>
+                    <li>Aquaculture</li>
+                    <li>Taman Produk B7</li>
+                    <li>Gift Shop & Office</li>
+                    <li>Kantin Herbal</li>
+                    <li>Taman F and B</li>
+                    <li>Taman Recycle</li>
+                    <li>Taman Zen</li>
+                    <li>Taman Aquatik</li>
+                    <li>Taman Labirin</li>
+                    <li>Taman Aroma</li>
+                    <li>Taman Padang Pasir</li>
+                    <li>Taman Lebah</li>
+                    <li>Taman Asrama</li>
+                    <li>Taman Floral</li>
+                    <li>Mnr Kantong Semar</li>
+                    <li>Taman Fauna</li>
+                    <li>Outbound Court</li>
+                </ol>
+            </div>
+            <div class="section__third-img">
+                <img  src="{{asset('images/taman_jahe_merah_map.png')}}" alt="" srcset="">
+            </div>
+        </section>
         <section class="section__fourth">
             <div class="container-fluid g-0">
                 <div class="row g-0">
                     <div class="col-12 col-lg-6">
-                        <img src="https://source.unsplash.com/random/400x305" width="100%" height="100%"/>
+                        <img src="{{asset('images/bumi_jahe_merah.jpg')}}" width="100%" height="100%"/>
                     </div>
                     <div class="col-12 col-lg-6">
                         <div class="section__fourth-text">
@@ -117,24 +149,20 @@
         </section>
         <section class="section__fullSlider">
             <div class="slider-visit-2">
-                <img src="https://source.unsplash.com/random/800x506" width="100%" height="100%"/>
-                <img src="https://source.unsplash.com/random/800x507" width="100%" height="100%"/>
-                <img src="https://source.unsplash.com/random/800x508" width="100%" height="100%"/>
-                <img src="https://source.unsplash.com/random/800x509" width="100%" height="100%"/>
-                <img src="https://source.unsplash.com/random/800x510" width="100%" height="100%"/>
+                <img src="{{asset('images/bumi_jahe_merah_petani.jpg')}}" width="100%" height="100%"/>
             </div>
         </section>
         <section class="section__fifth">
             <div class="container-fluid g-0">
                 <div class="row g-0">
                     <div class="col-12 col-lg-6">
-                        <img src="https://source.unsplash.com/random/800x511" width="100%" height="100%"/>
+                        <img src="{{asset('images/bumi_jahe_merah_peneliti.jpg')}}" width="100%" height="100%"/>
                     </div>
                     <div class="col-12 col-lg-3">
-                        <img src="https://source.unsplash.com/random/800x512" width="100%" height="100%"/>
+                        <img src="{{asset('images/bumi_jahe_merah_pabrik.jpg')}}" width="100%" height="100%"/>
                     </div>
                     <div class="col-12 col-lg-3">
-                        <img src="https://source.unsplash.com/random/800x513" width="100%" height="100%"/>
+                        <img src="{{asset('images/bumi_jahe_merah_farm.jpg')}}" width="100%" height="100%"/>
                     </div>
                 </div>
             </div>
