@@ -1923,6 +1923,15 @@ header[page=visit] .head_content-img img {
      object-fit: contain;
 }
 
+main[page=visit] .bg-red-right {
+  width: 35%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #721414;
+  z-index: 1;
+}
 main[page=visit] .section__first .go__det {
   height: 450px;
   position: relative;

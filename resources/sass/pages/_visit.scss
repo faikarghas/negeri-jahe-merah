@@ -105,7 +105,15 @@ header[page=visit]{
     }
 }
 main[page=visit]{
-
+    .bg-red-right{
+        width: 35%;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: $color_red;
+        z-index: 1;
+    }
     .section__first{
         .go__det{
             height: 450px;
