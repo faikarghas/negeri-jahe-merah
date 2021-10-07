@@ -315,7 +315,7 @@ menu .logo {
   justify-content: flex-start;
 }
 menu .logo img {
-  width: 190px;
+  width: 94px;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -804,7 +804,7 @@ main[page=home] .section__fourth .slider-products .product-item--text {
 }
 main[page=home] .section__fourth .slider-products .product-item--text p {
   font-size: 1.8rem;
-  font-family: "JosefinSans-SemiBold";
+  font-family: "JosefinSans-Bold";
   position: relative;
   top: 30px;
   transition: 0.5s all;
@@ -977,7 +977,7 @@ main[page=profile] .section__third .slider-profile-item .item-wrapper {
 }
 main[page=profile] .section__third .slider-profile-item .item-wrapper .info {
   position: absolute;
-  top: 50%;
+  top: 63%;
   transform: translateY(-50%);
   left: 4rem;
 }
@@ -1079,7 +1079,7 @@ main[page=product] .section__second .slider-products .product-item--text {
 }
 main[page=product] .section__second .slider-products .product-item--text p {
   font-size: 1.8rem;
-  font-family: "JosefinSans-SemiBold";
+  font-family: "JosefinSans-Bold";
   position: relative;
   top: 30px;
   transition: 0.5s all;
@@ -1348,7 +1348,7 @@ main[page=business] .section__first .slider-profile-item .item-wrapper {
 }
 main[page=business] .section__first .slider-profile-item .item-wrapper .info {
   position: absolute;
-  top: 50%;
+  top: 63%;
   transform: translateY(-50%);
   left: 4rem;
 }
