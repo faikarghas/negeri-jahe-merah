@@ -8,10 +8,10 @@
         </menu>
         <div class="background__header">
             <div class="slide-img">
-                <img class="test1" src="https://source.unsplash.com/random/1200x801"/>
-                <img class="test2" src="https://source.unsplash.com/random/1200x802"/>
-                <img class="test3" src="https://source.unsplash.com/random/1200x803"/>
-                <img class="test4" src="https://source.unsplash.com/random/1200x804"/>
+                <img class="test1" src="{{asset('images/memperkenalkan_negeri_jahe_merah.jpg')}}"/>
+                <img class="test2" src="{{asset('images/herbal_edutainment.jpg')}}"/>
+                <img class="test3" src="{{asset('images/inovasi_redgine.jpg')}}"/>
+                <img class="test4" src="{{asset('images/memperkenalkan_negeri_jahe_merah.jpg')}}"/>
             </div>
         </div>
     </header>
@@ -38,7 +38,7 @@
                                     <div>
                                         <p class="p-grey">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo porro dignissimos aut magni, voluptates eos asperiores. Modi fugit optio, consequuntur odio aliquid nostrum, doloribus dolor dolorem pariatur, odit fugiat hic?</p>
                                     </div>
-                                    <div class="btn-njm-red">LEARN MORE</div>
+                                    <a href={{route('profile')}} class="btn-njm-red">LEARN MORE</a>
                                 </div>
                             </div>
                         </div>
@@ -66,7 +66,7 @@
                                         <h3 class="p-yellow mb-4">Our Vision</h3>
                                         <p class="p-grey mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo porro dignissimos aut magni, voluptates eos asperiores.</p>
                                     </div>
-                                    <div class="btn-njm-red">LEARN MORE</div>
+                                    <a href={{route('profile')}} class="btn-njm-red">LEARN MORE</a>
                                 </div>
                             </div>
                         </div>
@@ -98,7 +98,7 @@
                             </div>
                             <div class="content">
                                 <p class="p-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum hic qui quidem nihil, veniam corporis itaque incidunt soluta facere assumenda culpa explicabo consequatur quos optio nemo exercitationem cum minus labore numquam. Pariatur incidunt laudantium repellendus sed dolorum illum quasi officiis quod odit, nesciunt dolore accusantium aspernatur voluptatibus, placeat, architecto aliquam. Exercitationem, eos. Cum eaque odit odio necessitatibus. Dolorum saepe distinctio neque suscipit repellat esse possimus accusantium, ea, quisquam facere obcaecati velit quo aliquam nemo numquam exercitationem tempora provident nesciunt commodi.</p>
-                                <div class="btn-njm-yellow">LEARN MORE</div>
+                                <a href="{{route('profile')}}" class="btn-njm-yellow">LEARN MORE</a>
                             </div>
                         </div>
                     </div>
@@ -166,91 +166,91 @@
                     <img src="https://source.unsplash.com/random/200x424" width="100%" height="100%"/>
                     <div class="product-item--text">
                         <p class="p-red text-center">Red Ginger Powder Extract Premium</p>
-                        <div class="btn-njm-yellow btn-product-item">MORE INFORMATION</div>
+                        <a href="{{route('product-detail','red-ginger')}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
                     </div>
                 </div>
                 <div class="product-item">
                     <img src="https://source.unsplash.com/random/200x444" width="100%" height="100%"/>
                     <div class="product-item--text">
                         <p class="p-red text-center">Red Ginger Powder Extract Premium</p>
-                        <div class="btn-njm-yellow btn-product-item">MORE INFORMATION</div>
+                        <a href="{{route('product-detail','red-ginger')}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
                     </div>
                 </div>
                 <div class="product-item">
                     <img src="https://source.unsplash.com/random/200x414" width="100%" height="100%"/>
                     <div class="product-item--text">
                         <p class="p-red text-center">Red Ginger Powder Extract Premium</p>
-                        <div class="btn-njm-yellow btn-product-item">MORE INFORMATION</div>
+                        <a href="{{route('product-detail','red-ginger')}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
                     </div>
                 </div>
                 <div class="product-item">
                     <img src="https://source.unsplash.com/random/200x401" width="100%" height="100%"/>
                     <div class="product-item--text">
                         <p class="p-red text-center">Red Ginger Powder Extract Premium</p>
-                        <div class="btn-njm-yellow btn-product-item">MORE INFORMATION</div>
+                        <a href="{{route('product-detail','red-ginger')}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
                     </div>
                 </div>
                 <div class="product-item">
                     <img src="https://source.unsplash.com/random/200x402" width="100%" height="100%"/>
                     <div class="product-item--text">
                         <p class="p-red text-center">Red Ginger Powder Extract Premium</p>
-                        <div class="btn-njm-yellow btn-product-item">MORE INFORMATION</div>
+                        <a href="{{route('product-detail','red-ginger')}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
                     </div>
                 </div>
                 <div class="product-item">
                     <img src="https://source.unsplash.com/random/200x403" width="100%" height="100%"/>
                     <div class="product-item--text">
                         <p class="p-red text-center">Red Ginger Powder Extract Premium</p>
-                        <div class="btn-njm-yellow btn-product-item">MORE INFORMATION</div>
+                        <a href="{{route('product-detail','red-ginger')}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
                     </div>
                 </div>
                 <div class="product-item">
                     <img src="https://source.unsplash.com/random/200x404" width="100%" height="100%"/>
                     <div class="product-item--text">
                         <p class="p-red text-center">Red Ginger Powder Extract Premium</p>
-                        <div class="btn-njm-yellow btn-product-item">MORE INFORMATION</div>
+                        <a href="{{route('product-detail','red-ginger')}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
                     </div>
                 </div>
                 <div class="product-item">
                     <img src="https://source.unsplash.com/random/200x405" width="100%" height="100%"/>
                     <div class="product-item--text">
                         <p class="p-red text-center">Red Ginger Powder Extract Premium</p>
-                        <div class="btn-njm-yellow btn-product-item">MORE INFORMATION</div>
+                        <a href="{{route('product-detail','red-ginger')}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
                     </div>
                 </div>
                 <div class="product-item">
                     <img src="https://source.unsplash.com/random/200x406" width="100%" height="100%"/>
                     <div class="product-item--text">
                         <p class="p-red text-center">Red Ginger Powder Extract Premium</p>
-                        <div class="btn-njm-yellow btn-product-item">MORE INFORMATION</div>
+                        <a href="{{route('product-detail','red-ginger')}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
                     </div>
                 </div>
                 <div class="product-item">
                     <img src="https://source.unsplash.com/random/200x407" width="100%" height="100%"/>
                     <div class="product-item--text">
                         <p class="p-red text-center">Red Ginger Powder Extract Premium</p>
-                        <div class="btn-njm-yellow btn-product-item">MORE INFORMATION</div>
+                        <a href="{{route('product-detail','red-ginger')}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
                     </div>
                 </div>
                 <div class="product-item">
                     <img src="https://source.unsplash.com/random/200x408" width="100%" height="100%"/>
                     <div class="product-item--text">
                         <p class="p-red text-center">Red Ginger Powder Extract Premium</p>
-                        <div class="btn-njm-yellow btn-product-item">MORE INFORMATION</div>
+                        <a href="{{route('product-detail','red-ginger')}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
                     </div>
                 </div>
                 <div class="product-item">
                     <img src="https://source.unsplash.com/random/200x409" width="100%" height="100%"/>
                     <div class="product-item--text">
                         <p class="p-red text-center">Red Ginger Powder Extract Premium</p>
-                        <div class="btn-njm-yellow btn-product-item">MORE INFORMATION</div>
+                        <a href="{{route('product-detail','red-ginger')}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
                     </div>
                 </div>
                 <div class="product-item">
                     <img src="https://source.unsplash.com/random/200x410" width="100%" height="100%"/>
                     <div class="product-item--text">
                         <p class="p-red text-center">Red Ginger Powder Extract Premium</p>
-                        <div class="btn-njm-yellow btn-product-item">MORE INFORMATION</div>
+                        <a href="{{route('product-detail','red-ginger')}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
                     </div>
                 </div>
             </div>

@@ -8,11 +8,19 @@
             <div class="bg-red-right"></div>
         </menu>
         <div class="bg-red-right"></div>
-        <div class="head_content-text">
-
-        </div>
-        <div class="head_content-img">
-            <img src="{{asset('images/negeri_jahe_merah_visit_us.png')}}" alt="">
+        <div class="head_content">
+            <div class="head_content-text">
+                <div class="header-text-wrapper">
+                    <h4 class="hashtag-text">#BelajarDariJaheMerah</h4>
+                    <h4>Welcome to <br/>Herbal Edutainment<br/>Experience</h4>
+                    <div class="download_on">
+                        <p>Get more updates and promo!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="head_content-img">
+                <img src="{{asset('images/negeri_jahe_merah_visit_us.png')}}" alt="">
+            </div>
         </div>
     </header>
 @endsection

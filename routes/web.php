@@ -28,6 +28,7 @@ Route::get('/products',[ProductController::class,'index'])->name('products');
 Route::get('/product/{slug}',[ProductController::class,'detail'])->name('product-detail');
 Route::get('/business',[BusinessController::class,'index'])->name('business');
 Route::get('/news',[NewsController::class,'index'])->name('news');
+Route::get('/news/{slug}',[NewsController::class,'detail'])->name('news-detail');
 Route::get('/latest-news',[NewsController::class,'latest'])->name('latest-news');
 Route::get('/events',[NewsController::class,'events'])->name('events');
 Route::get('/literatures',[NewsController::class,'literatures'])->name('literatures');

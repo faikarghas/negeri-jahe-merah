@@ -38,4 +38,11 @@ class NewsController extends Controller
         return view('web.news.literatures',$data);
     }
 
+    public function detail(){
+        $data = [
+
+        ];
+
+        return view('web.news.detail',$data);
+    }
 }

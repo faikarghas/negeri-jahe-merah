@@ -228,6 +228,10 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
+}
+.btn-njm-red:hover {
+  color: white;
 }
 
 .btn-njm-yellow {
@@ -311,7 +315,7 @@ menu .logo {
   justify-content: flex-start;
 }
 menu .logo img {
-  width: 95px;
+  width: 190px;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -1788,13 +1792,43 @@ header[page=visit] .bg-red-right {
   background-color: #721414;
   z-index: 1;
 }
+header[page=visit] .head_content {
+  height: calc(110vh - 167.42px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+header[page=visit] .head_content-text {
+  width: 65%;
+  position: relative;
+}
+header[page=visit] .head_content-text .header-text-wrapper {
+  position: absolute;
+  left: 50%;
+  top: 20px;
+  transform: translateX(-50%);
+  width: 550px;
+}
+header[page=visit] .head_content-text .header-text-wrapper h4 {
+  font-size: 5rem;
+  color: black;
+}
+header[page=visit] .head_content-text .header-text-wrapper .hashtag-text {
+  font-size: 3.5rem;
+  color: #721414;
+}
+header[page=visit] .head_content-text .header-text-wrapper .download_on {
+  margin-top: 8rem;
+}
 header[page=visit] .head_content-img {
+  width: 35%;
+  position: relative;
+}
+header[page=visit] .head_content-img img {
   position: absolute;
   right: 115px;
   bottom: -33px;
   z-index: 2;
-}
-header[page=visit] .head_content-img img {
   width: 525px;
   -o-object-fit: contain;
      object-fit: contain;
