@@ -533,9 +533,6 @@ header[page=home] .background__header {
   display: -ms-flexbox;
   display: flex;
 }
-header[page=home] .background__header .slide-img img {
-  filter: grayscale(0.3) brightness(0.8);
-}
 header[page=home] .background__header .slide-img .test1 {
   -o-object-fit: cover;
      object-fit: cover;

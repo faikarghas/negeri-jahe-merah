@@ -31,7 +31,7 @@
                 <div class="row g-0">
                     <div class="col-12 col-lg-6">
                         <div class="go__det">
-                            <img src="https://source.unsplash.com/random/200x204" width="100%" height="100%"/>
+                            <img src="{{asset('images/taman_jahe_merah.jpg')}}" width="100%" height="100%"/>
                             <div class="go__det-content">
                                 <h4 class="p-white">Taman Jahe Merah</h4>
                                 <p class="p-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nostrum, esse fugit numquam velit alias doloremque perferendis repellat odio recusandae.</p>
@@ -41,7 +41,7 @@
                     </div>
                     <div class="col-12 col-lg-6">
                         <div class="go__det">
-                            <img src="https://source.unsplash.com/random/200x208" width="100%" height="100%"/>
+                            <img src="{{asset('images/bumi-jahe-merah--aromatik.jpg')}}" width="100%" height="100%"/>
                             <div class="go__det-content">
                                 <h4 class="p-white">Bumi Jahe Merah Aromatik</h4>
                                 <p class="p-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nostrum, esse fugit numquam velit alias doloremque perferendis repellat odio recusandae.</p>
@@ -71,16 +71,16 @@
                         <div class="container-fluid g-0">
                             <div class="row g-0">
                                 <div class="col-12 col-lg-6">
-                                    <img src="https://source.unsplash.com/random/200x204" width="100%" height="100%"/>
+                                    <img src="{{asset('images/tanam_bibit_jahe_merah.jpg')}}" width="100%" height="100%"/>
                                 </div>
                                 <div class="col-12 col-lg-6">
-                                    <img src="https://source.unsplash.com/random/200x205" width="100%" height="100%"/>
+                                    <img src="{{asset('images/anak_tanam_bibit_jahe_merah.jpg')}}" width="100%" height="100%"/>
                                 </div>
                                 <div class="col-12 col-lg-6">
-                                    <img src="https://source.unsplash.com/random/200x203" width="100%" height="100%"/>
+                                    <img src="{{asset('images/tanam_bibit_jahe_merah.jpg')}}" width="100%" height="100%"/>
                                 </div>
                                 <div class="col-12 col-lg-6">
-                                    <img src="https://source.unsplash.com/random/200x201" width="100%" height="100%"/>
+                                    <img src="{{asset('images/tanam_bibit_jahe_merah.jpg')}}" width="100%" height="100%"/>
                                 </div>
                             </div>
                         </div>

@@ -97,7 +97,7 @@
                     <div class="col-12">
                         <div class="contact__business">
                             <div class="contact__business-left">
-                                <img src="https://source.unsplash.com/random/200x401" width="100%" height="100%"/>
+                                <img src="{{asset('images/ekosistem_nursery.jpg')}}" width="100%" height="100%"/>
                             </div>
                             <div class="contact__business-right">
                                 <h3 class="p-yellow">Be a Part of Our Community!</h3>
