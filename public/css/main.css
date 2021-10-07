@@ -1722,6 +1722,98 @@ main[page=literatures] .section__second .literature__item-text .btn-read-more {
   font-family: "JosefinSans-Bold";
 }
 
+header[page=news-detail] {
+  background-color: #721414;
+  position: relative;
+  overflow: hidden;
+}
+header[page=news-detail] .background__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+header[page=news-detail] .background__header .slide-img img {
+  filter: grayscale(0.3) brightness(0.8);
+}
+header[page=news-detail] .background__header .slide-img .test1 {
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 0.5s all;
+  position: absolute;
+  bottom: 150px;
+  border-radius: 0px;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  right: 0 !important;
+}
+header[page=news-detail] .background__header .slide-img .test2 {
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 0.5s all;
+  position: absolute;
+  bottom: 150px;
+  right: 260px;
+  border-radius: 20px;
+  width: 220px;
+  height: 270px;
+}
+header[page=news-detail] .background__header .slide-img .test2.active {
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  right: 0 !important;
+  border-radius: 0;
+}
+header[page=news-detail] .background__header .slide-img .test3 {
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 0.5s all;
+  position: absolute;
+  bottom: 150px;
+  right: 20px;
+  border-radius: 20px;
+  width: 220px;
+  height: 270px;
+}
+header[page=news-detail] .background__header .slide-img .test3.active {
+  right: 260px !important;
+}
+header[page=news-detail] .z-2 {
+  z-index: 2;
+}
+header[page=news-detail] .bg-yellow-right {
+  width: 38.5%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #FEB824;
+  z-index: 1;
+}
+
+main[page=news-detail] .section__first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+main[page=news-detail] .section__first-left {
+  width: 61.5%;
+  background-color: #721414;
+  padding: 4rem 4rem 9rem 20rem;
+}
+main[page=news-detail] .section__first-left a {
+  color: white;
+  text-decoration: none;
+}
+main[page=news-detail] .section__first-left a:hover {
+  color: white;
+}
+main[page=news-detail] .section__first-right {
+  width: 38.5%;
+  background-color: #FEB824;
+}
+
 header[page=visit] {
   height: 110vh;
   background-color: #FEB824;
