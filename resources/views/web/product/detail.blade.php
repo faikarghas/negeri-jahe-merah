@@ -8,98 +8,35 @@
         </menu>
         <div class="product__detail">
             <div class="product__detail-img">
-                <img src="https://source.unsplash.com/random/200x424" width="100%" height="100%"/>
+                <img src="{{asset('images/red-ginger-powder.jpg')}}" width="100%" height="100%"/>
                 <div class="other_product">
                     <h4>Other Product</h4>
                     <div class="slider-products">
                         <div class="product-item">
-                            <img src="https://source.unsplash.com/random/200x424" width="100%" height="100%"/>
+                            <img src="{{asset('images/red-ginger-powder-extract--premium.jpg')}}" width="100%" height="100%"/>
                             <div class="product-item--text">
                                 <p class="p-red text-center">Red Ginger Powder Extract Premium</p>
+                                <a href="{{route('product-detail','red-ginger')}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <img src="{{asset('images/red-ginger--powder-extract--standardized.jpg')}}" width="100%" height="100%"/>
+                            <div class="product-item--text">
+                                <p class="p-red text-center">Red Ginger Powder Extract Standarized</p>
                                 <div class="btn-njm-yellow btn-product-item">MORE INFORMATION</div>
                             </div>
                         </div>
                         <div class="product-item">
-                            <img src="https://source.unsplash.com/random/200x444" width="100%" height="100%"/>
+                            <img src="{{asset('images/red-ginger-powder.jpg')}}" width="100%" height="100%"/>
                             <div class="product-item--text">
-                                <p class="p-red text-center">Red Ginger Powder Extract Premium</p>
+                                <p class="p-red text-center">Red Ginger Powder</p>
                                 <div class="btn-njm-yellow btn-product-item">MORE INFORMATION</div>
                             </div>
                         </div>
                         <div class="product-item">
-                            <img src="https://source.unsplash.com/random/200x414" width="100%" height="100%"/>
+                            <img src="{{asset('images/red-ginger-with palm-sugar.jpg')}}" width="100%" height="100%"/>
                             <div class="product-item--text">
-                                <p class="p-red text-center">Red Ginger Powder Extract Premium</p>
-                                <div class="btn-njm-yellow btn-product-item">MORE INFORMATION</div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <img src="https://source.unsplash.com/random/200x401" width="100%" height="100%"/>
-                            <div class="product-item--text">
-                                <p class="p-red text-center">Red Ginger Powder Extract Premium</p>
-                                <div class="btn-njm-yellow btn-product-item">MORE INFORMATION</div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <img src="https://source.unsplash.com/random/200x402" width="100%" height="100%"/>
-                            <div class="product-item--text">
-                                <p class="p-red text-center">Red Ginger Powder Extract Premium</p>
-                                <div class="btn-njm-yellow btn-product-item">MORE INFORMATION</div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <img src="https://source.unsplash.com/random/200x403" width="100%" height="100%"/>
-                            <div class="product-item--text">
-                                <p class="p-red text-center">Red Ginger Powder Extract Premium</p>
-                                <div class="btn-njm-yellow btn-product-item">MORE INFORMATION</div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <img src="https://source.unsplash.com/random/200x404" width="100%" height="100%"/>
-                            <div class="product-item--text">
-                                <p class="p-red text-center">Red Ginger Powder Extract Premium</p>
-                                <div class="btn-njm-yellow btn-product-item">MORE INFORMATION</div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <img src="https://source.unsplash.com/random/200x405" width="100%" height="100%"/>
-                            <div class="product-item--text">
-                                <p class="p-red text-center">Red Ginger Powder Extract Premium</p>
-                                <div class="btn-njm-yellow btn-product-item">MORE INFORMATION</div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <img src="https://source.unsplash.com/random/200x406" width="100%" height="100%"/>
-                            <div class="product-item--text">
-                                <p class="p-red text-center">Red Ginger Powder Extract Premium</p>
-                                <div class="btn-njm-yellow btn-product-item">MORE INFORMATION</div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <img src="https://source.unsplash.com/random/200x407" width="100%" height="100%"/>
-                            <div class="product-item--text">
-                                <p class="p-red text-center">Red Ginger Powder Extract Premium</p>
-                                <div class="btn-njm-yellow btn-product-item">MORE INFORMATION</div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <img src="https://source.unsplash.com/random/200x408" width="100%" height="100%"/>
-                            <div class="product-item--text">
-                                <p class="p-red text-center">Red Ginger Powder Extract Premium</p>
-                                <div class="btn-njm-yellow btn-product-item">MORE INFORMATION</div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <img src="https://source.unsplash.com/random/200x409" width="100%" height="100%"/>
-                            <div class="product-item--text">
-                                <p class="p-red text-center">Red Ginger Powder Extract Premium</p>
-                                <div class="btn-njm-yellow btn-product-item">MORE INFORMATION</div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <img src="https://source.unsplash.com/random/200x410" width="100%" height="100%"/>
-                            <div class="product-item--text">
-                                <p class="p-red text-center">Red Ginger Powder Extract Premium</p>
+                                <p class="p-red text-center">Red Ginger Instant Powder with Palm Sugar</p>
                                 <div class="btn-njm-yellow btn-product-item">MORE INFORMATION</div>
                             </div>
                         </div>

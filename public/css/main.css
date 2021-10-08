@@ -1908,6 +1908,25 @@ header[page=visit] .head_content-text .header-text-wrapper .hashtag-text {
 }
 header[page=visit] .head_content-text .header-text-wrapper .download_on {
   margin-top: 8rem;
+  margin-bottom: 4rem;
+}
+header[page=visit] .head_content-text .header-text-wrapper ul {
+  padding: 0;
+  margin: 0;
+}
+header[page=visit] .head_content-text .header-text-wrapper ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 2rem;
+}
+header[page=visit] .head_content-text .header-text-wrapper ul li a {
+  text-decoration: none;
+  display: block;
+}
+header[page=visit] .head_content-text .header-text-wrapper ul li a img {
+  width: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 header[page=visit] .head_content-img {
   width: 35%;

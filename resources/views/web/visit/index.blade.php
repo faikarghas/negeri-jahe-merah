@@ -16,6 +16,10 @@
                     <div class="download_on">
                         <p>Get more updates and promo!</p>
                     </div>
+                    <ul>
+                        <li><a href=""><img src="{{asset('images/googleplay.png')}}" alt=""></a></li>
+                        <li><a href=""><img src="{{asset('images/appstore.png')}}" alt=""></a></li>
+                    </ul>
                 </div>
             </div>
             <div class="head_content-img">
@@ -91,6 +95,7 @@
         <section class="section__fullSlider">
             <div class="slider-visit-1">
                 <img src="{{asset('images/taman_jahe_merah_konsep.jpg')}}" width="100%" height="100%"/>
+                <img src="{{asset('images/taman_jahe_merah_konsep.jpg')}}" width="100%" height="100%"/>
             </div>
         </section>
         <section class="section__third">
@@ -149,6 +154,7 @@
         </section>
         <section class="section__fullSlider">
             <div class="slider-visit-2">
+                <img src="{{asset('images/bumi_jahe_merah_petani.jpg')}}" width="100%" height="100%"/>
                 <img src="{{asset('images/bumi_jahe_merah_petani.jpg')}}" width="100%" height="100%"/>
             </div>
         </section>
