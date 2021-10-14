@@ -23,8 +23,9 @@ menu{
         }
     }
     .menu__wrapper{
-        padding-left: 1rem;
         &-top{
+            position: relative;
+            z-index: 2;
             ul{
                 text-align: end;
                 li{
@@ -50,6 +51,8 @@ menu{
             }
         }
         &-bottom{
+            position: relative;
+            z-index: 2;
             padding-top: 1.5rem;
             border-top: 1px solid rgba(255, 255, 255, 0.678);
             ul{
@@ -61,20 +64,32 @@ menu{
                     list-style: none;
                     display: inline-block;
                     position: relative;
+                   
                     a{
                         color: white;
                         text-decoration: none;
-                        font-size: 1.4rem;
+                        font-size: 1.2rem;
                         letter-spacing: 0;
+                    }
+                    strong{
+                        font-weight: bold;
+                        font-size: 1.2rem;
+                        color: white;
                     }
                 }
                 .sub-init{
+                    cursor: pointer;
                     &:hover{
-                        ul{
-                            display: block;
+                        .list_submenu{
+                            display: flex;
+                            flex-wrap: wrap;
+                            width: 600px;
+                        }
+                        .menu__showcase{
+                            top: calc(0px - 3.5rem);
                         }
                     }
-                    ul{
+                    .list_submenu{
                         display: none;
                         position: absolute;
                         left: 0%;
@@ -82,14 +97,36 @@ menu{
                         padding-top: 50px;
                         padding-left: 0;
                         margin-bottom: 0;
-                        li{
+                        ul{
                             display: block;
-                            margin-bottom: 1rem;
-                            width: 200px;
+                            &:nth-child(1){
+                                margin-bottom: 4rem;
+                            }
+                            li{
+                                display: block;
+                                margin-bottom: 1rem;
+                                width: 300px;
+                                margin-bottom: 0.5rem;
+                                &:first-child{
+                                    margin-bottom: 1rem;
+                                }
+                            }
                         }
                     }
                 }
             }
+        }
+
+        .menu__showcase{
+            width: calc(100% + 10rem);
+            height: 450px;
+            background-color: #721414;
+            position: absolute;
+            top: -800px;
+            z-index: 1;
+            left: 50%;
+            transform: translateX(-50%);
+            transition: 0.5s all;
         }
     }
 }

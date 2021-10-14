@@ -75,7 +75,7 @@ main:not([page="home"]){
 h1,h2,h3,h4,h5,h6{
     font-family: "JosefinSans-SemiBold";
     color: #3E3E3E;
-    letter-spacing: 2.2px;
+    letter-spacing: 1px;
 }
 
 p{
@@ -83,14 +83,14 @@ p{
     font-family: "JosefinSans-Regular";
     font-weight: 400;
     color: #3E3E3E;
-    letter-spacing: 2.2px;
+    letter-spacing: 1px;
     @include respond(down-tab-port){
         font-size: 1.2rem;
     }
 }
 
 a{
-    letter-spacing: 2.2px;
+    letter-spacing: 2px;
     font-family: "JosefinSans-Regular";
     color: #3E3E3E;
 }

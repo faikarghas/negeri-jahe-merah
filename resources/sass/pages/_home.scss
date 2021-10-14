@@ -3,8 +3,26 @@ header[page=home]{
     height: 100vh;
     .background__header{
         display:flex;
+        .pos1{
+            right: 260px;
+        }
+        .pos2{
+            right: 20px;
+        }
+        .pos3{
+            right: -260px;
+        }
         .slide-img{
-            .test1{
+            .animate-box{
+                object-fit:cover;
+                transition: 0.5s all;
+                position: absolute;
+                bottom: 150px;
+                border-radius: 20px;
+                width: 220px;
+                height: 245px;
+            }
+            .firstimg{
                 object-fit:cover;
                 transition: 0.5s all;
                 position: absolute;
@@ -13,50 +31,70 @@ header[page=home]{
                 width: 100%;
                 height: 100%;
                 bottom: 0;
-                right: 0 !important;
+                right: 0;
             }
-            .test2{
-                object-fit:cover;
-                transition: 0.5s all;
+        }
+        .slide-text{
+            &--items{
                 position: absolute;
-                bottom: 150px;
-                right: 260px;
-                border-radius: 20px;
+                bottom:0;
                 width: 220px;
-                height: 270px;
-                &.active{
-                    width: 100%;
-                    height: 100%;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                p{
+                    color: white;
+                    margin-bottom: 2rem;
+                }
+                .line{
+                    width:1px;
+                    height:50px;
+                    background-color:white;
+                }
+            }
+        }
+        .caption{
+            position: absolute;
+            bottom: 80px;
+            left: 30px;
+            border-left: 2px solid white;
+           
+            
+            &-line{
+                padding-left: 4rem;
+                padding-top: 7rem;
+                height: 406px;
+                position: relative;
+                .caption-item{
+                    visibility: hidden;
+                    opacity: 0;
+                    position: absolute;
                     bottom: 0;
-                    right: 0 !important;
-                    border-radius: 0;
+                    left: 4rem;           
+                    transition: 1s all;
+                    &.active{
+                        visibility: visible;
+                        opacity: 1;
+                        transition: 1s all;
+                    }
                 }
             }
-            .test3{
-                object-fit:cover;
-                transition: 0.5s all;
-                position: absolute;
-                bottom: 150px;
-                right: 20px;
-                border-radius: 20px;
-                width: 220px;
-                height: 270px;
-                &.active{
-                    right: 260px !important;
-                }
+            h1{
+                color: white;
+                font-size: 6rem;
+                margin-bottom: 5rem;
+                letter-spacing: 0;
             }
-            .test4{
-                object-fit:cover;
-                transition: 0.5s all;
-                position: absolute;
-                bottom: 150px;
-                right: -260px;
-                border-radius: 20px;
-                width: 220px;
-                height: 270px;
-                &.active{
-                    right: 20px !important;
-                }
+            .btn-njm-red{
+                margin-bottom: 4rem;
+            }
+            p{
+                color: white;
+                font-size: 5.5rem;
+                letter-spacing: 0;
+                line-height: 1em;
+                margin-bottom: 0;
             }
         }
     }

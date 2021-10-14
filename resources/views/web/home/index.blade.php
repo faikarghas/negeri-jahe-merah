@@ -8,10 +8,45 @@
         </menu>
         <div class="background__header">
             <div class="slide-img">
-                <img class="test1" src="{{asset('images/memperkenalkan_negeri_jahe_merah.jpg')}}"/>
-                <img class="test2" src="{{asset('images/herbal_edutainment.jpg')}}"/>
-                <img class="test3" src="{{asset('images/inovasi_redgine.jpg')}}"/>
-                <img class="test4" src="{{asset('images/memperkenalkan_negeri_jahe_merah.jpg')}}"/>
+                <img data-slider="1" class="firstimg  init" src="{{asset('images/memperkenalkan_negeri_jahe_merah.jpg')}}"/>
+                <img data-slider="2" class="pos1 animate-box btn-act" src="{{asset('images/herbal_edutainment.jpg')}}"/>
+                <img data-slider="3" class="pos2 animate-box btn-act" src="{{asset('images/inovasi_redgine.jpg')}}"/>
+                <img data-slider="1" class="pos3 animate-box btn-act" src="{{asset('images/memperkenalkan_negeri_jahe_merah.jpg')}}"/>
+            </div>
+
+            <div class="slide-text">
+                <div data-slider="2" class="pos1 slide-text--items">
+                    <p>Innovation<br/>by Redgine</p>
+                    <div class="line"></div>
+                </div>
+                <div data-slider="3" class="pos2 slide-text--items">
+                    <p>Herbal Edutainment<br/>Experiences</p>
+                    <div class="line"></div>
+                </div>
+                <div data-slider="1" class="pos3 slide-text--items">
+                    <p>Innovation<br/>by Redgine</p>
+                    <div class="line"></div>
+                </div>
+            </div>
+
+            <div class="caption">
+                <div class="caption-line">
+                    <div data-slider="1" class="caption-item active">
+                        <h1 class="el">Introducing <br/> Negeri Jahe Merah</h1>
+                        <a href={{route('profile')}} class="btn-njm-red el">LEARN MORE</a>
+                        <p class="el">#JaheMerahkanIndonesia</p>
+                    </div>
+                    <div data-slider="2" class="caption-item">
+                        <h1>Introducing <br/> Negeri Jahe Merah 2</h1>
+                        <a href={{route('profile')}} class="btn-njm-red">LEARN MORE</a>
+                        <p>#JaheMerahkanIndonesia</p>
+                    </div>
+                    <div data-slider="3" class="caption-item">
+                        <h1>Introducing <br/> Negeri Jahe Merah 3</h1>
+                        <a href={{route('profile')}} class="btn-njm-red">LEARN MORE</a>
+                        <p>#JaheMerahkanIndonesia</p>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
@@ -225,10 +260,61 @@
 @section('script')
     <script>
         $(document).ready(function (params) {
-            $('.test2').on('click',function(){
-                $(this).toggleClass('active')
-                $('.test3').toggleClass('active')
-                $('.test4').toggleClass('active')
+
+            var slideBox = $('.slide-img'),
+                items    = slideBox.find('li'),
+                len      = items.length,
+                current  = 1,
+
+                fullImg = {
+                    "width": "100%",
+                    "height": "100%",
+                    "bottom": "0",
+                    "right": "0",
+                    "border-radius" : "0"
+                }
+
+            slideBox.on('click','.btn-act',function (params) {
+                let indeximg = $(this).index()
+                let image = $(this).attr('src')
+                let dataSlider = $(this).data('slider')
+
+
+                if (indeximg == 1) {
+
+                    $(this).css(fullImg)
+                    $(this).addClass('init')
+
+                    slideBox.append(`<img data-slider="${dataSlider}" class="pos3 animate-box btn-act" src="${image}"/>`)
+
+                    $('.caption-item').each(function (params) {
+                        let dataCaption = $(this).data('slider')
+                        if (dataSlider == dataCaption) {
+                            $(this).addClass('active')
+                            $('.caption-item').not($(this)).removeClass('active')
+                        }
+                    })
+
+                    setTimeout(() => {
+                        slideBox.find('img').first().remove()
+                    }, 1000);
+
+
+                    $(this).next().css('right','260px')
+                    $(this).next().next().css('right','20px')
+
+                    // let playAn = anime({
+                    //     targets: '.caption-item .el',
+                    //     translateY: 65,
+                    //     delay: anime.stagger(100, {from: 'first'}),
+                    //     autoplay: false
+                    // });
+
+                    // playAn.play();
+
+                }
+
+
             })
 
             $('.slider-who').slick({
@@ -242,6 +328,12 @@
                 slidesToShow: 5,
                 slidesToScroll: 1,
             });
+
+            // anime({
+            //     targets: '.caption-item .el',
+            //     translateY: 65,
+            //     delay: anime.stagger(100, {from: 'first'})
+            // });
         })
     </script>
 @endsection
