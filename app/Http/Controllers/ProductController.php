@@ -15,9 +15,11 @@ class ProductController extends Controller
         return view('web.product.index',$data);
     }
 
-    public function detail(){
+    public function detail($slug){
+        $product = DB::table('products')->where('slug',$slug)->get();
 
         $data = [
+            'product' => $product
         ];
 
         return view('web.product.detail',$data);

@@ -1795,7 +1795,6 @@ main[page=literatures] .section__second .literature__item-text .btn-read-more {
 header[page=news-detail] {
   background-color: #721414;
   position: relative;
-  overflow: hidden;
 }
 header[page=news-detail] .background__header {
   display: -webkit-box;
@@ -2024,13 +2023,27 @@ main[page=news-detail] .section__fourth-left {
 }
 main[page=news-detail] .section__fourth-right {
   width: 38.5%;
-  padding: 8rem;
+  padding: 8rem 8rem 8rem 0;
 }
 @media only screen and (max-width: 62em) {
   main[page=news-detail] .section__fourth-right {
     width: 100%;
     padding: 4rem;
   }
+}
+main[page=news-detail] .section__fourth-right h4 {
+  margin-bottom: 3rem;
+}
+main[page=news-detail] .section__fourth-right .related__box .row {
+  margin-bottom: 2rem;
+}
+main[page=news-detail] .section__fourth-right .related__box-text span {
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  display: block;
+}
+main[page=news-detail] .section__fourth-right .related__box-text p {
+  font-family: "JosefinSans-Bold";
 }
 
 header[page=visit] {

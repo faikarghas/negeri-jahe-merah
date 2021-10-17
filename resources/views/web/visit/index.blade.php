@@ -38,7 +38,7 @@
                             <img src="{{asset('images/taman_jahe_merah.jpg')}}" width="100%" height="100%"/>
                             <div class="go__det-content">
                                 <h4 class="p-white">Taman Jahe Merah</h4>
-                                <p class="p-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nostrum, esse fugit numquam velit alias doloremque perferendis repellat odio recusandae.</p>
+                                <p class="p-white">Taman Jahe Merah, located in the independent town of Deltamas, Cikarang, is a miniature of the BINA environment that serves as a symbol of Indonesia's herbal treasure. At Taman Jahe Merah, you may learn over 300 herbal plants, from nurseries to the production of premium herbal goods. All of these procedures may be learnt in a simple and enjoyable manner using the resources of Taman Jahe Merah, such as the Augmented Reality facility. This is the moment to acknowledge and comprehend Indonesia's natural treasures.</p>
                                 <div class="btn-njm-yellow">GO DETAIL</div>
                             </div>
                         </div>
@@ -48,7 +48,7 @@
                             <img src="{{asset('images/bumi-jahe-merah--aromatik.jpg')}}" width="100%" height="100%"/>
                             <div class="go__det-content">
                                 <h4 class="p-white">Bumi Jahe Merah Aromatik</h4>
-                                <p class="p-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nostrum, esse fugit numquam velit alias doloremque perferendis repellat odio recusandae.</p>
+                                <p class="p-white">Bumi Jahe Merah Aromatic (BJMA) is spread across 60 hectares in Ciganea, Purwakarta. BJMA, with its expanse of aromatic lemongrass and scarlet ginger, is the upstream of high-quality herbal goods. Citronella distillation, proceed with a distillation capacity of more than 100 tons, is also available here, ready to create premium products for you.</p>
                                 <div class="btn-njm-yellow">GO DETAIL</div>
                             </div>
                         </div>
@@ -67,7 +67,7 @@
                             <div class="content">
                                 <img src="{{asset('images/tmj-logo2.png')}}" alt="" srcset="">
                                 <h4 >Taman Jahe Merah</h4>
-                                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nostrum, esse fugit numquam velit alias doloremque perferendis repellat odio recusandae.</p>
+                                <p >Taman Jahe Merah, located in the independent town of Deltamas, Cikarang, is a miniature of the BINA environment that serves as a symbol of Indonesia's herbal treasure. At Taman Jahe Merah, you may learn over 300 herbal plants, from nurseries to the production of premium herbal goods. All of these procedures may be learnt in a simple and enjoyable manner using the resources of Taman Jahe Merah, such as the Augmented Reality facility. This is the moment to acknowledge and comprehend Indonesia's natural treasures.</p>
                             </div>
                         </div>
                     </div>
@@ -145,7 +145,7 @@
                         <div class="section__fourth-text">
                             <div class="content">
                                 <h4 class="p-white">Bumi Jahe Merah Aromatik</h4>
-                                <p class="p-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quae, a earum praesentium iste nemo quia maiores sed magnam aspernatur.</p>
+                                <p class="p-white">Bumi Jahe Merah Aromatic (BJMA) is spread across 60 hectares in Ciganea, Purwakarta. BJMA, with its expanse of aromatic lemongrass and scarlet ginger, is the upstream of high-quality herbal goods. Citronella distillation, proceed with a distillation capacity of more than 100 tons, is also available here, ready to create premium products for you.</p>
                             </div>
                         </div>
                     </div>

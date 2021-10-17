@@ -28,7 +28,11 @@
                             </div>
                             <div class="proflie__sec1-right">
                                 <h3 class="p-yellow">Negeri Jahe Merah for Indonesia and the world</h3>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus doloremque perspiciatis eum quod debitis fugit consequatur consequuntur, omnis molestiae delectus ullam repellendus reprehenderit explicabo reiciendis iste in illum enim dolore minima? Ad maxime dolorem laudantium harum est beatae soluta tempora?</p>
+                                <p>Negeri Jahe Merah is the realization of Indonesia's desire of introducing one of its natural treasures, Red Ginger, to the world. As a developer, Bintang Toedjoe is committed to creating the greatest goods from the best seeds. As a result, we will lead the way in the production of Red Ginger by providing better commodities to farmers and the general public, as well as by developing the Red Ginger community ecosystem throughout the country.
+
+                                    We have also built herbal edutainment facilities in order to offer learning and experience to the younger generation. The herbal facilities are Taman Jahe Merah, Bumi Jahe Merah Aromatic, and Studio Jahe Merah.
+                                    
+                                    Celebrate Indonesia's pride in producing the best grade Red Ginger plant in the world's eyes.</p>
                                 <h3 class="tag p-red">#JaheMerahkanIndonesia</h3>
                             </div>
                         </div>
@@ -42,8 +46,11 @@
                     <div class="col-12 col-lg-6">
                         <div class="section__second-left bg-grey">
                             <h3 class="p-red">BINA &<br/>Redgine</h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum voluptatibus quidem quos, doloribus animi nesciunt itaque nobis quisquam? Sed asperiores ullam quos nesciunt dolores nam fugit repudiandae vero laboriosam? Recusandae.</p>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam doloremque nesciunt ipsum animi alias veritatis.</p>
+                            <p>BINA (Bintang Toedjoe Inovasi Natural) is a B2B division of Bintang Toedjoe which focuses on natural raw materials, to support its sustainability and availability.
+                                Redgine is a trademark of natural raw materials derived from red ginger, which is produced from an ecosystem, initiated by BINA. 
+                                Redgine quality is controlled from upstream to downstream, with a traceable & recorded system.
+                                Every purchase usage of Redgine red ginger raw material means welfare for thousands of farmers, seeders, post harvest
+                                processors, researchers, and extractors distillators, who are members of the ecosystem.</p>
                         </div>
                     </div>
                     <div class="col-12 col-lg-6">
@@ -65,8 +72,8 @@
                     <div class="col-12 col-lg-6">
                         <div class="section__second-left">
                             <h3 class="p-red">Traceable &<br/>Recorded</h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum voluptatibus quidem quos, doloribus animi nesciunt itaque nobis quisquam? Sed asperiores ullam quos nesciunt dolores nam fugit repudiandae vero laboriosam? Recusandae.</p>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam doloremque nesciunt ipsum animi alias veritatis.</p>
+                            <p>The advantages of Redgine's red ginger raw material are its controlled quality and the clarity of its natural origin (traceable & recorded) because it resulted from one ecosystem.
+                                This ecosystem allows natural raw materials to be controlled, from planting, harvesting, processing, to packaging, thus ensuring that the natural raw materials produced are the best quality.</p>
                         </div>
                     </div>
                 </div>
@@ -84,7 +91,8 @@
                         <div class="top-desc">
                             <div>
                                 <h3 class="p-yellow">Redgine Ecosystem</h3>
-                                <p class="p-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, itaque fugiat ipsam reprehenderit nam molestiae adipisci error debitis dicta? Voluptas consectetur dicta quasi eveniet debitis beatae quae architecto saepe natus earum accusantium, pariatur, quidem officiis. Totam omnis est minima qui neque laborum reprehenderit itaque suscipit eius consequuntur et, deleniti nihil, numquam praesentium. Eum consequatur, quos distinctio quis praesentium aut cum consectetur eligendi temporibus rem commodi error unde expedita in nemo!</p>
+                                <p class="p-white">An ecosystem to support Redgine's raw material B2B business, departs from our vision that business is not only for the welfare of ourselves, but also the welfare of others . "Blessing the community and people through the ecosystem".
+                                    For us, every drop of sweat from our farmers, post harvest processors, to researchers, through sharing the economy with extractor and distillator partners, enabling us to produce world quality natural products, based on scientific studies, which are also supported by the government, in collaboration with BPPT, LIPI, the Ministry of Health Ministry of Agriculture, Balitro, and other agencies.</p>
                             </div>
                         </div>
                     </div>
@@ -178,7 +186,8 @@
                     <div class="col-12 col-lg-6">
                         <div class="section__fourth-desc">
                             <h3>Why Red <br/>Ginger?</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum fugit eligendi minus error dolores aliquam molestiae! Est optio hic aperiam, praesentium voluptatum accusantium exercitationem aliquam labore dolorem corrupti rem cum nesciunt amet excepturi quo explicabo esse aspernatur in. Odit, consequatur dicta maiores officia possimus dolor eum, nam delectus maxime necessitatibus consequuntur neque aperiam iusto unde nulla quod autem? Nisi, officiis?</p>
+                            <p>Red ginger is an indigenous Indonesian plant that has been used for centuries to boost endurance. Red ginger, which includes gingerols, zingerones, and active substances, can also be used to treat digestive issues, muscular discomfort, and to avoid chronic illnesses like cancer and diabetes.
+                                With beneficial substances for the body, the demand for red ginger grows year after year, allowing it to help strengthen the community, absorb market output, and enhance the regional and national economies.</p>
                         </div>
                     </div>
                     <div class="col-12 col-lg-6">

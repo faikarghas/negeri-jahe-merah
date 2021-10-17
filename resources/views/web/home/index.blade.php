@@ -71,7 +71,7 @@
                                         <h3>Negeri Jahe Merah</h3>
                                     </div>
                                     <div>
-                                        <p class="p-grey">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo porro dignissimos aut magni, voluptates eos asperiores. Modi fugit optio, consequuntur odio aliquid nostrum, doloribus dolor dolorem pariatur, odit fugiat hic?</p>
+                                        <p class="p-grey">Negeri Jahe Merah is the realization of Indonesia's desire of introducing one of its natural treasures, Red Ginger, to the world. As a developer, Bintang Toedjoe is committed to creating the greatest goods from the best seeds.</p>
                                     </div>
                                     <a href={{route('profile')}} class="btn-njm-red">LEARN MORE</a>
                                 </div>
@@ -97,9 +97,9 @@
                                 <div class="section__first-left--desc">
                                     <div>
                                         <h3 class="p-yellow mb-4">Our Mission</h3>
-                                        <p class="p-grey mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo porro dignissimos aut magni, voluptates eos asperiores.</p>
+                                        <p class="p-grey mb-4">Become a world class provider of natural raw materials, realized through a natural ecosystem, and supported by a traceable & well recorded system.</p>
                                         <h3 class="p-yellow mb-4">Our Vision</h3>
-                                        <p class="p-grey mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo porro dignissimos aut magni, voluptates eos asperiores.</p>
+                                        <p class="p-grey mb-4">Provide innovative natural raw materials, of the highest quality, efficacious, and safe to support all industries at local and abroad.</p>
                                     </div>
                                     <a href={{route('profile')}} class="btn-njm-red">LEARN MORE</a>
                                 </div>
@@ -132,7 +132,9 @@
                                 <img class="test3" src="{{asset('images/ekosistem_negeri_jahe_merah.jpg')}}"/>
                             </div>
                             <div class="content">
-                                <p class="p-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum hic qui quidem nihil, veniam corporis itaque incidunt soluta facere assumenda culpa explicabo consequatur quos optio nemo exercitationem cum minus labore numquam. Pariatur incidunt laudantium repellendus sed dolorum illum quasi officiis quod odit, nesciunt dolore accusantium aspernatur voluptatibus, placeat, architecto aliquam. Exercitationem, eos. Cum eaque odit odio necessitatibus. Dolorum saepe distinctio neque suscipit repellat esse possimus accusantium, ea, quisquam facere obcaecati velit quo aliquam nemo numquam exercitationem tempora provident nesciunt commodi.</p>
+                                <p class="p-white">An ecosystem to support Redgine's raw material B2B business, departs from our vision that business is not only for the welfare of ourselves, but also the welfare of others . "Blessing the community and people through the ecosystem".
+
+                                    For us, every drop of sweat from our farmers, post harvest processors, to researchers, through sharing the economy with extractor and distillator partners, enabling us to produce world quality natural products, based on scientific studies, which are also supported by the government, in collaboration with BPPT, LIPI, the Ministry of Health Ministry of Agriculture, Balitro, and other agencies.</p>
                                 <a href="{{route('profile')}}" class="btn-njm-yellow">LEARN MORE</a>
                             </div>
                         </div>

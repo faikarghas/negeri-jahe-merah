@@ -97,6 +97,52 @@
             </div>
             <div class="section__fourth-right">
                 <h4>RELATED ARTICLES</h4>
+                <div class="related__box">
+                    <div class="container-fluid g-0">
+                        <div class="row g-0">
+                            <div class="col-4">
+                                <div class="related__box-img">
+                                    <img src="https://source.unsplash.com/random/119x119" alt="">
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <div class="related__box-text">
+                                    <span>15 Januari 2021</span>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, impedit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-0">
+                            <div class="col-4">
+                                <div class="related__box-img">
+                                    <img src="https://source.unsplash.com/random/119x119" alt="">
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <div class="related__box-text">
+                                    <span>15 Januari 2021</span>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, impedit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-0">
+                            <div class="col-4">
+                                <div class="related__box-img">
+                                    <img src="https://source.unsplash.com/random/119x119" alt="">
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <div class="related__box-text">
+                                    <span>15 Januari 2021</span>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, impedit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="related-box">
+                </div>
             </div>
         </section>
     </main>
