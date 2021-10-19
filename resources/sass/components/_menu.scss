@@ -53,17 +53,22 @@ menu{
         &-bottom{
             position: relative;
             z-index: 2;
-            padding-top: 1.5rem;
             border-top: 1px solid rgba(255, 255, 255, 0.678);
             ul{
                 margin-bottom: 0;
                 padding-left: 0;
                 display: flex;
                 justify-content: space-between;
+                .li-item{
+                    padding-top: 1.5rem;
+                }
                 li{
                     list-style: none;
                     display: inline-block;
                     position: relative;
+                    &.active{
+                        border-top: 1px solid white;
+                    }
                     a{
                         color: white;
                         text-decoration: none;
@@ -93,9 +98,10 @@ menu{
                         position: absolute;
                         left: 0%;
                         top: 0;
-                        padding-top: 50px;
+                        padding-top: 30px;
                         padding-left: 0;
                         margin-bottom: 0;
+                        margin-top: 20px;
                         ul{
                             display: block;
                             &:nth-child(1){

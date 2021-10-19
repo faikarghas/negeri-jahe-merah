@@ -32,28 +32,28 @@
                                 <img src="{{asset('images/red-ginger-powder-extract--premium.jpg')}}" width="100%" height="100%"/>
                                 <div class="product-item--text">
                                     <p class="p-red text-center">Red Ginger Powder Extract Premium</p>
-                                    <a href="{{route('product-detail','red-ginger')}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
+                                    <a href="{{route('product-detail','red-ginger-powder-extract-premium')}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
                                 </div>
                             </div>
                             <div class="product-item">
                                 <img src="{{asset('images/red-ginger--powder-extract--standardized.jpg')}}" width="100%" height="100%"/>
                                 <div class="product-item--text">
                                     <p class="p-red text-center">Red Ginger Powder Extract Standarized</p>
-                                    <div class="btn-njm-yellow btn-product-item">MORE INFORMATION</div>
+                                    <a href="{{route('product-detail','red-ginger-powder-extract-standardized')}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
                                 </div>
                             </div>
                             <div class="product-item">
                                 <img src="{{asset('images/red-ginger-powder.jpg')}}" width="100%" height="100%"/>
                                 <div class="product-item--text">
                                     <p class="p-red text-center">Red Ginger Powder</p>
-                                    <div class="btn-njm-yellow btn-product-item">MORE INFORMATION</div>
+                                    <a href="{{route('product-detail','red-ginger-powder')}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
                                 </div>
                             </div>
                             <div class="product-item">
                                 <img src="{{asset('images/red-ginger-with palm-sugar.jpg')}}" width="100%" height="100%"/>
                                 <div class="product-item--text">
                                     <p class="p-red text-center">Red Ginger Instant Powder with Palm Sugar</p>
-                                    <div class="btn-njm-yellow btn-product-item">MORE INFORMATION</div>
+                                    <a href="{{route('product-detail','red-ginger-instant-powder')}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
                                 </div>
                             </div>
                         </div>
@@ -64,28 +64,28 @@
                                 <img src="{{asset('images/fresh-ginger.jpg')}}" width="100%" height="100%"/>
                                 <div class="product-item--text">
                                     <p class="p-red text-center">Red Ginger Fresh</p>
-                                    <div class="btn-njm-yellow btn-product-item">MORE INFORMATION</div>
+                                    <a href="{{route('product-detail','bejo-red-ginger-flavored-milk')}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
                                 </div>
                             </div>
                             <div class="product-item">
                                 <img src="{{asset('images/bejo-jahe-merah.jpg')}}" width="100%" height="100%"/>
                                 <div class="product-item--text">
                                     <p class="p-red text-center">Bejo Jahe Merah</p>
-                                    <div class="btn-njm-yellow btn-product-item">MORE INFORMATION</div>
+                                    <a href="{{route('product-detail','bejo-red-ginger')}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
                                 </div>
                             </div>
                             <div class="product-item">
                                 <img src="{{asset('images/bejo-sujamer.jpg')}}" width="100%" height="100%"/>
                                 <div class="product-item--text">
                                     <p class="p-red text-center">Bejo Sujamer</p>
-                                    <div class="btn-njm-yellow btn-product-item">MORE INFORMATION</div>
+                                    <a href="{{route('product-detail','bejo-red-ginger-flavored-milk')}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
                                 </div>
                             </div>
                             <div class="product-item">
                                 <img src="{{asset('images/komix-herbal.jpg')}}" width="100%" height="100%"/>
                                 <div class="product-item--text">
                                     <p class="p-red text-center">KOMIX Herbal</p>
-                                    <div class="btn-njm-yellow btn-product-item">MORE INFORMATION</div>
+                                    <a href="{{route('product-detail','komi- herbal')}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
                                 </div>
                             </div>
                         </div>

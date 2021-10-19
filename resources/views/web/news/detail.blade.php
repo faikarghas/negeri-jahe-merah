@@ -56,10 +56,9 @@
             <div class="section__second-right">
                 <p class="share"><strong>SHARE THIS ARTICLE</strong></p>
                 <ul class="sosmed">
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
-                    <li>4</li>
+                    <li style="margin-right:5px"><img src="{{asset('images/facebook.svg')}}" alt="" srcset=""></li>
+                    <li style="margin-right:5px"><img src="{{asset('images/twitter.svg')}}" alt="" srcset=""></li>
+                    <li style="margin-right:5px"><img src="{{asset('images/link.svg')}}" alt="" srcset=""></li>
                 </ul>
                 <div class="title">
                     <h5>LITERATURES</h5>

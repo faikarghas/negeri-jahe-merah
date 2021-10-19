@@ -361,7 +361,6 @@ menu .menu__wrapper-top ul li select option {
 menu .menu__wrapper-bottom {
   position: relative;
   z-index: 2;
-  padding-top: 1.5rem;
   border-top: 1px solid rgba(255, 255, 255, 0.678);
 }
 menu .menu__wrapper-bottom ul {
@@ -372,10 +371,16 @@ menu .menu__wrapper-bottom ul {
   display: flex;
   justify-content: space-between;
 }
+menu .menu__wrapper-bottom ul .li-item {
+  padding-top: 1.5rem;
+}
 menu .menu__wrapper-bottom ul li {
   list-style: none;
   display: inline-block;
   position: relative;
+}
+menu .menu__wrapper-bottom ul li.active {
+  border-top: 1px solid white;
 }
 menu .menu__wrapper-bottom ul li a {
   color: white;
@@ -406,9 +411,10 @@ menu .menu__wrapper-bottom ul .sub-init .list_submenu {
   position: absolute;
   left: 0%;
   top: 0;
-  padding-top: 50px;
+  padding-top: 30px;
   padding-left: 0;
   margin-bottom: 0;
+  margin-top: 20px;
 }
 menu .menu__wrapper-bottom ul .sub-init .list_submenu ul {
   display: block;
@@ -2190,20 +2196,32 @@ main[page=visit] .section__first .go__det {
   height: 450px;
   position: relative;
 }
+main[page=visit] .section__first .go__det:hover .bg-red-hover {
+  background-color: #7214148e;
+}
+main[page=visit] .section__first .go__det .bg-red-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
 main[page=visit] .section__first .go__det img {
   -o-object-fit: cover;
      object-fit: cover;
   height: 100%;
   width: 100%;
-  filter: brightness(0.7);
+  filter: brightness(0.5);
 }
 main[page=visit] .section__first .go__det-content {
-  padding: 4rem 8rem;
+  padding: 4rem 0rem;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 80%;
+  z-index: 2;
 }
 main[page=visit] .section__first .go__det-content h4 {
   font-size: 3rem;

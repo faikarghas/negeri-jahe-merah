@@ -17,7 +17,7 @@ class ProductController extends Controller
 
     public function detail($slug){
         $product = DB::table('products')->where('slug',$slug)->get();
-
+        // dd($product);
         $data = [
             'product' => $product
         ];

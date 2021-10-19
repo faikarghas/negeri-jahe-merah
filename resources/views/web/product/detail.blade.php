@@ -44,7 +44,7 @@
                 </div>
             </div>
             <div class="product__detail-ct">
-                <h4>Red Ginger Powder</h4>
+                <h4>{{$product[0]->name}}</h4>
                 <div class="det__box-collapseBox">
                     <div class="det__box-collapseBox--item">
                         <a class="cl p-white" data-bs-toggle="collapse" href="#coll-description" role="button" aria-expanded="false" aria-controls="collapseExample">
@@ -52,9 +52,9 @@
                         </a>
                         <div class="collapse show" id="coll-description" data-parent="#myGroup">
                             <div class="collapse-box">
-                                <p class="p-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam qui minima excepturi unde! Exercitationem aut beatae error eaque dolore quia laudantium eum sunt commodi veritatis.</p>
-                                <br>
-                                <p class="p-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam qui minima excepturi unde! Exercitationem aut beatae error eaque dolore quia laudantium eum sunt commodi veritatis.</p>
+                                <p class="p-white">
+                                    {{$product[0]->description_en}}
+                                </p>
                             </div>
                         </div>
                     </div>

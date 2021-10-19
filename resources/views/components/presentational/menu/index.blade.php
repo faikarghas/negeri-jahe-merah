@@ -22,32 +22,32 @@
                 </div>
                 <div class="menu__wrapper-bottom">
                     <ul>
-                        <li><a href="{{route('profile')}}">Profile</a></li>
-                        <li class="sub-init">
+                        <li class="li-item"><a href="{{route('profile')}}">Profile</a></li>
+                        <li class="sub-init li-item">
                             <a href="{{route('products')}}">Products</a>
                             <div class="list_submenu">
                                 <ul>
                                     <li><strong>Redgine Variant</strong></li>
-                                    <li><a href="{{route('events')}}">Red Ginger Powder Extract Premium</a></li>
-                                    <li><a href="{{route('events')}}">Red Ginger Powder Extract Standardized</a></li>
-                                    <li><a href="{{route('events')}}">Red Ginger Powder</a></li>
-                                    <li><a href="{{route('events')}}">Red Ginger Instant Powder with Palm Sugar</a></li>
-                                    <li><a href="{{route('events')}}">Red Ginger Fresh</a></li>
+                                    <li><a href="{{route('product-detail','red-ginger-powder-extract-premium')}}">Red Ginger Powder Extract Premium</a></li>
+                                    <li><a href="{{route('product-detail','red-ginger-powder-extract-standardized')}}">Red Ginger Powder Extract Standardized</a></li>
+                                    <li><a href="{{route('product-detail','red-ginger-powder')}}">Red Ginger Powder</a></li>
+                                    <li><a href="{{route('product-detail','red-ginger-instant-powder')}}">Red Ginger Instant Powder with Palm Sugar</a></li>
+                                    <li><a href="{{route('product-detail','red-ginger-powder-extract-premium')}}">Red Ginger Fresh</a></li>
                                 </ul>
                                 <ul>
                                     <li><strong>Made By Redgine</strong></li>
-                                    <li><a href="{{route('events')}}">Bejo Jahe Merah</a></li>
-                                    <li><a href="{{route('events')}}">Bejo Sujamer</a></li>
-                                    <li><a href="{{route('events')}}">Komix Herbal</a></li>
+                                    <li><a href="{{route('product-detail','red-ginger-powder-extract-premium')}}">Bejo Jahe Merah</a></li>
+                                    <li><a href="{{route('product-detail','red-ginger-powder-extract-premium')}}">Bejo Sujamer</a></li>
+                                    <li><a href="{{route('product-detail','red-ginger-powder-extract-premium')}}">Komix Herbal</a></li>
                                 </ul>
                                 <ul>
                                     <li><strong>Other Commodities</strong></li>
-                                    <li><a href="{{route('events')}}">Citronella Oil</a></li>
+                                    <li><a href="{{route('product-detail','red-ginger-powder-extract-premium')}}">Citronella Oil</a></li>
                                 </ul>
                             </div>
                         </li>
-                        <li><a href="{{route('business')}}">Business</a></li>
-                        <li class="sub-init">
+                        <li class="li-item"><a href="{{route('business')}}">Business</a></li>
+                        <li class="sub-init li-item">
                             <a href="{{route('latest-news')}}">News</a>
                             <div class="list_submenu">
                                 <ul>
@@ -57,8 +57,8 @@
                                 </ul>
                             </div>
                         </li>
-                        <li><a href="{{route('visit')}}">Visit Us</a></li>
-                        <li><a href="{{route('contact')}}">Contact Us</a></li>
+                        <li class="li-item"><a href="{{route('visit')}}">Visit Us</a></li>
+                        <li class="li-item"><a href="{{route('contact')}}">Contact Us</a></li>
                     </ul>
                 </div>
                 <div class="menu__showcase"></div>

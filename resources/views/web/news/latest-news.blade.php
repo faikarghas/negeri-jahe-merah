@@ -29,7 +29,7 @@
                                             </div>
                                             <div class="latestNews__item-title">
                                                 <h4 class="first-title-item">Opening Tour Ginger Walk On December 2022</h4>
-                                                <a href="" class="btn-read-more">READ MORE ></a>
+                                                <a href="{{route('news-detail','lorem-ipsum')}}" class="btn-read-more">READ MORE ></a>
                                             </div>
                                         </div>
                                     </div>
@@ -40,7 +40,7 @@
                                             </div>
                                             <div class="latestNews__item-title">
                                                 <h4>Opening Tour Ginger Walk On December 2022</h4>
-                                                <a href="" class="btn-read-more">READ MORE ></a>
+                                                <a href="{{route('news-detail','lorem-ipsum')}}" class="btn-read-more">READ MORE ></a>
                                             </div>
                                         </div>
                                     </div>
@@ -51,7 +51,7 @@
                                             </div>
                                             <div class="latestNews__item-title">
                                                 <h4>Opening Tour Ginger  2022</h4>
-                                                <a href="" class="btn-read-more">READ MORE ></a>
+                                                <a href="{{route('news-detail','lorem-ipsum')}}" class="btn-read-more">READ MORE ></a>
                                             </div>
                                         </div>
                                     </div>
@@ -62,7 +62,7 @@
                                             </div>
                                             <div class="latestNews__item-title">
                                                 <h4>Opening Tour Ginger Walk On December 2022</h4>
-                                                <a href="" class="btn-read-more">READ MORE ></a>
+                                                <a href="{{route('news-detail','lorem-ipsum')}}" class="btn-read-more">READ MORE ></a>
                                             </div>
                                         </div>
                                     </div>
@@ -73,7 +73,7 @@
                                             </div>
                                             <div class="latestNews__item-title">
                                                 <h4>Opening Tour Ginger </h4>
-                                                <a href="" class="btn-read-more">READ MORE ></a>
+                                                <a href="{{route('news-detail','lorem-ipsum')}}" class="btn-read-more">READ MORE ></a>
                                             </div>
                                         </div>
                                     </div>

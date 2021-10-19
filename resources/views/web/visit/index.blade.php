@@ -35,6 +35,7 @@
                 <div class="row g-0">
                     <div class="col-12 col-lg-6">
                         <div class="go__det">
+                            <div class="bg-red-hover"></div>
                             <img src="{{asset('images/taman_jahe_merah.jpg')}}" width="100%" height="100%"/>
                             <div class="go__det-content">
                                 <h4 class="p-white">Taman Jahe Merah</h4>
@@ -45,6 +46,7 @@
                     </div>
                     <div class="col-12 col-lg-6">
                         <div class="go__det">
+                            <div class="bg-red-hover"></div>
                             <img src="{{asset('images/bumi-jahe-merah--aromatik.jpg')}}" width="100%" height="100%"/>
                             <div class="go__det-content">
                                 <h4 class="p-white">Bumi Jahe Merah Aromatik</h4>

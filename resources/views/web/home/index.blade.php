@@ -160,7 +160,7 @@
                                 <div class="news-desc">
                                     <h5>Opening Tour Ginger Walk On December 2022</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum architecto deleniti explicabo vitae aperiam earum. Nulla ipsam impedit minima odit.</p>
-                                    <a href="" class="btn-read-more">READ MORE ></a>
+                                    <a href="{{route('news-detail','lorem-ipsum')}}" class="btn-read-more">READ MORE ></a>
                                 </div>
                             </div>
                             <div class="header__boxWrapper-item">
@@ -170,7 +170,7 @@
                                 <div class="news-desc">
                                     <h5>Opening Tour Ginger Walk On December 2022</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum architecto deleniti explicabo vitae aperiam earum. Nulla ipsam impedit minima odit.</p>
-                                    <a href="" class="btn-read-more">READ MORE ></a>
+                                    <a href="{{route('news-detail','lorem-ipsum')}}" class="btn-read-more">READ MORE ></a>
                                 </div>
                             </div>
                             <div class="header__boxWrapper-item">
@@ -180,7 +180,7 @@
                                 <div class="news-desc">
                                     <h5>Opening Tour Ginger Walk On December 2022</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum architecto deleniti explicabo vitae aperiam earum. Nulla ipsam impedit minima odit.</p>
-                                    <a href="" class="btn-read-more">READ MORE ></a>
+                                    <a href="{{route('news-detail','lorem-ipsum')}}" class="btn-read-more">READ MORE ></a>
                                 </div>
                             </div>
                         </div>
@@ -203,28 +203,28 @@
                     <img src="{{asset('images/red-ginger-powder-extract--premium.jpg')}}" width="100%" height="100%"/>
                     <div class="product-item--text">
                         <p class="p-red text-center">Red Ginger Powder Extract Premium</p>
-                        <a href="{{route('product-detail','red-ginger')}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
+                        <a href="{{route('product-detail','red-ginger-powder-extract-premium')}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
                     </div>
                 </div>
                 <div class="product-item">
                     <img src="{{asset('images/red-ginger--powder-extract--standardized.jpg')}}" width="100%" height="100%"/>
                     <div class="product-item--text">
                         <p class="p-red text-center">Red Ginger Powder Extract Standardized</p>
-                        <a href="{{route('product-detail','red-ginger')}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
+                        <a href="{{route('product-detail','red-ginger-powder-extract-standardized')}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
                     </div>
                 </div>
                 <div class="product-item">
                     <img src="{{asset('images/red-ginger-powder.jpg')}}" width="100%" height="100%"/>
                     <div class="product-item--text">
                         <p class="p-red text-center">Red Ginger Powder</p>
-                        <a href="{{route('product-detail','red-ginger')}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
+                        <a href="{{route('product-detail','red-ginger-powder')}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
                     </div>
                 </div>
                 <div class="product-item">
                     <img src="{{asset('images/red-ginger-with palm-sugar.jpg')}}" width="100%" height="100%"/>
                     <div class="product-item--text">
                         <p class="p-red text-center">Red Ginger Instant Powder with Palm Sugar</p>
-                        <a href="{{route('product-detail','red-ginger')}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
+                        <a href="{{route('product-detail','red-ginger-instant-powder')}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
                     </div>
                 </div>
                 <div class="product-item">
@@ -238,21 +238,21 @@
                     <img src="{{asset('images/bejo-jahe-merah.jpg')}}" width="100%" height="100%"/>
                     <div class="product-item--text">
                         <p class="p-red text-center">Bejo Jahe Merah</p>
-                        <a href="{{route('product-detail','red-ginger')}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
+                        <a href="{{route('product-detail','bejo-red-ginger')}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
                     </div>
                 </div>
                 <div class="product-item">
                     <img src="{{asset('images/bejo-sujamer.jpg')}}" width="100%" height="100%"/>
                     <div class="product-item--text">
                         <p class="p-red text-center">Bejo Sujamer</p>
-                        <a href="{{route('product-detail','red-ginger')}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
+                        <a href="{{route('product-detail','bejo-red-ginger-flavored-milk')}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
                     </div>
                 </div>
                 <div class="product-item">
                     <img src="{{asset('images/komix-herbal.jpg')}}" width="100%" height="100%"/>
                     <div class="product-item--text">
                         <p class="p-red text-center">KOMIX Herbal</p>
-                        <a href="{{route('product-detail','red-ginger')}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
+                        <a href="{{route('product-detail','komi- herbal')}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
                     </div>
                 </div>
             </div>
