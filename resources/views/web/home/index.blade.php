@@ -34,17 +34,17 @@
                     <div data-slider="1" class="caption-item active">
                         <h1 class="el">Introducing <br/> Negeri Jahe Merah</h1>
                         <a href={{route('profile')}} class="btn-njm-red el">LEARN MORE</a>
-                        <p class="el">#JaheMerahkanIndonesia</p>
+                        <p class="el">#MerahlahJaheku</p>
                     </div>
                     <div data-slider="2" class="caption-item">
                         <h1>Introducing <br/> Negeri Jahe Merah 2</h1>
                         <a href={{route('profile')}} class="btn-njm-red">LEARN MORE</a>
-                        <p>#JaheMerahkanIndonesia</p>
+                        <p>#MerahlahJaheku</p>
                     </div>
                     <div data-slider="3" class="caption-item">
                         <h1>Introducing <br/> Negeri Jahe Merah 3</h1>
                         <a href={{route('profile')}} class="btn-njm-red">LEARN MORE</a>
-                        <p>#JaheMerahkanIndonesia</p>
+                        <p>#MerahlahJaheku</p>
                     </div>
                 </div>
             </div>
@@ -63,6 +63,7 @@
                                     <div class="yt-cover">
                                         <p class="num-float">O1</p>
                                         <img src="{{asset('images/youtube.jpg')}}" width="100%" height="100%"/>
+                                        <img class="logo" src="{{asset('images/youtube-logo.png')}}" alt="" srcset="">
                                     </div>
                                 </div>
                                 <div class="section__first-left--desc">
