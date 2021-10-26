@@ -623,6 +623,7 @@ header[page=home] .background__header .slide-text--items {
 header[page=home] .background__header .slide-text--items p {
   color: white;
   margin-bottom: 2rem;
+  font-size: 1.8rem;
 }
 header[page=home] .background__header .slide-text--items .line {
   width: 1px;
