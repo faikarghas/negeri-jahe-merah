@@ -253,6 +253,29 @@ a {
   color: white;
 }
 
+.btn-njm-white {
+  background-color: white;
+  font-family: "JosefinSans-SemiBold";
+  color: #721414;
+  width: 200px;
+  padding: 1.4rem 0;
+  border-radius: 30px;
+  font-size: 1.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.btn-njm-white:hover {
+  color: white;
+}
+
+.text-red {
+  color: #721414;
+}
+
 .bg-yellow {
   background-color: #FEB824;
 }
@@ -1323,6 +1346,56 @@ header[page=product-detail] .product__detail-ct .det__box-collapseBox .collapse-
 header[page=product-detail] .product__detail-ct .det__box-collapseBox .collapse-box p {
   margin-bottom: 0;
   font-family: "JosefinSans-Light";
+}
+header[page=product-detail] .buy__wrapper {
+  margin-top: 8rem;
+}
+header[page=product-detail] .order-now {
+  cursor: pointer;
+}
+header[page=product-detail] #modal-product .modal-body {
+  padding: 0;
+  background-color: #721414;
+}
+header[page=product-detail] #modal-product .modal-img {
+  width: 450px;
+}
+header[page=product-detail] #modal-product .modal-img img {
+  width: 100%;
+}
+header[page=product-detail] #modal-product .modal-desc {
+  text-align: center;
+  padding: 10rem 5rem 5rem 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header[page=product-detail] #modal-product .modal-desc-title {
+  width: 350px;
+  margin-bottom: 4rem;
+}
+header[page=product-detail] #modal-product .modal-desc-title h4 {
+  margin-bottom: 1rem;
+}
+header[page=product-detail] #modal-product .modal-desc-title p {
+  color: white;
+  font-size: 1.2rem;
+}
+header[page=product-detail] #modal-product .modal-desc-online {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+}
+header[page=product-detail] #modal-product .modal-desc-online img {
+  width: 220px;
+  margin-right: 2rem;
+}
+header[page=product-detail] #modal-product .modal-desc-online .btn-njm-white {
+  margin-right: 2rem;
 }
 
 main[page=product-detail] .section__first {

@@ -78,6 +78,43 @@
                             </div>
                         </div>
                     </div>
+                    <div class="buy__wrapper">
+                        <a data-bs-toggle="modal" data-bs-target="#modal-product"  class="btn-njm-yellow text-red order-now">ORDER NOW</a>
+                    </div>
+                    <div class="modal fade" id="modal-product" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-xl ">
+                          <div class="modal-content">
+                            <div class="modal-body">
+                                <div class="container-fluid g-0">
+                                    <div class="row g-0">
+                                        <div class="col-5">
+                                            <div class="modal-img">
+                                                <img src="{{asset('images/red-ginger-powder.jpg')}}" width="100%" height="100%"/>
+                                            </div>
+                                        </div>
+                                        <div class="col-7">
+                                            <div class="modal-desc">
+                                                <div class="modal-desc-title">
+                                                    <h4>{{$product[0]->name}}</h4>
+                                                    <p>Choose Online Store</p>
+                                                </div>
+                                                <div class="modal-desc-online">
+                                                    <a href="">
+                                                        <img src="{{asset('images/tokopedia.png')}}" alt="" srcset="">
+                                                    </a>
+                                                    <a href="">
+                                                        <img src="{{asset('images/shopee.png')}}" alt="" srcset="">
+                                                    </a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                 </div>
             </div>
         </div>
