@@ -8,38 +8,21 @@
         </menu>
         <div class="product__detail">
             <div class="product__detail-img">
-                <img src="{{asset('images/red-ginger-powder.jpg')}}" width="100%" height="100%"/>
+                <img src="{{asset('images')}}/{{$product[0]->image}}" width="100%" height="100%"/>
                 <div class="other_product">
                     <h4>Other Product</h4>
                     <div class="slider-products">
+
+                        @foreach ($otherProduct as $itemOther)
                         <div class="product-item">
-                            <img src="{{asset('images/red-ginger-powder-extract--premium.jpg')}}" width="100%" height="100%"/>
+                            <img src="{{asset('images')}}/{{$itemOther->image}}" width="100%" height="100%"/>
                             <div class="product-item--text">
-                                <p class="p-red text-center">Red Ginger Powder Extract Premium</p>
-                                <a href="{{route('product-detail','red-ginger')}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
+                                <p class="p-red text-center">{{$itemOther->name}}</p>
+                                <a href="{{route('product-detail',$itemOther->slug)}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
                             </div>
                         </div>
-                        <div class="product-item">
-                            <img src="{{asset('images/red-ginger--powder-extract--standardized.jpg')}}" width="100%" height="100%"/>
-                            <div class="product-item--text">
-                                <p class="p-red text-center">Red Ginger Powder Extract Standarized</p>
-                                <div class="btn-njm-yellow btn-product-item">MORE INFORMATION</div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <img src="{{asset('images/red-ginger-powder.jpg')}}" width="100%" height="100%"/>
-                            <div class="product-item--text">
-                                <p class="p-red text-center">Red Ginger Powder</p>
-                                <div class="btn-njm-yellow btn-product-item">MORE INFORMATION</div>
-                            </div>
-                        </div>
-                        <div class="product-item">
-                            <img src="{{asset('images/red-ginger-with palm-sugar.jpg')}}" width="100%" height="100%"/>
-                            <div class="product-item--text">
-                                <p class="p-red text-center">Red Ginger Instant Powder with Palm Sugar</p>
-                                <div class="btn-njm-yellow btn-product-item">MORE INFORMATION</div>
-                            </div>
-                        </div>
+                        @endforeach
+
                     </div>
                 </div>
             </div>
@@ -89,7 +72,7 @@
                                     <div class="row g-0">
                                         <div class="col-5">
                                             <div class="modal-img">
-                                                <img src="{{asset('images/red-ginger-powder.jpg')}}" width="100%" height="100%"/>
+                                                <img src="{{asset('images')}}/{{$product[0]->image}}" width="100%" height="100%"/>
                                             </div>
                                         </div>
                                         <div class="col-7">

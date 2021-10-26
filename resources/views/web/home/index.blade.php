@@ -231,7 +231,7 @@
                     <img src="{{asset('images/fresh-ginger.jpg')}}" width="100%" height="100%"/>
                     <div class="product-item--text">
                         <p class="p-red text-center">Red Ginger Fresh</p>
-                        <a href="{{route('product-detail','red-ginger')}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
+                        <a href="{{route('product-detail','bejo-red-ginger-flavored-milk')}}" class="btn-njm-yellow btn-product-item">MORE INFORMATION</a>
                     </div>
                 </div>
                 <div class="product-item">

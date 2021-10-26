@@ -17,9 +17,11 @@ class ProductController extends Controller
 
     public function detail($slug){
         $product = DB::table('products')->where('slug',$slug)->get();
-        // dd($product);
+        $otherProduct = DB::table('products')->where('slug','<>',$slug)->get();
+
         $data = [
-            'product' => $product
+            'product' => $product,
+            'otherProduct' => $otherProduct
         ];
 
         return view('web.product.detail',$data);
