@@ -80,12 +80,12 @@ main[page=business]{
         }
 
         .slider-eco-top-wrapper{
-            padding: 0 4rem;
+            // padding: 0 4rem;
             position: relative;
             .arrow-left{
                 position: absolute;
                 top: 50%;
-                left: 0%;
+                left: -5%;
                 transform: translateY(-50%);
                 color: white;
                 font-size: 4rem;
@@ -95,7 +95,7 @@ main[page=business]{
             .arrow-right{
                 position: absolute;
                 top: 50%;
-                right: 0%;
+                right: -5%;
                 transform: translateY(-50%);
                 color: white;
                 font-size: 4rem;

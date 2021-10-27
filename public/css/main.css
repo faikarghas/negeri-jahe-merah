@@ -1490,13 +1490,12 @@ main[page=business] .section__first .top-desc h3 {
   margin-bottom: 2rem;
 }
 main[page=business] .section__first .slider-eco-top-wrapper {
-  padding: 0 4rem;
   position: relative;
 }
 main[page=business] .section__first .slider-eco-top-wrapper .arrow-left {
   position: absolute;
   top: 50%;
-  left: 0%;
+  left: -5%;
   transform: translateY(-50%);
   color: white;
   font-size: 4rem;
@@ -1505,7 +1504,7 @@ main[page=business] .section__first .slider-eco-top-wrapper .arrow-left {
 main[page=business] .section__first .slider-eco-top-wrapper .arrow-right {
   position: absolute;
   top: 50%;
-  right: 0%;
+  right: -5%;
   transform: translateY(-50%);
   color: white;
   font-size: 4rem;
