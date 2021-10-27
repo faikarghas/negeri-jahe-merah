@@ -26,8 +26,13 @@ menu{
         &-top{
             position: relative;
             z-index: 2;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
             ul{
                 text-align: end;
+                margin-bottom: 1rem;
+                margin-right: 10rem;
                 li{
                     list-style: none;
 
@@ -48,6 +53,11 @@ menu{
                         }
                     }
                 }
+            }
+            img{
+                margin-bottom: 1rem;
+                object-fit: contain;
+                cursor: pointer;
             }
         }
         &-bottom{

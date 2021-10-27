@@ -74,15 +74,18 @@ header[page=home]{
                     bottom: 0;
                     left: 4rem;
                     h1{
-                        transition: 0.5s all;
+                        transition: 0.8s all;
+                        transition-delay: 0.1s;
                         transform: translateY(-100px);
                     }
                     a{
                         transition: 0.8s all;
+                        transition-delay: 0.2s;
                         transform: translateY(-120px);
                     }
                     p{
-                        transition: 1.2s all;
+                        transition: 0.8s all;
+                        transition-delay: 0.3s;
                         transform: translateY(-130px);
                     }
                     &.active{

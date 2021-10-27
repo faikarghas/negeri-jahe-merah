@@ -9,9 +9,9 @@
         <div class="background__header">
             <div class="slide-img">
                 <img data-slider="1" class="firstimg  init" src="{{asset('images/memperkenalkan_negeri_jahe_merah.jpg')}}"/>
-                <img data-slider="2" class="pos1 animate-box btn-act" src="{{asset('images/herbal_edutainment.jpg')}}"/>
-                <img data-slider="3" class="pos2 animate-box btn-act" src="{{asset('images/inovasi_redgine.jpg')}}"/>
-                <img data-slider="1" class="pos3 animate-box btn-act" src="{{asset('images/memperkenalkan_negeri_jahe_merah.jpg')}}"/>
+                <img data-slider="2" data-desc="Innovation<br/>by Redgine" class="pos1 animate-box btn-act" src="{{asset('images/herbal_edutainment.jpg')}}"/>
+                <img data-slider="3" data-desc='Herbal Edutainment<br/>Experiences' class="pos2 animate-box btn-act" src="{{asset('images/inovasi_redgine.jpg')}}"/>
+                <img data-slider="1" data-desc='Innovation<br/>by Redgine' class="pos3 animate-box btn-act" src="{{asset('images/memperkenalkan_negeri_jahe_merah.jpg')}}"/>
             </div>
 
             <div class="slide-text">
@@ -23,10 +23,10 @@
                     <p>Herbal Edutainment<br/>Experiences</p>
                     <div class="line"></div>
                 </div>
-                <div data-slider="1" class="pos3 slide-text--items">
+                {{-- <div data-slider="1" class="pos3 slide-text--items">
                     <p>Innovation<br/>by Redgine</p>
                     <div class="line"></div>
-                </div>
+                </div> --}}
             </div>
 
             <div class="caption">
@@ -282,7 +282,6 @@
                 let image = $(this).attr('src')
                 let dataSlider = $(this).data('slider')
 
-
                 if (indeximg == 1) {
 
                     $(this).css(fullImg)
@@ -302,22 +301,17 @@
                         slideBox.find('img').first().remove()
                     }, 1000);
 
-
                     $(this).next().css('right','260px')
                     $(this).next().next().css('right','20px')
+
+                    console.log(
+                        $('.animate-box').indexOf(1)
+                    );
 
                 }
 
             })
 
-            // let playAn = anime({
-            //     targets: '.caption-item .el',
-            //     translateY: 140,
-            //     delay: anime.stagger(100, {from: 'first'}),
-            //     autoplay: false
-            // });
-
-            // playAn.play();
 
             $('.slider-who').slick({
                 dots: false,
@@ -331,11 +325,6 @@
                 slidesToScroll: 1,
             });
 
-            // anime({
-            //     targets: '.caption-item .el',
-            //     translateY: 65,
-            //     delay: anime.stagger(100, {from: 'first'})
-            // });
         })
     </script>
 @endsection

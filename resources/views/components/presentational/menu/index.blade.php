@@ -8,7 +8,7 @@
         </div>
     </div>
     <div class="col-lg-6">
-        <div class="h-100 d-flex align-items-center">        
+        <div class="h-100 d-flex align-items-center">
             <div class="menu__wrapper position-relative w-100">
                 <div class="menu__wrapper-top">
                     <ul>
@@ -19,11 +19,12 @@
                             </select>
                         </li>
                     </ul>
+                    <img src="{{asset('images/search.png')}}" width="15px" alt="search icon" srcset="">
                 </div>
                 <div class="menu__wrapper-bottom">
                     <ul>
-                        <li class="li-item"><a href="{{route('profile')}}">Profile</a></li>
-                        <li class="sub-init li-item">
+                        <li class="li-item {{ Request::is('profile') ? 'active' : '' }}"><a href="{{route('profile')}}">Profile</a></li>
+                        <li class="sub-init li-item {{ Request::is('products') ? 'active' : '' }}">
                             <a href="{{route('products')}}">Products</a>
                             <div class="list_submenu">
                                 <ul>
@@ -46,8 +47,8 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="li-item"><a href="{{route('business')}}">Business</a></li>
-                        <li class="sub-init li-item">
+                        <li class="li-item {{ Request::is('business') ? 'active' : '' }}"><a href="{{route('business')}}">Business</a></li>
+                        <li class="sub-init li-item {{ Request::is('latest-news') ? 'active' : '' }}">
                             <a href="{{route('latest-news')}}">News</a>
                             <div class="list_submenu">
                                 <ul>
@@ -57,8 +58,8 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="li-item"><a href="{{route('visit')}}">Visit Us</a></li>
-                        <li class="li-item"><a href="{{route('contact')}}">Contact Us</a></li>
+                        <li class="li-item {{ Request::is('visit-us') ? 'active' : '' }}"><a href="{{route('visit')}}">Visit Us</a></li>
+                        <li class="li-item {{ Request::is('contact-us') ? 'active' : '' }}"><a href="{{route('contact')}}">Contact Us</a></li>
                     </ul>
                 </div>
                 <div class="menu__showcase"></div>

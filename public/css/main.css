@@ -358,9 +358,16 @@ menu .logo2 img {
 menu .menu__wrapper-top {
   position: relative;
   z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 menu .menu__wrapper-top ul {
   text-align: end;
+  margin-bottom: 1rem;
+  margin-right: 10rem;
 }
 menu .menu__wrapper-top ul li {
   list-style: none;
@@ -380,6 +387,12 @@ menu .menu__wrapper-top ul li select option {
   color: white;
   font-family: "JosefinSans-Regular";
   background-color: black;
+}
+menu .menu__wrapper-top img {
+  margin-bottom: 1rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+  cursor: pointer;
 }
 menu .menu__wrapper-bottom {
   position: relative;
@@ -673,15 +686,18 @@ header[page=home] .background__header .caption-line .caption-item {
   left: 4rem;
 }
 header[page=home] .background__header .caption-line .caption-item h1 {
-  transition: 0.5s all;
+  transition: 0.8s all;
+  transition-delay: 0.1s;
   transform: translateY(-100px);
 }
 header[page=home] .background__header .caption-line .caption-item a {
   transition: 0.8s all;
+  transition-delay: 0.2s;
   transform: translateY(-120px);
 }
 header[page=home] .background__header .caption-line .caption-item p {
-  transition: 1.2s all;
+  transition: 0.8s all;
+  transition-delay: 0.3s;
   transform: translateY(-130px);
 }
 header[page=home] .background__header .caption-line .caption-item.active {
