@@ -20,7 +20,7 @@
                     </div>
                     <div class="col-12">
                         <div class="slider-eco-top-wrapper">
-                            <div class="arrow-left"><img src="{{asset('images/arrow.svg')}}" alt="" srcset=""></div>
+                            <div class="arrow-left"><</div>
                             <div class="slider-profile">
                                 <div class="slider-profile-item">
                                     <div class="item-wrapper">
