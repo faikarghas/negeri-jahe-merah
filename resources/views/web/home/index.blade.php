@@ -82,8 +82,9 @@
                         </div>
                         <div class="col-lg-3">
                             <div class="section__first-right">
+                                <img class="arrow-s1" src="{{asset('images/right-arrow.png')}}" width="40px" alt="" srcset="">
                                 <p class="num-float">O2</p>
-                                <img src="{{asset('images/visi_misi.jpg')}}" width="100%" height="100%"/>
+                                <img class="s1-home-cover" src="{{asset('images/visi_misi.jpg')}}" width="100%" height="100%"/>
                             </div>
                         </div>
                     </div>
@@ -94,7 +95,9 @@
                             <div class="section__first-left">
                                 <div class="section__first-left--yt">
                                     <div class="yt-cover">
+                                        <p class="num-float yl">O2</p>
                                         <img src="{{asset('images/visi_misi.jpg')}}" width="100%" height="100%"/>
+                                        <div class="bg-overlay-red"></div>
                                     </div>
                                 </div>
                                 <div class="section__first-left--desc">
@@ -110,7 +113,9 @@
                         </div>
                         <div class="col-lg-3">
                             <div class="section__first-right">
-                                <img src="{{asset('images/visi_misi_2.jpg')}}" width="100%" height="100%"/>
+                                <img class="arrow-s1" src="{{asset('images/right-arrow.png')}}" width="40px" alt="" srcset="">
+                                <p class="num-float">O1</p>
+                                <img class="s1-home-cover" src="{{asset('images/visi_misi_2.jpg')}}" width="100%" height="100%"/>
                             </div>
                         </div>
                     </div>
