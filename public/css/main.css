@@ -1489,6 +1489,28 @@ main[page=business] .section__first .top-desc h3 {
   font-size: 5rem;
   margin-bottom: 2rem;
 }
+main[page=business] .section__first .slider-eco-top-wrapper {
+  padding: 4rem;
+  position: relative;
+}
+main[page=business] .section__first .slider-eco-top-wrapper .arrow-left {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 4rem;
+  cursor: pointer;
+}
+main[page=business] .section__first .slider-eco-top-wrapper .arrow-right {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 4rem;
+  cursor: pointer;
+}
 main[page=business] .section__first .slider-profile {
   margin-top: 4rem;
 }
@@ -1545,6 +1567,22 @@ main[page=business] .section__first .contact__business {
 main[page=business] .section__first .contact__business-left {
   width: 30%;
   height: 100%;
+}
+main[page=business] .section__first .contact__business-left .slick-list,
+main[page=business] .section__first .contact__business-left .slick-track, main[page=business] .section__first .contact__business-left .slick-slide, main[page=business] .section__first .contact__business-left .slick-slide > div, main[page=business] .section__first .contact__business-left .slick-slide > div > img {
+  height: 100%;
+}
+main[page=business] .section__first .contact__business-left .slider-eco-item {
+  height: 100%;
+  position: relative;
+}
+main[page=business] .section__first .contact__business-left .slider-eco-item h5 {
+  position: absolute;
+  top: 3rem;
+  left: 3rem;
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 0;
 }
 main[page=business] .section__first .contact__business-left img {
   width: 100%;

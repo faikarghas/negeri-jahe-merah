@@ -79,6 +79,30 @@ main[page=business]{
             }
         }
 
+        .slider-eco-top-wrapper{
+            padding: 4rem;
+            position: relative;
+            .arrow-left{
+                position: absolute;
+                top: 50%;
+                left: 0%;
+                transform: translateY(-50%);
+                color: white;
+                font-size: 4rem;
+                cursor: pointer;
+            }
+
+            .arrow-right{
+                position: absolute;
+                top: 50%;
+                right: 0%;
+                transform: translateY(-50%);
+                color: white;
+                font-size: 4rem;
+                cursor: pointer;
+            }
+        }
+
         .slider-profile{
             margin-top: 4rem;
             &-item{
@@ -131,6 +155,22 @@ main[page=business]{
             &-left{
                 width: 30%;
                 height: 100%;
+                .slick-list,
+                .slick-track,.slick-slide,.slick-slide>div,.slick-slide>div>img {
+                    height: 100%;
+                }
+                .slider-eco-item{
+                    height: 100%;
+                    position: relative;
+                    h5{
+                        position: absolute;
+                        top: 3rem;
+                        left: 3rem;
+                        color: white;
+                        font-size: 3rem;
+                        margin-bottom: 0;
+                    }
+                }
                 img{
                     width: 100%;
                     height: 100%;
