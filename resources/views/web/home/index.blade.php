@@ -306,19 +306,18 @@
                     $(this).next().css('right','260px')
                     $(this).next().next().css('right','20px')
 
-                    // let playAn = anime({
-                    //     targets: '.caption-item .el',
-                    //     translateY: 65,
-                    //     delay: anime.stagger(100, {from: 'first'}),
-                    //     autoplay: false
-                    // });
-
-                    // playAn.play();
-
                 }
 
-
             })
+
+            // let playAn = anime({
+            //     targets: '.caption-item .el',
+            //     translateY: 140,
+            //     delay: anime.stagger(100, {from: 'first'}),
+            //     autoplay: false
+            // });
+
+            // playAn.play();
 
             $('.slider-who').slick({
                 dots: false,

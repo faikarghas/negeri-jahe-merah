@@ -671,12 +671,32 @@ header[page=home] .background__header .caption-line .caption-item {
   position: absolute;
   bottom: 0;
   left: 4rem;
-  transition: 1s all;
+}
+header[page=home] .background__header .caption-line .caption-item h1 {
+  transition: 0.5s all;
+  transform: translateY(-100px);
+}
+header[page=home] .background__header .caption-line .caption-item a {
+  transition: 0.8s all;
+  transform: translateY(-120px);
+}
+header[page=home] .background__header .caption-line .caption-item p {
+  transition: 1.2s all;
+  transform: translateY(-130px);
 }
 header[page=home] .background__header .caption-line .caption-item.active {
   visibility: visible;
   opacity: 1;
   transition: 1s all;
+}
+header[page=home] .background__header .caption-line .caption-item.active h1 {
+  transform: translateY(0px);
+}
+header[page=home] .background__header .caption-line .caption-item.active a {
+  transform: translateY(0px);
+}
+header[page=home] .background__header .caption-line .caption-item.active p {
+  transform: translateY(0px);
 }
 header[page=home] .background__header .caption h1 {
   color: white;

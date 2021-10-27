@@ -73,11 +73,31 @@ header[page=home]{
                     position: absolute;
                     bottom: 0;
                     left: 4rem;
-                    transition: 1s all;
+                    h1{
+                        transition: 0.5s all;
+                        transform: translateY(-100px);
+                    }
+                    a{
+                        transition: 0.8s all;
+                        transform: translateY(-120px);
+                    }
+                    p{
+                        transition: 1.2s all;
+                        transform: translateY(-130px);
+                    }
                     &.active{
                         visibility: visible;
                         opacity: 1;
                         transition: 1s all;
+                        h1{
+                            transform: translateY(0px);
+                        }
+                        a{
+                            transform: translateY(0px);
+                        }
+                        p{
+                            transform: translateY(0px);
+                        }
                     }
                 }
             }
