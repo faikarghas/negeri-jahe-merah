@@ -39,12 +39,12 @@
                         <p class="el">#MerahlahJaheku</p>
                     </div>
                     <div data-slider="2" class="caption-item">
-                        <h1>Introducing <br/> Negeri Jahe Merah 2</h1>
+                        <h1>Innovation<br/>by Redgine</h1>
                         <a href={{route('profile')}} class="btn-njm-red">LEARN MORE</a>
                         <p>#MerahlahJaheku</p>
                     </div>
                     <div data-slider="3" class="caption-item">
-                        <h1>Introducing <br/> Negeri Jahe Merah 3</h1>
+                        <h1>Herbal Edutainment<br/>Experiences</h1>
                         <a href={{route('profile')}} class="btn-njm-red">LEARN MORE</a>
                         <p>#MerahlahJaheku</p>
                     </div>

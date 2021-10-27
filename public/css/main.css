@@ -645,6 +645,9 @@ header[page=home] .background__header .pos2 {
 header[page=home] .background__header .pos3 {
   right: -260px;
 }
+header[page=home] .background__header .slide-img img:nth-child(2) {
+  cursor: pointer;
+}
 header[page=home] .background__header .slide-img .animate-box {
   -o-object-fit: cover;
      object-fit: cover;
@@ -1618,6 +1621,15 @@ main[page=business] .section__first .contact__business-left .slider-eco-item h5 
   left: 3rem;
   color: white;
   font-size: 3rem;
+  margin-bottom: 0;
+}
+main[page=business] .section__first .contact__business-left .slider-eco-item p {
+  position: absolute;
+  bottom: 3rem;
+  left: 0rem;
+  padding: 0 3rem;
+  color: white;
+  font-size: 1.4rem;
   margin-bottom: 0;
 }
 main[page=business] .section__first .contact__business-left img {

@@ -13,6 +13,9 @@ header[page=home]{
             right: -260px;
         }
         .slide-img{
+            img:nth-child(2){
+                cursor: pointer;
+            }
             .animate-box{
                 object-fit:cover;
                 transition: 0.5s all;
