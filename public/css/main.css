@@ -280,6 +280,28 @@ a {
   background-color: #FEB824;
 }
 
+.slider-eco-top-wrapper {
+  position: relative;
+}
+.slider-eco-top-wrapper .arrow-left {
+  position: absolute;
+  top: 50%;
+  left: -5%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 4rem;
+  cursor: pointer;
+}
+.slider-eco-top-wrapper .arrow-right {
+  position: absolute;
+  top: 50%;
+  right: -5%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 4rem;
+  cursor: pointer;
+}
+
 @font-face {
   font-family: "JosefinSans-Light";
   src: url("/fonts/JosefinSans-Light.woff") format("woff");
@@ -1524,27 +1546,6 @@ main[page=business] .section__first .top-desc {
 main[page=business] .section__first .top-desc h3 {
   font-size: 5rem;
   margin-bottom: 2rem;
-}
-main[page=business] .section__first .slider-eco-top-wrapper {
-  position: relative;
-}
-main[page=business] .section__first .slider-eco-top-wrapper .arrow-left {
-  position: absolute;
-  top: 50%;
-  left: -5%;
-  transform: translateY(-50%);
-  color: white;
-  font-size: 4rem;
-  cursor: pointer;
-}
-main[page=business] .section__first .slider-eco-top-wrapper .arrow-right {
-  position: absolute;
-  top: 50%;
-  right: -5%;
-  transform: translateY(-50%);
-  color: white;
-  font-size: 4rem;
-  cursor: pointer;
 }
 main[page=business] .section__first .slider-profile {
   margin-top: 4rem;

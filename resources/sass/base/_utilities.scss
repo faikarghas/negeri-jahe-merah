@@ -169,3 +169,26 @@
     background-color: $color_yellow;
 }
 
+.slider-eco-top-wrapper{
+    // padding: 0 4rem;
+    position: relative;
+    .arrow-left{
+        position: absolute;
+        top: 50%;
+        left: -5%;
+        transform: translateY(-50%);
+        color: white;
+        font-size: 4rem;
+        cursor: pointer;
+    }
+
+    .arrow-right{
+        position: absolute;
+        top: 50%;
+        right: -5%;
+        transform: translateY(-50%);
+        color: white;
+        font-size: 4rem;
+        cursor: pointer;
+    }
+}

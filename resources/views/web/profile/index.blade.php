@@ -31,7 +31,7 @@
                                 <p>Negeri Jahe Merah is the realization of Indonesia's desire of introducing one of its natural treasures, Red Ginger, to the world. As a developer, Bintang Toedjoe is committed to creating the greatest goods from the best seeds. As a result, we will lead the way in the production of Red Ginger by providing better commodities to farmers and the general public, as well as by developing the Red Ginger community ecosystem throughout the country.
 
                                     We have also built herbal edutainment facilities in order to offer learning and experience to the younger generation. The herbal facilities are Taman Jahe Merah, Bumi Jahe Merah Aromatic, and Studio Jahe Merah.
-                                    
+
                                     Celebrate Indonesia's pride in producing the best grade Red Ginger plant in the world's eyes.</p>
                                 <h3 class="tag p-red">#JaheMerahkanIndonesia</h3>
                             </div>
@@ -47,7 +47,7 @@
                         <div class="section__second-left bg-grey">
                             <h3 class="p-red">BINA &<br/>Redgine</h3>
                             <p>BINA (Bintang Toedjoe Inovasi Natural) is a B2B division of Bintang Toedjoe which focuses on natural raw materials, to support its sustainability and availability.
-                                Redgine is a trademark of natural raw materials derived from red ginger, which is produced from an ecosystem, initiated by BINA. 
+                                Redgine is a trademark of natural raw materials derived from red ginger, which is produced from an ecosystem, initiated by BINA.
                                 Redgine quality is controlled from upstream to downstream, with a traceable & recorded system.
                                 Every purchase usage of Redgine red ginger raw material means welfare for thousands of farmers, seeders, post harvest
                                 processors, researchers, and extractors distillators, who are members of the ecosystem.</p>
@@ -97,71 +97,76 @@
                         </div>
                     </div>
                     <div class="col-12">
-                        <div class="slider-profile">
-                            <div class="slider-profile-item">
-                                <div class="item-wrapper">
-                                   <img src="{{asset('images/ekosistem_nursery.jpg')}}" width="100%" height="100%"/>
-                                    <div class="info">
-                                        <h5>Nursery</h5>
-                                        <p>CONVENTIAL & TISSUE CULTURE TECHNOLOGY</p>
+                        <div class="slider-eco-top-wrapper">
+                            <div class="arrow-left"><img width="35px" src="{{asset('images/previous.svg_button.svg')}}" alt="" srcset=""></div>
+                            <div class="slider-profile">
+                                <div class="slider-profile-item">
+                                    <div class="item-wrapper">
+                                       <img src="{{asset('images/ekosistem_nursery.jpg')}}" width="100%" height="100%"/>
+                                        <div class="info">
+                                            <h5>Nursery</h5>
+                                            <p>CONVENTIAL & TISSUE CULTURE TECHNOLOGY</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slider-profile-item">
+                                    <div class="item-wrapper">
+                                        <img src="{{asset('images/ekosistem_cultivation.jpg')}}" width="100%" height="100%"/>
+                                        <div class="info">
+                                            <h5>Cultivation</h5>
+                                            <p>EDUCATING, FACILITATING, MONITORING OPERATING PROCEDURES</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slider-profile-item">
+                                    <div class="item-wrapper">
+                                        <img src="{{asset('images/ekosistem_post_harvest.jpg')}}" width="100%" height="100%"/>
+                                        <div class="info">
+                                            <h5>Post Harvest</h5>
+                                            <p>EDUCATING, FACILITATING, PROCEDURE STANDARIZATION METHODOLOGY DEVELOPMENT</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slider-profile-item">
+                                    <div class="item-wrapper">
+                                        <img src="{{asset('images/ekosistem_extraction_distillation.jpg')}}" width="100%" height="100%"/>
+                                        <div class="info">
+                                            <h5>Extraction & Distillation</h5>
+                                            <p>EDUCATING, FACILITATING, MONITORING OPERATING PROCEDURES</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slider-profile-item">
+                                    <div class="item-wrapper">
+                                        <img src="{{asset('images/ekosistem_pharmacology.jpg')}}" width="100%" height="100%"/>
+                                        <div class="info">
+                                            <h5>Pharmacology</h5>
+                                            <p>EDUCATING, FACILITATING, MONITORING OPERATING PROCEDURES</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slider-profile-item">
+                                    <div class="item-wrapper">
+                                        <img src="{{asset('images/ekosistem_commercialization.jpg')}}" width="100%" height="100%"/>
+                                        <div class="info">
+                                            <h5>Commercialization</h5>
+                                            <p>EDUCATING, FACILITATING, MONITORING OPERATING PROCEDURES</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slider-profile-item">
+                                    <div class="item-wrapper">
+                                        <img src="{{asset('images/ekosistem_community_development.jpg')}}" width="100%" height="100%"/>
+                                        <div class="info">
+                                            <h5>Community Development</h5>
+                                            <p>EDUCATING, FACILITATING, MONITORING OPERATING PROCEDURES</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="slider-profile-item">
-                                <div class="item-wrapper">
-                                    <img src="{{asset('images/ekosistem_cultivation.jpg')}}" width="100%" height="100%"/>
-                                    <div class="info">
-                                        <h5>Cultivation</h5>
-                                        <p>EDUCATING, FACILITATING, MONITORING OPERATING PROCEDURES</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="slider-profile-item">
-                                <div class="item-wrapper">
-                                    <img src="{{asset('images/ekosistem_post_harvest.jpg')}}" width="100%" height="100%"/>
-                                    <div class="info">
-                                        <h5>Post Harvest</h5>
-                                        <p>EDUCATING, FACILITATING, PROCEDURE STANDARIZATION METHODOLOGY DEVELOPMENT</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="slider-profile-item">
-                                <div class="item-wrapper">
-                                    <img src="{{asset('images/ekosistem_extraction_distillation.jpg')}}" width="100%" height="100%"/>
-                                    <div class="info">
-                                        <h5>Extraction & Distillation</h5>
-                                        <p>EDUCATING, FACILITATING, MONITORING OPERATING PROCEDURES</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="slider-profile-item">
-                                <div class="item-wrapper">
-                                    <img src="{{asset('images/ekosistem_pharmacology.jpg')}}" width="100%" height="100%"/>
-                                    <div class="info">
-                                        <h5>Pharmacology</h5>
-                                        <p>EDUCATING, FACILITATING, MONITORING OPERATING PROCEDURES</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="slider-profile-item">
-                                <div class="item-wrapper">
-                                    <img src="{{asset('images/ekosistem_commercialization.jpg')}}" width="100%" height="100%"/>
-                                    <div class="info">
-                                        <h5>Commercialization</h5>
-                                        <p>EDUCATING, FACILITATING, MONITORING OPERATING PROCEDURES</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="slider-profile-item">
-                                <div class="item-wrapper">
-                                    <img src="{{asset('images/ekosistem_community_development.jpg')}}" width="100%" height="100%"/>
-                                    <div class="info">
-                                        <h5>Community Development</h5>
-                                        <p>EDUCATING, FACILITATING, MONITORING OPERATING PROCEDURES</p>
-                                    </div>
-                                </div>
-                            </div>
+                            <div class="arrow-right"><img style="transform: rotate( 180deg);" width="35px" src="{{asset('images/previous.svg_button.svg')}}" alt="" srcset=""></div>
                         </div>
+
                         <div class="container-fluid g-0">
                             <div class="row">
                                 <div class="col-12 col-lg-8">
@@ -203,9 +208,11 @@
         $(document).ready(function (params) {
             $('.slider-profile').slick({
                 dots: false,
-                arrows: false,
+                arrows: true,
                 slidesToShow: 3,
                 slidesToScroll: 1,
+                prevArrow: $('.arrow-left'),
+                nextArrow: $('.arrow-right'),
             });
         })
     </script>
