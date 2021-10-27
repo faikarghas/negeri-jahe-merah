@@ -1630,6 +1630,23 @@ main[page=business] .section__first .contact__business-left img {
 main[page=business] .section__first .contact__business-right {
   width: 70%;
   padding: 5rem 12rem;
+  position: relative;
+}
+main[page=business] .section__first .contact__business-right .arrow_rec {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -20px;
+  z-index: 100;
+  background: white;
+  cursor: pointer;
+}
+main[page=business] .section__first .contact__business-right .arrow_rec img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 main[page=business] .section__first .contact__business-right h3 {
   font-size: 3rem;

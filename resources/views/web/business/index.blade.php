@@ -20,7 +20,7 @@
                     </div>
                     <div class="col-12">
                         <div class="slider-eco-top-wrapper">
-                            <div class="arrow-left"><</div>
+                            <div class="arrow-left"><img width="35px" src="{{asset('images/previous.svg_button.svg')}}" alt="" srcset=""></div>
                             <div class="slider-profile">
                                 <div class="slider-profile-item">
                                     <div class="item-wrapper">
@@ -86,7 +86,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="arrow-right">></div>
+                            <div class="arrow-right"><img style="transform: rotate( 180deg);" width="35px" src="{{asset('images/previous.svg_button.svg')}}" alt="" srcset=""></div>
                         </div>
                         <div class="container-fluid g-0">
                             <div class="row">
@@ -131,6 +131,10 @@
                                 </div>
                             </div>
                             <div class="contact__business-right">
+                                <div class="arrow_rec-left d-none"></div>
+                                <div class="arrow_rec">
+                                    <img src="{{asset('images/arrow.svg')}}" width="20px" alt="" srcset="">
+                                </div>
                                 <h3 class="p-yellow">Be a Part of Our Community!</h3>
                                 <form action="">
                                     <div class="mb-3 form-gr">
@@ -220,29 +224,29 @@
         $(document).ready(function (params) {
             $(".slider-profile").on('init reInit', function(event, slick, currentSlide, nextSlide){
                 var currentSlide = $(this).find('.slick-current .slider-profile-item');
-                console.log(currentSlide);
                 currentSlide.addClass('active')
             });
 
-            $('.slider-profile').slick({
+            let slickPro = $('.slider-profile').slick({
                 dots: false,
                 arrows: true,
                 slidesToShow: 3,
                 slidesToScroll: 1,
                 asNavFor:'.slider-eco',
                 prevArrow: $('.arrow-left'),
-                nextArrow: $('.arrow-right')
-
+                nextArrow: $('.arrow-right'),
+                focusOnSelect: true
             });
 
             $('.slider-eco').slick({
                 dots: false,
-                arrows: false,
+                arrows: true,
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 fade: true,
-                asNavFor:'.slider-profile'
-
+                asNavFor:'.slider-profile',
+                prevArrow: $('.arrow_rec-left'),
+                nextArrow: $('.arrow_rec'),
             })
 
 

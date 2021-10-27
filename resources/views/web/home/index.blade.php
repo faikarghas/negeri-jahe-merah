@@ -16,11 +16,13 @@
 
             <div class="slide-text">
                 <div data-slider="2" class="pos1 slide-text--items">
-                    <p>Innovation<br/>by Redgine</p>
+                    {{-- <p>Innovation<br/>by Redgine</p> --}}
+                    <p class="t1"></p>
                     <div class="line"></div>
                 </div>
                 <div data-slider="3" class="pos2 slide-text--items">
-                    <p>Herbal Edutainment<br/>Experiences</p>
+                    {{-- <p>Herbal Edutainment<br/>Experiences</p> --}}
+                    <p class="t2"></p>
                     <div class="line"></div>
                 </div>
                 {{-- <div data-slider="1" class="pos3 slide-text--items">
@@ -277,10 +279,17 @@
                     "border-radius" : "0"
                 }
 
+            let dataDesc1 = $('.slide-img img').eq(1).data('desc')
+            let dataDesc2 = $('.slide-img img').eq(2).data('desc')
+
+            $('.t1').html(dataDesc1)
+            $('.t2').html(dataDesc2)
+
             slideBox.on('click','.btn-act',function (params) {
                 let indeximg = $(this).index()
                 let image = $(this).attr('src')
                 let dataSlider = $(this).data('slider')
+
 
                 if (indeximg == 1) {
 
@@ -301,12 +310,9 @@
                         slideBox.find('img').first().remove()
                     }, 1000);
 
+
                     $(this).next().css('right','260px')
                     $(this).next().next().css('right','20px')
-
-                    console.log(
-                        $('.animate-box').indexOf(1)
-                    );
 
                 }
 

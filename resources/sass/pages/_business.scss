@@ -182,6 +182,22 @@ main[page=business]{
             &-right{
                 width: 70%;
                 padding: 5rem 12rem;
+                position: relative;
+                .arrow_rec{
+                    width: 40px;
+                    height: 40px;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    left: -20px;
+                    z-index: 100;
+                    background: white;
+                    cursor: pointer;
+                    img{
+                        width: 100%;
+                        object-fit: contain;
+                    }
+                }
                 h3{
                     font-size: 3rem;
                     margin-bottom: 2rem;
