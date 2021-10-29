@@ -176,7 +176,7 @@
                                 </div>
                                 <div class="col-12 col-lg-4">
                                     <div class="slider-desc">
-                                        <div class="btn-njm-yellow">JOIN US</div>
+                                        <a href="{{route('business')}}" class="btn-njm-yellow">JOIN US</a>
                                     </div>
                                 </div>
                             </div>
