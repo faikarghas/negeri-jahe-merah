@@ -160,7 +160,40 @@
                         </div>
                     </div>
                     <div class="col-12">
-                        <div class="header__boxWrapper">
+                        <div class="header__boxWrapper forDesktop-dflex">
+                            <div class="header__boxWrapper-item">
+                                <div class="news-cover">
+                                    <img src="https://source.unsplash.com/random/200x104" width="100%" height="100%"/>
+                                </div>
+                                <div class="news-desc">
+                                    <h5>Opening Tour Ginger Walk On December 2022</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum architecto deleniti explicabo vitae aperiam earum. Nulla ipsam impedit minima odit.</p>
+                                    <a href="{{route('news-detail','lorem-ipsum')}}" class="btn-read-more">READ MORE ></a>
+                                </div>
+                            </div>
+                            <div class="header__boxWrapper-item">
+                                <div class="news-cover">
+                                    <img src="https://source.unsplash.com/random/200x105" width="100%" height="100%"/>
+                                </div>
+                                <div class="news-desc">
+                                    <h5>Opening Tour Ginger Walk On December 2022</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum architecto deleniti explicabo vitae aperiam earum. Nulla ipsam impedit minima odit.</p>
+                                    <a href="{{route('news-detail','lorem-ipsum')}}" class="btn-read-more">READ MORE ></a>
+                                </div>
+                            </div>
+                            <div class="header__boxWrapper-item">
+                                <div class="news-cover">
+                                    <img src="https://source.unsplash.com/random/200x106" width="100%" height="100%"/>
+                                </div>
+                                <div class="news-desc">
+                                    <h5>Opening Tour Ginger Walk On December 2022</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum architecto deleniti explicabo vitae aperiam earum. Nulla ipsam impedit minima odit.</p>
+                                    <a href="{{route('news-detail','lorem-ipsum')}}" class="btn-read-more">READ MORE ></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="header__boxWrapper-m forMobile">
                             <div class="header__boxWrapper-item">
                                 <div class="news-cover">
                                     <img src="https://source.unsplash.com/random/200x104" width="100%" height="100%"/>
@@ -347,7 +380,20 @@
                 arrows: false,
                 slidesToShow: 5,
                 slidesToScroll: 1,
+                responsive: [
+                    {
+                        breakpoint: 800,
+                        settings: {
+                            slidesToShow: 1,
+                        }
+                    },
+                ]
             });
+
+            $('.header__boxWrapper-m').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+            })
 
         })
     </script>

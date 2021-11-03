@@ -39,11 +39,6 @@ body {
 @media only screen and (max-width: 62em) {
   body {
     height: 100vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
   }
 }
 body.hideScroll {
@@ -505,6 +500,11 @@ footer .faq__wrapper {
   padding: 8rem;
   position: relative;
 }
+@media only screen and (max-width: 62em) {
+  footer .faq__wrapper {
+    padding: 4rem;
+  }
+}
 footer .faq__wrapper .black-bg {
   position: absolute;
   width: 100%;
@@ -519,6 +519,11 @@ footer .faq__wrapper .faq__box {
   padding: 6rem 18rem;
   position: relative;
   z-index: 2;
+}
+@media only screen and (max-width: 62em) {
+  footer .faq__wrapper .faq__box {
+    padding: 4rem;
+  }
 }
 footer .faq__wrapper .faq__box h4 {
   font-size: 2.5rem;
@@ -557,6 +562,11 @@ footer .footerMenu__wrapper {
   flex-direction: row;
   justify-content: space-between;
 }
+@media only screen and (max-width: 62em) {
+  footer .footerMenu__wrapper {
+    padding: 4rem;
+  }
+}
 footer .footerMenu__wrapper .tpc {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -583,6 +593,11 @@ footer .footerMenu__wrapper-left ul {
   padding-left: 0;
   margin-bottom: 0;
   text-align: right;
+}
+@media only screen and (max-width: 62em) {
+  footer .footerMenu__wrapper-left ul {
+    text-align: left;
+  }
 }
 footer .footerMenu__wrapper-left ul li {
   list-style: none;
@@ -874,15 +889,30 @@ main[page=home] .section__second-left {
   justify-content: space-between;
   padding: 8rem;
 }
+@media only screen and (max-width: 62em) {
+  main[page=home] .section__second-left {
+    padding: 4rem;
+  }
+}
 main[page=home] .section__second-left h2 {
   color: white;
   font-size: 7rem;
   line-height: 1em;
 }
+@media only screen and (max-width: 62em) {
+  main[page=home] .section__second-left h2 {
+    font-size: 4rem;
+  }
+}
 main[page=home] .section__second-left img {
   -o-object-fit: contain;
      object-fit: contain;
   margin-bottom: 8rem;
+}
+@media only screen and (max-width: 62em) {
+  main[page=home] .section__second-left img {
+    margin-bottom: 4rem;
+  }
 }
 main[page=home] .section__second-right {
   display: -webkit-box;
@@ -910,11 +940,27 @@ main[page=home] .section__second-right .content {
   flex-direction: column;
   justify-content: space-between;
 }
+@media only screen and (max-width: 62em) {
+  main[page=home] .section__second-right .content {
+    padding: 4rem;
+    height: unset;
+  }
+}
+@media only screen and (max-width: 62em) {
+  main[page=home] .section__second-right .content .p-white {
+    margin-bottom: 4rem;
+  }
+}
 main[page=home] .section__second-right .content p {
   font-size: 1.4rem;
 }
 main[page=home] .section__third {
   padding: 6rem 8rem;
+}
+@media only screen and (max-width: 62em) {
+  main[page=home] .section__third {
+    padding: 4rem;
+  }
 }
 main[page=home] .section__third .header-news {
   display: -webkit-box;
@@ -939,6 +985,11 @@ main[page=home] .section__third .header-news a {
   align-items: flex-end;
   font-family: "JosefinSans-Bold";
 }
+@media only screen and (max-width: 62em) {
+  main[page=home] .section__third .header-news a {
+    font-size: 1rem;
+  }
+}
 main[page=home] .section__third .header__boxWrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -948,6 +999,11 @@ main[page=home] .section__third .header__boxWrapper {
 main[page=home] .section__third .header__boxWrapper-item {
   width: 32%;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08), 0 5px 12px rgba(0, 0, 0, 0.1);
+}
+@media only screen and (max-width: 62em) {
+  main[page=home] .section__third .header__boxWrapper-item {
+    border: 1px solid lightgray;
+  }
 }
 main[page=home] .section__third .header__boxWrapper-item .news-cover {
   height: 180px;
@@ -977,8 +1033,18 @@ main[page=home] .section__third .header__boxWrapper-item .news-desc .btn-read-mo
   text-decoration: none;
   font-family: "JosefinSans-Bold";
 }
+@media only screen and (max-width: 62em) {
+  main[page=home] .section__fourth {
+    padding: 4rem;
+  }
+}
 main[page=home] .section__fourth .header-products {
   padding: 0 8rem;
+}
+@media only screen and (max-width: 62em) {
+  main[page=home] .section__fourth .header-products {
+    text-align: center;
+  }
 }
 main[page=home] .section__fourth .header-products h4 {
   color: #721414;
@@ -999,6 +1065,11 @@ main[page=home] .section__fourth .slider-products .product-item {
   position: relative;
   transition: 0.5s all;
   overflow: hidden;
+}
+@media only screen and (max-width: 62em) {
+  main[page=home] .section__fourth .slider-products .product-item {
+    padding: 0;
+  }
 }
 main[page=home] .section__fourth .slider-products .product-item img {
   border-radius: 30px;
@@ -1104,11 +1175,9 @@ main[page=profile] .section__first .proflie__sec1 {
 }
 main[page=profile] .section__first .proflie__sec1-left {
   width: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  display: -webkit-box;
 }
 main[page=profile] .section__first .proflie__sec1-left img {
   width: 50%;
@@ -1118,7 +1187,7 @@ main[page=profile] .section__first .proflie__sec1-left img {
 }
 main[page=profile] .section__first .proflie__sec1-right {
   width: 50%;
-  padding: 8rem;
+  padding: 5rem 8rem;
 }
 main[page=profile] .section__first .proflie__sec1-right h3 {
   font-size: 4rem;

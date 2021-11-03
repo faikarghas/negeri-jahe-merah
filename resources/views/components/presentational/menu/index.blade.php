@@ -9,7 +9,7 @@
     </div>
     <div class="col-lg-6">
         <div class="h-100 d-flex align-items-center">
-            <div class="menu__wrapper position-relative w-100">
+            <div class="menu__wrapper position-relative w-100 forDesktop">
                 <div class="menu__wrapper-top">
                     <ul>
                         <li>

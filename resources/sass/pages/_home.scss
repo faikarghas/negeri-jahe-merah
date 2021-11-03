@@ -1,6 +1,7 @@
 header[page=home]{
     overflow: hidden;
     height: 100vh;
+    // display: none;
     .background__header{
         display:flex;
         .pos1{
@@ -238,14 +239,23 @@ main[page=home]{
             flex-direction: column;
             justify-content: space-between;
             padding: 8rem;
+            @include respond(down-tab-port){
+                padding: 4rem;
+            }
             h2{
                 color: white;
                 font-size: 7rem;
                 line-height: 1em;
+                @include respond(down-tab-port){
+                    font-size: 4rem;
+                }
             }
             img{
                 object-fit: contain;
                 margin-bottom: 8rem;
+                @include respond(down-tab-port){
+                    margin-bottom: 4rem;
+                }
             }
         }
         &-right{
@@ -267,6 +277,15 @@ main[page=home]{
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
+                @include respond(down-tab-port){
+                    padding: 4rem;
+                    height: unset;
+                }
+                .p-white{
+                    @include respond(down-tab-port){
+                        margin-bottom: 4rem;
+                    }
+                }
                 p{
                     font-size: 1.4rem;
                 }
@@ -277,6 +296,9 @@ main[page=home]{
 
     .section__third{
         padding: 6rem 8rem;
+        @include respond(down-tab-port){
+            padding: 4rem;
+        }
         .header-news{
             display: flex;
             justify-content: space-between;
@@ -294,6 +316,9 @@ main[page=home]{
                 display: flex;
                 align-items: flex-end;
                 font-family: "JosefinSans-Bold";
+                @include respond(down-tab-port){
+                    font-size: 1rem;
+                }
             }
         }
         .header__boxWrapper{
@@ -302,6 +327,9 @@ main[page=home]{
             &-item{
                 width: 32%;
                 box-shadow: 0 10px 20px rgb(0 0 0 / 8%), 0 5px 12px rgb(0 0 0 / 10%);
+                @include respond(down-tab-port){
+                    border: 1px solid lightgray;
+                }
                 .news-cover{
                     height: 180px;
                     img{
@@ -332,8 +360,14 @@ main[page=home]{
     }
 
     .section__fourth{
+        @include respond(down-tab-port){
+            padding: 4rem;
+        }
         .header-products{
             padding: 0 8rem;
+            @include respond(down-tab-port){
+                text-align: center;
+            }
             h4{
                 color: $color_red;
                 font-size: 3rem;
@@ -351,6 +385,9 @@ main[page=home]{
                 position: relative;
                 transition: 0.5s all;
                 overflow: hidden;
+                @include respond(down-tab-port){
+                    padding: 0;
+                }
                 img{
                     border-radius: 30px;
                     object-fit: cover;

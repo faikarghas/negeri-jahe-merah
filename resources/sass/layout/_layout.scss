@@ -2,6 +2,9 @@ footer{
     .faq__wrapper{
         padding: 8rem;
         position: relative;
+        @include respond(down-tab-port){
+            padding: 4rem;
+        }
         .black-bg{
             position: absolute;
             width: 100%;
@@ -16,6 +19,9 @@ footer{
             padding: 6rem 18rem;
             position: relative;
             z-index: 2;
+            @include respond(down-tab-port){
+                padding: 4rem;
+            }
             h4{
                 font-size: 2.5rem;
                 margin-bottom: 2rem;
@@ -56,6 +62,9 @@ footer{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        @include respond(down-tab-port){
+            padding: 4rem;
+        }
         .tpc{
             display: flex;
             align-items: flex-end;
@@ -81,6 +90,9 @@ footer{
                 padding-left: 0;
                 margin-bottom: 0;
                 text-align: right;
+                @include respond(down-tab-port){
+                    text-align: left;
+                }
                 li{
                     list-style: none;
                     margin-right: 1rem;

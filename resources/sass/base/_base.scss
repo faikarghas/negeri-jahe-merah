@@ -41,9 +41,6 @@ body {
 
     @include respond(down-tab-port) { // width <= 900
         height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
     }
 
     &.hideScroll{
