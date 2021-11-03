@@ -11,7 +11,7 @@
                 <img data-slider="1" class="firstimg  init" src="{{asset('images/memperkenalkan_negeri_jahe_merah.jpg')}}"/>
                 <img data-slider="2" data-desc="Innovation<br/>by Redgine" class="pos1 animate-box btn-act" src="{{asset('images/herbal_edutainment.jpg')}}"/>
                 <img data-slider="3" data-desc='Herbal Edutainment<br/>Experiences' class="pos2 animate-box btn-act" src="{{asset('images/inovasi_redgine.jpg')}}"/>
-                <img data-slider="1" data-desc='Innovation<br/>by Redgine' class="pos3 animate-box btn-act" src="{{asset('images/memperkenalkan_negeri_jahe_merah.jpg')}}"/>
+                <img data-slider="1" data-desc='Negeri<br/>Jahe Merah' class="pos3 animate-box btn-act" src="{{asset('images/memperkenalkan_negeri_jahe_merah.jpg')}}"/>
             </div>
 
             <div class="slide-text">
@@ -64,7 +64,7 @@
                                 <div class="section__first-left--yt">
                                     <div class="yt-cover">
                                         <p class="num-float">O1</p>
-                                        <img src="{{asset('images/youtube.jpg')}}" width="100%" height="100%"/>
+                                        <img class="yt-img" src="{{asset('images/youtube.jpg')}}" width="100%" height="100%"/>
                                         <img class="logo" src="{{asset('images/youtube-logo.png')}}" alt="" srcset="">
                                     </div>
                                 </div>
@@ -73,14 +73,14 @@
                                         <h3 class="p-yellow">Who We Are</h3>
                                         <h3>Negeri Jahe Merah</h3>
                                     </div>
-                                    <div>
+                                    <div class="mb-mobile">
                                         <p class="p-grey">Negeri Jahe Merah is the realization of Indonesia's desire of introducing one of its natural treasures, Red Ginger, to the world. As a developer, Bintang Toedjoe is committed to creating the greatest goods from the best seeds.</p>
                                     </div>
                                     <a href={{route('profile')}} class="btn-njm-red">LEARN MORE</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-3 forDesktop">
                             <div class="section__first-right">
                                 <img class="arrow-s1" src="{{asset('images/right-arrow.png')}}" width="40px" alt="" srcset="">
                                 <p class="num-float">O2</p>
@@ -101,7 +101,7 @@
                                     </div>
                                 </div>
                                 <div class="section__first-left--desc">
-                                    <div>
+                                    <div class="mb-mobile">
                                         <h3 class="p-yellow mb-4">Our Mission</h3>
                                         <p class="p-grey mb-4">Become a world class provider of natural raw materials, realized through a natural ecosystem, and supported by a traceable & well recorded system.</p>
                                         <h3 class="p-yellow mb-4">Our Vision</h3>
@@ -111,7 +111,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-3 forDesktop">
                             <div class="section__first-right">
                                 <img class="arrow-s1" src="{{asset('images/right-arrow.png')}}" width="40px" alt="" srcset="">
                                 <p class="num-float">O1</p>
@@ -294,6 +294,9 @@
                 let indeximg = $(this).index()
                 let image = $(this).attr('src')
                 let dataSlider = $(this).data('slider')
+                let dataDesc = $(this).data('desc')
+                let t1 = $(this).next().data('desc')
+                let t2 = $(this).next().next().data('desc')
 
 
                 if (indeximg == 1) {
@@ -301,7 +304,7 @@
                     $(this).css(fullImg)
                     $(this).addClass('init')
 
-                    slideBox.append(`<img data-slider="${dataSlider}" class="pos3 animate-box btn-act" src="${image}"/>`)
+                    slideBox.append(`<img data-slider="${dataSlider}" data-desc="${dataDesc}" class="pos3 animate-box btn-act" src="${image}"/>`)
 
                     $('.caption-item').each(function (params) {
                         let dataCaption = $(this).data('slider')
@@ -319,6 +322,8 @@
                     $(this).next().css('right','260px')
                     $(this).next().next().css('right','20px')
 
+                    $('.t1').html(t1)
+                    $('.t2').html(t2)
                 }
 
             })
@@ -326,7 +331,15 @@
 
             $('.slider-who').slick({
                 dots: false,
-                arrows: false
+                arrows: false,
+                responsive: [
+                    {
+                        breakpoint: 800,
+                        settings: {
+                            adaptiveHeight: true
+                        }
+                    },
+                ]
             });
 
             $('.slider-products').slick({
