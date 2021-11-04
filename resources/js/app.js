@@ -2,6 +2,10 @@ require('./bootstrap');
 
 $(document).ready(function (params) {
 
+    $('#menu-hamburger').on('click',function (params) {
+        $(this).toggleClass('open')
+    })
+
     $('.cl').click( function(e) {
         $('.collapse').collapse('hide');
     });

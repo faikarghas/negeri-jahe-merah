@@ -498,9 +498,7 @@
                 slidesToScroll: 1,
             })
 
-            $('#menu-hamburger').on('click',function (params) {
-                $(this).toggleClass('open')
-            })
+           
 
         })
     </script>

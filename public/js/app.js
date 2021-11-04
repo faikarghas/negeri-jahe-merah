@@ -2063,6 +2063,9 @@ module.exports = {
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 $(document).ready(function (params) {
+  $('#menu-hamburger').on('click', function (params) {
+    $(this).toggleClass('open');
+  });
   $('.cl').click(function (e) {
     $('.collapse').collapse('hide');
   });
