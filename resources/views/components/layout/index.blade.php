@@ -106,12 +106,12 @@
                             <div class="footerMenu__wrapper-right">
                                 <ul>
                                     <li><a class="sitemap" href="">Sitemap</a></li>
-                                    <li><a href="">PROFILE</a></li>
-                                    <li><a href="">PRODUCTS</a></li>
-                                    <li><a href="">BUSINESS</a></li>
-                                    <li><a href="">NEWS</a></li>
-                                    <li><a href="">VISIT US</a></li>
-                                    <li><a href="">CONTACT US</a></li>
+                                    <li><a href="{{route('profile')}}">PROFILE</a></li>
+                                    <li><a href="{{route('products')}}">PRODUCTS</a></li>
+                                    <li><a href="{{route('business')}}">BUSINESS</a></li>
+                                    <li><a href="{{route('latest-news')}}">NEWS</a></li>
+                                    <li><a href="{{route('visit')}}">VISIT US</a></li>
+                                    <li><a href="{{route('contact')}}">CONTACT US</a></li>
                                 </ul>
                             </div>
                         </div>
