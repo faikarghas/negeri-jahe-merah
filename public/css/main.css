@@ -1860,7 +1860,6 @@ main[page=business] .section__first {
 @media only screen and (max-width: 62em) {
   main[page=business] .section__first {
     padding: 4rem;
-    text-align: center;
   }
 }
 main[page=business] .section__first .header-business h2 {
@@ -1905,6 +1904,11 @@ main[page=business] .section__first .slider-profile-item .item-wrapper .info {
   top: 63%;
   transform: translateY(-50%);
   left: 4rem;
+}
+@media only screen and (max-width: 62em) {
+  main[page=business] .section__first .slider-profile-item .item-wrapper .info {
+    padding: 4rem;
+  }
 }
 main[page=business] .section__first .slider-profile-item .item-wrapper .info h5 {
   color: white;

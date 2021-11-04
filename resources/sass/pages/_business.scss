@@ -58,7 +58,6 @@ main[page=business]{
         padding: 12rem;
         @include respond(down-tab-port){
             padding: 4rem;
-            text-align: center;
         }
         .header-business{
             h2{
@@ -102,6 +101,9 @@ main[page=business]{
                         top: 63%;
                         transform: translateY(-50%);
                         left: 4rem;
+                        @include respond(down-tab-port){
+                            padding: 4rem;
+                        }
                         h5{
                             color: white;
                             font-size: 3.5rem;
