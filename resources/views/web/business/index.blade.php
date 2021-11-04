@@ -240,7 +240,7 @@
                 currentSlide.addClass('active')
             });
 
-            let slickPro = $('.slider-profile').slick({
+            $('.slider-profile').slick({
                 dots: false,
                 arrows: true,
                 slidesToShow: 3,
@@ -251,11 +251,23 @@
                 focusOnSelect: true,
                 responsive: [
                     {
-                        breakpoint: 800,
-                        settings: {
-                            slidesToShow: 1,
-                        }
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 1,
+                    }
                     },
+                    {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                    },
+                    {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                    }
                 ]
             });
 
@@ -281,12 +293,27 @@
                 nextArrow: $('.arrow_rec'),
                 responsive: [
                     {
-                        breakpoint: 800,
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 1,
+                            adaptiveHeight: true
+
+                        }
+                    },
+                    {
+                        breakpoint: 600,
                         settings: {
                             slidesToShow: 1,
                             adaptiveHeight: true
                         }
                     },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            adaptiveHeight: true
+                        }
+                    }
                 ]
             })
 

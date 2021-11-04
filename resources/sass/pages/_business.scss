@@ -58,6 +58,7 @@ main[page=business]{
         padding: 12rem;
         @include respond(down-tab-port){
             padding: 4rem;
+            text-align: center;
         }
         .header-business{
             h2{

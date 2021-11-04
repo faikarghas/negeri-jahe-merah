@@ -68,15 +68,25 @@ header[page=visit]{
     .head_content{
         height: calc(110vh - 167.42px);
         display: flex;
+        @include respond(down-tab-port){
+            padding: 4rem;
+        }
         &-text{
             width: 65%;
             position: relative;
+            @include respond(down-tab-port){
+                width: 100%;
+            }
             .header-text-wrapper{
                 position: absolute;
                 left: 50%;
                 top: 20px;
                 transform: translateX(-50%);
                 width: 550px;
+                @include respond(down-tab-port){
+                    width: 100%;
+                    z-index: 100;
+                }
                 h4{
                     font-size: 5rem;
                     color: black;
@@ -84,6 +94,9 @@ header[page=visit]{
                 .hashtag-text{
                     font-size: 3.5rem;
                     color: $color_red;
+                    @include respond(down-tab-port){
+                        font-size: 2.5rem;
+                    }
                 }
                 .download_on{
                     margin-top: 8rem;
@@ -102,6 +115,9 @@ header[page=visit]{
                             img{
                                 width: 200px;
                                 object-fit: contain;
+                                @include respond(down-tab-port){
+                                    width: 132px;
+                                }
                             }
                         }
                     }
@@ -111,6 +127,9 @@ header[page=visit]{
         &-img{
             width: 35%;
             position: relative;
+            @include respond(down-tab-port){
+                width: 0%;
+            }
             img{
                 position: absolute;
                 right: 115px;
@@ -194,6 +213,13 @@ main[page=visit]{
                 left: 50%;
                 transform: translate(-50%,-50%);
                 width: 80%;
+                @include respond(down-tab-port){
+                    position: static;
+                    width: 100%;
+                    transform: unset;
+                    padding: 4rem;
+                    text-align: center;
+                }
                 img{
                     margin-bottom: 4rem;
                 }
@@ -236,9 +262,16 @@ main[page=visit]{
     .section__third{
         background-color: $color_yellow;
         display: flex;
+        @include respond(down-tab-port){
+            flex-direction: column;
+        }
         &-legenda{
             padding: 8rem 0rem 4rem 18rem;
             width: 50%;
+            @include respond(down-tab-port){
+                padding: 4rem;
+                width: 100%;
+            }
             h5{
                 font-size: 2.5rem;
                 color: #264B11;
@@ -250,6 +283,10 @@ main[page=visit]{
                 counter-reset: li;
                 list-style: none;
                 padding-left: 0;
+                @include respond(down-tab-port){
+                    column-count: 2;
+                    width: 100%;
+                }
                 li{
                     color: #264B11;
                     font-size: 1.2rem;
@@ -269,12 +306,20 @@ main[page=visit]{
         &-img{
             width: 50%;
             position: relative;
+            @include respond(down-tab-port){
+                width: 100%;
+                padding-bottom: 4rem;
+            }
             img{
                 width: 730px;
                 object-fit: contain;
                 position: absolute;
                 top: 30px;
                 left: -90px;
+                @include respond(down-tab-port){
+                    position: static;
+                    width: 100%;
+                }
             }
         }
 
@@ -293,6 +338,12 @@ main[page=visit]{
                 left: 50%;
                 transform: translate(-50%,-50%);
                 width: 80%;
+                @include respond(down-tab-port){
+                    padding: 4rem;
+                    position: static;
+                    transform: unset;
+                    width: 100%;
+                }
                 h4{
                     font-size: 3rem;
                     margin-bottom: 2rem;

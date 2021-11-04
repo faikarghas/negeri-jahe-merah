@@ -22,6 +22,7 @@ main[page=product]{
             position: relative;
             @include respond(down-tab-port){
                 padding: 4rem;
+                text-align: center;
             }
             h2{
                 font-size: 4rem;

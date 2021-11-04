@@ -52,11 +52,16 @@ header[page=contact]{
 }
 
 main[page=contact]{
+    background-color: $color_red;
     .section__first{
         .header__sec1{
             padding: 14rem 8rem 0rem 8rem;
             background-color: $color_red;
             height: 100%;
+            @include respond(down-tab-port){
+                padding: 4rem;
+                text-align: center;
+            }
             h2{
                 font-size: 4rem;
             }
@@ -96,8 +101,15 @@ main[page=contact]{
         padding-right: 8rem;
         align-items: center;
         background-color: $color_red;
+        @include respond(down-tab-port){
+            flex-direction: column;
+            padding: 4rem;
+        }
         &-map{
             width: 70%;
+            @include respond(down-tab-port){
+                width: 100%;
+            }
         }
         &-form{
             height: 410px;
@@ -105,6 +117,9 @@ main[page=contact]{
             background-color: $color_yellow;
             border-radius: 35px;
             padding: 4rem;
+            @include respond(down-tab-port){
+                width: 100%;
+            }
             h4{
                 font-size: 3rem;
                 color: $color_red;
@@ -141,6 +156,9 @@ main[page=contact]{
     .section__third{
         background: $color_red;
         padding: 8rem 16rem;
+        @include respond(down-tab-port){
+            padding: 4rem;
+        }
         hr{
             background-color: $color_yellow;
             margin: 4rem 0;

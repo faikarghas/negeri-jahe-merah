@@ -215,11 +215,23 @@
                 nextArrow: $('.arrow-right'),
                 responsive: [
                     {
-                        breakpoint: 800,
-                        settings: {
-                            slidesToShow: 1,
-                        }
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 1,
+                    }
                     },
+                    {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                    },
+                    {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                    }
                 ]
             });
         })

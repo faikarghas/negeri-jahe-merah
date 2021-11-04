@@ -56,6 +56,10 @@ main[page=news]{
         .header__sec1{
             padding: 14rem 8rem 4rem 8rem;
             background-color: $color_red;
+            @include respond(down-tab-port){
+                padding: 4rem;
+                text-align: center;
+            }
             h2{
                 font-size: 4rem;
             }
@@ -121,7 +125,8 @@ main[page=events]{
             padding: 14rem 8rem 4rem 8rem;
             background-color: $color_red;
             @include respond(down-tab-port){
-                padding: 4rem 8rem 4rem 4rem;
+                padding: 4rem;
+                text-align: center;
             }
             h2{
                 font-size: 4rem;
@@ -217,6 +222,10 @@ main[page=literatures]{
         .header__sec1{
             padding: 14rem 8rem 4rem 8rem;
             background-color: $color_red;
+            @include respond(down-tab-port){
+                padding: 4rem;
+                text-align: center;
+            }
             h2{
                 font-size: 4rem;
             }
@@ -225,9 +234,14 @@ main[page=literatures]{
     .section__second{
         background-color: $color_yellow;
         padding: 4rem 6rem;
+        @include respond(down-tab-port){
+            padding: 4rem;
+        }
         .literature__item{
             margin: 2rem;
-
+            @include respond(down-tab-port){
+                margin: 2rem 0;
+            }
             &-img{
                 height: 200px;
                 img{

@@ -138,6 +138,9 @@ footer{
                 font-family: "JosefinSans-Light";
                 color: white;
                 line-height: 1em;
+                @include respond(down-tab-port){
+                    text-align: end;
+                }
             }
         }
     }

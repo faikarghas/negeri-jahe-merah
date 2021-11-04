@@ -668,6 +668,11 @@ footer .footerMenu__wrapper-right .copyright {
   color: white;
   line-height: 1em;
 }
+@media only screen and (max-width: 62em) {
+  footer .footerMenu__wrapper-right .copyright {
+    text-align: end;
+  }
+}
 
 header[page=home] {
   overflow: hidden;
@@ -1288,6 +1293,12 @@ main[page=profile] .section__first .header__sec1 {
   padding: 14rem 8rem 4rem 8rem;
   background-color: #721414;
 }
+@media only screen and (max-width: 62em) {
+  main[page=profile] .section__first .header__sec1 {
+    padding: 4rem;
+    text-align: center;
+  }
+}
 main[page=profile] .section__first .header__sec1 h2 {
   font-size: 4rem;
 }
@@ -1499,6 +1510,7 @@ main[page=product] .section__first .header__sec1 {
 @media only screen and (max-width: 62em) {
   main[page=product] .section__first .header__sec1 {
     padding: 4rem;
+    text-align: center;
   }
 }
 main[page=product] .section__first .header__sec1 h2 {
@@ -1848,6 +1860,7 @@ main[page=business] .section__first {
 @media only screen and (max-width: 62em) {
   main[page=business] .section__first {
     padding: 4rem;
+    text-align: center;
   }
 }
 main[page=business] .section__first .header-business h2 {
@@ -2177,6 +2190,12 @@ main[page=news] .section__first .header__sec1 {
   padding: 14rem 8rem 4rem 8rem;
   background-color: #721414;
 }
+@media only screen and (max-width: 62em) {
+  main[page=news] .section__first .header__sec1 {
+    padding: 4rem;
+    text-align: center;
+  }
+}
 main[page=news] .section__first .header__sec1 h2 {
   font-size: 4rem;
 }
@@ -2250,7 +2269,8 @@ main[page=events] .section__first .header__sec1 {
 }
 @media only screen and (max-width: 62em) {
   main[page=events] .section__first .header__sec1 {
-    padding: 4rem 8rem 4rem 4rem;
+    padding: 4rem;
+    text-align: center;
   }
 }
 main[page=events] .section__first .header__sec1 h2 {
@@ -2345,6 +2365,12 @@ main[page=literatures] .section__first .header__sec1 {
   padding: 14rem 8rem 4rem 8rem;
   background-color: #721414;
 }
+@media only screen and (max-width: 62em) {
+  main[page=literatures] .section__first .header__sec1 {
+    padding: 4rem;
+    text-align: center;
+  }
+}
 main[page=literatures] .section__first .header__sec1 h2 {
   font-size: 4rem;
 }
@@ -2352,8 +2378,18 @@ main[page=literatures] .section__second {
   background-color: #FEB824;
   padding: 4rem 6rem;
 }
+@media only screen and (max-width: 62em) {
+  main[page=literatures] .section__second {
+    padding: 4rem;
+  }
+}
 main[page=literatures] .section__second .literature__item {
   margin: 2rem;
+}
+@media only screen and (max-width: 62em) {
+  main[page=literatures] .section__second .literature__item {
+    margin: 2rem 0;
+  }
 }
 main[page=literatures] .section__second .literature__item-img {
   height: 200px;
@@ -2718,9 +2754,19 @@ header[page=visit] .head_content {
   display: -ms-flexbox;
   display: flex;
 }
+@media only screen and (max-width: 62em) {
+  header[page=visit] .head_content {
+    padding: 4rem;
+  }
+}
 header[page=visit] .head_content-text {
   width: 65%;
   position: relative;
+}
+@media only screen and (max-width: 62em) {
+  header[page=visit] .head_content-text {
+    width: 100%;
+  }
 }
 header[page=visit] .head_content-text .header-text-wrapper {
   position: absolute;
@@ -2729,6 +2775,12 @@ header[page=visit] .head_content-text .header-text-wrapper {
   transform: translateX(-50%);
   width: 550px;
 }
+@media only screen and (max-width: 62em) {
+  header[page=visit] .head_content-text .header-text-wrapper {
+    width: 100%;
+    z-index: 100;
+  }
+}
 header[page=visit] .head_content-text .header-text-wrapper h4 {
   font-size: 5rem;
   color: black;
@@ -2736,6 +2788,11 @@ header[page=visit] .head_content-text .header-text-wrapper h4 {
 header[page=visit] .head_content-text .header-text-wrapper .hashtag-text {
   font-size: 3.5rem;
   color: #721414;
+}
+@media only screen and (max-width: 62em) {
+  header[page=visit] .head_content-text .header-text-wrapper .hashtag-text {
+    font-size: 2.5rem;
+  }
 }
 header[page=visit] .head_content-text .header-text-wrapper .download_on {
   margin-top: 8rem;
@@ -2759,9 +2816,19 @@ header[page=visit] .head_content-text .header-text-wrapper ul li a img {
   -o-object-fit: contain;
      object-fit: contain;
 }
+@media only screen and (max-width: 62em) {
+  header[page=visit] .head_content-text .header-text-wrapper ul li a img {
+    width: 132px;
+  }
+}
 header[page=visit] .head_content-img {
   width: 35%;
   position: relative;
+}
+@media only screen and (max-width: 62em) {
+  header[page=visit] .head_content-img {
+    width: 0%;
+  }
 }
 header[page=visit] .head_content-img img {
   position: absolute;
@@ -2843,6 +2910,15 @@ main[page=visit] .section__second-text .content {
   transform: translate(-50%, -50%);
   width: 80%;
 }
+@media only screen and (max-width: 62em) {
+  main[page=visit] .section__second-text .content {
+    position: static;
+    width: 100%;
+    transform: unset;
+    padding: 4rem;
+    text-align: center;
+  }
+}
 main[page=visit] .section__second-text .content img {
   margin-bottom: 4rem;
 }
@@ -2883,9 +2959,20 @@ main[page=visit] .section__third {
   display: -ms-flexbox;
   display: flex;
 }
+@media only screen and (max-width: 62em) {
+  main[page=visit] .section__third {
+    flex-direction: column;
+  }
+}
 main[page=visit] .section__third-legenda {
   padding: 8rem 0rem 4rem 18rem;
   width: 50%;
+}
+@media only screen and (max-width: 62em) {
+  main[page=visit] .section__third-legenda {
+    padding: 4rem;
+    width: 100%;
+  }
 }
 main[page=visit] .section__third-legenda h5 {
   font-size: 2.5rem;
@@ -2899,6 +2986,13 @@ main[page=visit] .section__third-legenda ol {
   counter-reset: li;
   list-style: none;
   padding-left: 0;
+}
+@media only screen and (max-width: 62em) {
+  main[page=visit] .section__third-legenda ol {
+    -moz-column-count: 2;
+         column-count: 2;
+    width: 100%;
+  }
 }
 main[page=visit] .section__third-legenda ol li {
   color: #264B11;
@@ -2918,6 +3012,12 @@ main[page=visit] .section__third-img {
   width: 50%;
   position: relative;
 }
+@media only screen and (max-width: 62em) {
+  main[page=visit] .section__third-img {
+    width: 100%;
+    padding-bottom: 4rem;
+  }
+}
 main[page=visit] .section__third-img img {
   width: 730px;
   -o-object-fit: contain;
@@ -2925,6 +3025,12 @@ main[page=visit] .section__third-img img {
   position: absolute;
   top: 30px;
   left: -90px;
+}
+@media only screen and (max-width: 62em) {
+  main[page=visit] .section__third-img img {
+    position: static;
+    width: 100%;
+  }
 }
 main[page=visit] .section__fourth-text {
   background-color: #721414;
@@ -2939,6 +3045,14 @@ main[page=visit] .section__fourth-text .content {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 80%;
+}
+@media only screen and (max-width: 62em) {
+  main[page=visit] .section__fourth-text .content {
+    padding: 4rem;
+    position: static;
+    transform: unset;
+    width: 100%;
+  }
 }
 main[page=visit] .section__fourth-text .content h4 {
   font-size: 3rem;
@@ -3004,10 +3118,19 @@ header[page=contact] .background__header .slide-img .test3.active {
   right: 260px !important;
 }
 
+main[page=contact] {
+  background-color: #721414;
+}
 main[page=contact] .section__first .header__sec1 {
   padding: 14rem 8rem 0rem 8rem;
   background-color: #721414;
   height: 100%;
+}
+@media only screen and (max-width: 62em) {
+  main[page=contact] .section__first .header__sec1 {
+    padding: 4rem;
+    text-align: center;
+  }
 }
 main[page=contact] .section__first .header__sec1 h2 {
   font-size: 4rem;
@@ -3053,8 +3176,19 @@ main[page=contact] .section__second {
   align-items: center;
   background-color: #721414;
 }
+@media only screen and (max-width: 62em) {
+  main[page=contact] .section__second {
+    flex-direction: column;
+    padding: 4rem;
+  }
+}
 main[page=contact] .section__second-map {
   width: 70%;
+}
+@media only screen and (max-width: 62em) {
+  main[page=contact] .section__second-map {
+    width: 100%;
+  }
 }
 main[page=contact] .section__second-form {
   height: 410px;
@@ -3062,6 +3196,11 @@ main[page=contact] .section__second-form {
   background-color: #FEB824;
   border-radius: 35px;
   padding: 4rem;
+}
+@media only screen and (max-width: 62em) {
+  main[page=contact] .section__second-form {
+    width: 100%;
+  }
 }
 main[page=contact] .section__second-form h4 {
   font-size: 3rem;
@@ -3108,6 +3247,11 @@ main[page=contact] .section__second-form form .btn-form {
 main[page=contact] .section__third {
   background: #721414;
   padding: 8rem 16rem;
+}
+@media only screen and (max-width: 62em) {
+  main[page=contact] .section__third {
+    padding: 4rem;
+  }
 }
 main[page=contact] .section__third hr {
   background-color: #FEB824;

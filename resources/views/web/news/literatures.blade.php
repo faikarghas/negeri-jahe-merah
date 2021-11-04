@@ -24,7 +24,7 @@
         <section class="section__second">
             <div class="container-fluid g-0">
                 <div class="row g-0">
-                    <div class="col-4">
+                    <div class="col-12 col-lg-4">
                         <div class="literature__item">
                             <div class="literature__item-img">
                                 <img src="https://source.unsplash.com/random/200x201" width="100%" height="100%"/>
@@ -40,7 +40,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-12 col-lg-4">
                         <div class="literature__item">
                             <div class="literature__item-img">
                                 <img src="https://source.unsplash.com/random/200x201" width="100%" height="100%"/>
@@ -56,7 +56,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-12 col-lg-4">
                         <div class="literature__item">
                             <div class="literature__item-img">
                                 <img src="https://source.unsplash.com/random/200x201" width="100%" height="100%"/>
@@ -72,7 +72,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-12 col-lg-4">
                         <div class="literature__item">
                             <div class="literature__item-img">
                                 <img src="https://source.unsplash.com/random/200x201" width="100%" height="100%"/>

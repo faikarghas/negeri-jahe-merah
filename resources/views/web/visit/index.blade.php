@@ -5,9 +5,9 @@
             <div class="container-fluid g-0 position-relative z-2">
                 @include('components/presentational/menu/index')
             </div>
-            <div class="bg-red-right"></div>
+            <div class="bg-red-right forDesktop"></div>
         </menu>
-        <div class="bg-red-right"></div>
+        <div class="bg-red-right forDesktop"></div>
         <div class="head_content">
             <div class="head_content-text">
                 <div class="header-text-wrapper">
@@ -22,7 +22,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="head_content-img">
+            <div class="head_content-img forDesktop">
                 <img src="{{asset('images/negeri_jahe_merah_visit_us.png')}}" alt="">
             </div>
         </div>
@@ -61,7 +61,7 @@
         <section class="section__second">
             <div class="container-fluid g-0">
                 <div class="row g-0">
-                    <div class="col-12 position-relative space-bg">
+                    <div class="col-12 position-relative space-bg forDesktop">
                         <div class="bg-red-right"></div>
                     </div>
                     <div class="col-12 col-lg-6">
