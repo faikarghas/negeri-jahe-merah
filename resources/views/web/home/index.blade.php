@@ -463,6 +463,10 @@
                 ]
             });
 
+            $(".section__first").on('click','.section__first-right',function(e) { 
+                $(".slider-who").slick("slickNext");
+            });
+
             $('.slider-who2').slick({
                 dots: false,
                 arrows: false,
@@ -498,7 +502,6 @@
                 slidesToScroll: 1,
             })
 
-           
 
         })
     </script>

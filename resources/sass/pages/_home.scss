@@ -270,6 +270,7 @@ main[page=home]{
         &-right{
             height: 560px;
             position: relative;
+            cursor: pointer;
             @include respond(down-tab-port){
                 height: 100%;
             }

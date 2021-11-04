@@ -978,6 +978,7 @@ main[page=home] .section__first-left--desc p {
 main[page=home] .section__first-right {
   height: 560px;
   position: relative;
+  cursor: pointer;
 }
 @media only screen and (max-width: 62em) {
   main[page=home] .section__first-right {
