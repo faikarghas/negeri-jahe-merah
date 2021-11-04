@@ -145,7 +145,7 @@
                             </div>
                             <div class="contact__business-right">
                                 <div class="arrow_rec-left d-none"></div>
-                                <div class="arrow_rec">
+                                <div class="arrow_rec forDesktop">
                                     <img src="{{asset('images/arrow.svg')}}" width="20px" alt="" srcset="">
                                 </div>
                                 <h3 class="p-yellow">Be a Part of Our Community!</h3>
@@ -248,7 +248,15 @@
                 asNavFor:$('.slider-eco, .slider-desc'),
                 prevArrow: $('.arrow-left'),
                 nextArrow: $('.arrow-right'),
-                focusOnSelect: true
+                focusOnSelect: true,
+                responsive: [
+                    {
+                        breakpoint: 800,
+                        settings: {
+                            slidesToShow: 1,
+                        }
+                    },
+                ]
             });
 
             $('.slider-eco').slick({
@@ -271,6 +279,15 @@
                 asNavFor: $('.slider-profile, .slider-eco'),
                 prevArrow: $('.arrow_rec-left'),
                 nextArrow: $('.arrow_rec'),
+                responsive: [
+                    {
+                        breakpoint: 800,
+                        settings: {
+                            slidesToShow: 1,
+                            adaptiveHeight: true
+                        }
+                    },
+                ]
             })
 
         })

@@ -1,7 +1,8 @@
 header[page=home]{
     overflow: hidden;
     height: 100vh;
-    // display: none;
+    @include respond(down-tab-port){
+    }
     .background__header{
         display:flex;
         .pos1{
@@ -16,6 +17,25 @@ header[page=home]{
         .slide-img{
             img:nth-child(2){
                 cursor: pointer;
+                @include respond(down-tab-port){
+                    right: 50%;
+                    transform: translateX(50%);
+                }
+            }
+            img:nth-child(3){
+                @include respond(down-tab-port){
+                    display: none;
+                }
+            }
+            img:nth-child(4){
+                @include respond(down-tab-port){
+                    display: none;
+                }
+            }
+            img:nth-child(5){
+                @include respond(down-tab-port){
+                    display: none;
+                }
             }
             .animate-box{
                 object-fit:cover;
@@ -25,6 +45,9 @@ header[page=home]{
                 border-radius: 20px;
                 width: 220px;
                 height: 245px;
+                @include respond(down-tab-port){
+                    bottom: -16%;
+                }
             }
             .firstimg{
                 object-fit:cover;
@@ -39,6 +62,9 @@ header[page=home]{
             }
         }
         .slide-text{
+            @include respond(down-tab-port){
+                display: none;
+            }
             &--items{
                 position: absolute;
                 bottom:0;
@@ -64,13 +90,18 @@ header[page=home]{
             bottom: 80px;
             left: 30px;
             border-left: 2px solid white;
-
+            @include respond(down-tab-port){
+                bottom: 200px;
+            }
 
             &-line{
                 padding-left: 4rem;
                 padding-top: 7rem;
                 height: 406px;
                 position: relative;
+                @include respond(down-tab-port){
+                    height: 303px;
+                }
                 .caption-item{
                     visibility: hidden;
                     opacity: 0;
@@ -113,6 +144,9 @@ header[page=home]{
                 font-size: 6rem;
                 margin-bottom: 5rem;
                 letter-spacing: 0;
+                @include respond(down-tab-port){
+                    font-size: 3rem;
+                }
             }
             .btn-njm-red{
                 margin-bottom: 4rem;
@@ -123,21 +157,27 @@ header[page=home]{
                 letter-spacing: 0;
                 line-height: 1em;
                 margin-bottom: 0;
+                @include respond(down-tab-port){
+                    font-size: 2.5rem;
+                }
             }
         }
     }
 }
 main[page=home]{
-
+    @include respond(down-tab-port){
+        margin-top: 150px   ;
+    }
     .section__first{
         &-left{
             padding: 8rem 8rem;
             display: flex;
             @include respond(down-tab-port){
-                padding: 4rem;
+                padding: 0rem;
                 flex-direction: column;
             }
             &--yt{
+                display: flex;
                 .yt-cover{
                     width: 300px;
                     height: 400px;
@@ -146,6 +186,14 @@ main[page=home]{
                     @include respond(down-tab-port){
                         width: 100%;
                         margin-bottom: 4rem;
+                        height: 275px;
+                        border-radius: 0px;
+                        &:nth-child(1){
+                            width: 67%;
+                        }
+                        &:nth-child(2){
+                            width: 43%;
+                        }
                     }
                     .bg-overlay-red{
                         background-color: #721414e0;
@@ -155,6 +203,9 @@ main[page=home]{
                         width: 100%;
                         height: 100%;
                         border-radius: 20px;
+                        @include respond(down-tab-port){
+                            border-radius: 0px;
+                        }
                     }
                     .num-float{
                         position: absolute;
@@ -164,6 +215,9 @@ main[page=home]{
                         font-size: 6rem;
                         line-height: 1em;
                         z-index: 10;
+                        @include respond(down-tab-port){
+                            font-size: 4rem;
+                        }
                         &.yl{
                             color: $color_yellow;
                         }
@@ -179,6 +233,9 @@ main[page=home]{
                 img{
                     border-radius: 20px;
                     object-fit: cover;
+                    @include respond(down-tab-port){
+                        border-radius: 0;
+                    }
                 }
             }
             &--desc{
@@ -188,10 +245,18 @@ main[page=home]{
                 justify-content: space-between;
                 position: relative;
                 @include respond(down-tab-port){
-                    padding: 1.8rem 0rem;
+                    padding: 0 4rem;
+                    padding-bottom: 4rem;
+                    text-align: center;
+                    align-items: center;
                 }
                 .mb-mobile{
                     margin-bottom: 3rem;
+                    p{
+                        @include respond(down-tab-port){
+                            font-size: 1.6rem;
+                        }
+                    }
                 }
                 h3{
                     font-size: 2.75rem;
@@ -205,6 +270,9 @@ main[page=home]{
         &-right{
             height: 560px;
             position: relative;
+            @include respond(down-tab-port){
+                height: 100%;
+            }
             .arrow-s1{
                 position: absolute;
                 top: 100px;

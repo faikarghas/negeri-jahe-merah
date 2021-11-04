@@ -56,7 +56,7 @@
 @section('main')
     <main page="home">
         <section class="section__first">
-            <div class="slider-who">
+            <div class="slider-who forDesktop">
                 <div class="container-fluid g-0">
                     <div class="row g-0">
                         <div class="col-lg-9">
@@ -120,6 +120,70 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="slider-who2 forMobile">
+                <div class="container-fluid g-0">
+                    <div class="row g-0">
+                        <div class="col-12">
+                            <div class="section__first-left">
+                                <div class="section__first-left--yt">
+                                    <div class="yt-cover">
+                                        <p class="num-float">O1</p>
+                                        <img class="yt-img" src="{{asset('images/youtube.jpg')}}" width="100%" height="100%"/>
+                                        <img class="logo" src="{{asset('images/youtube-logo.png')}}" alt="" srcset="">
+                                    </div>
+                                    <div class="yt-cover">
+                                        <div class="section__first-right">
+                                            <p class="num-float">O2</p>
+                                            <img class="s1-home-cover" src="{{asset('images/visi_misi_2.jpg')}}" width="100%" height="100%"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="section__first-left--desc">
+                                    <div>
+                                        <h3 class="p-yellow">Who We Are</h3>
+                                        <h3>Negeri Jahe Merah</h3>
+                                    </div>
+                                    <div class="mb-mobile">
+                                        <p class="p-grey">Negeri Jahe Merah is the realization of Indonesia's desire of introducing one of its natural treasures, Red Ginger, to the world. As a developer, Bintang Toedjoe is committed to creating the greatest goods from the best seeds.</p>
+                                    </div>
+                                    <a href={{route('profile')}} class="btn-njm-red">LEARN MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid g-0">
+                    <div class="row g-0">
+                        <div class="col-12">
+                            <div class="section__first-left">
+                                <div class="section__first-left--yt">
+                                    <div class="yt-cover">
+                                        <p class="num-float yl">O2</p>
+                                        <img src="{{asset('images/visi_misi.jpg')}}" width="100%" height="100%"/>
+                                        <div class="bg-overlay-red"></div>
+                                    </div>
+                                    <div class="yt-cover">
+                                        <div class="section__first-right">
+                                            <p class="num-float">O1</p>
+                                            <img class="s1-home-cover" src="{{asset('images/visi_misi_2.jpg')}}" width="100%" height="100%"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="section__first-left--desc">
+                                    <div class="mb-mobile">
+                                        <h3 class="p-yellow mb-4">Our Mission</h3>
+                                        <p class="p-grey mb-4">Become a world class provider of natural raw materials, realized through a natural ecosystem, and supported by a traceable & well recorded system.</p>
+                                        <h3 class="p-yellow mb-4">Our Vision</h3>
+                                        <p class="p-grey mb-4">Provide innovative natural raw materials, of the highest quality, efficacious, and safe to support all industries at local and abroad.</p>
+                                    </div>
+                                    <a href={{route('profile')}} class="btn-njm-red">LEARN MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
         <section class="section__second">
@@ -308,7 +372,6 @@
                 items    = slideBox.find('li'),
                 len      = items.length,
                 current  = 1,
-
                 fullImg = {
                     "width": "100%",
                     "height": "100%",
@@ -322,6 +385,25 @@
 
             $('.t1').html(dataDesc1)
             $('.t2').html(dataDesc2)
+
+            if ($( window ).width() < 750) {
+                fullImg = {
+                    "width": "100%",
+                    "height": "100%",
+                    "bottom": "0",
+                    "right": "0",
+                    "border-radius" : "0",
+                    "transform" : 'translateX(0)'
+                }
+            } else {
+                fullImg = {
+                    "width": "100%",
+                    "height": "100%",
+                    "bottom": "0",
+                    "right": "0",
+                    "border-radius" : "0"
+                }
+            }
 
             slideBox.on('click','.btn-act',function (params) {
                 let indeximg = $(this).index()
@@ -351,9 +433,14 @@
                         slideBox.find('img').first().remove()
                     }, 1000);
 
+                    if ($( window ).width() < 750) {
+                        $(this).next().css({'right':'50%'})
+                        $(this).next().next().css('right','-220px')
+                    } else {
+                        $(this).next().css('right','260px')
+                        $(this).next().next().css('right','20px')
+                    }
 
-                    $(this).next().css('right','260px')
-                    $(this).next().next().css('right','20px')
 
                     $('.t1').html(t1)
                     $('.t2').html(t2)
@@ -365,6 +452,7 @@
             $('.slider-who').slick({
                 dots: false,
                 arrows: false,
+                fade:true,
                 responsive: [
                     {
                         breakpoint: 800,
@@ -374,6 +462,21 @@
                     },
                 ]
             });
+
+            $('.slider-who2').slick({
+                dots: false,
+                arrows: false,
+                fade:true,
+                responsive: [
+                    {
+                        breakpoint: 800,
+                        settings: {
+                            adaptiveHeight: true
+                        }
+                    },
+                ]
+            });
+
 
             $('.slider-products').slick({
                 dots: false,
@@ -393,6 +496,10 @@
             $('.header__boxWrapper-m').slick({
                 slidesToShow: 1,
                 slidesToScroll: 1,
+            })
+
+            $('#menu-hamburger').on('click',function (params) {
+                $(this).toggleClass('open')
             })
 
         })

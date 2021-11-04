@@ -64,20 +64,33 @@ main[page=profile]{
         .proflie__sec1{
             display: flex;
             flex-direction: row;
+            @include respond(down-tab-port){
+                flex-direction: column;
+            }
             &-left{
                 width: 50%;
+                display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
-                display: -webkit-box;
+                @include respond(down-tab-port){
+                    width: 100%;
+                }
                 img{
                     width: 50%;
                     height: 350px;
                     object-fit: cover;
+                    @include respond(down-tab-port){
+                        height: unset;
+                    }
                 }
             }
             &-right{
                 width: 50%;
                 padding: 5rem 8rem;
+                @include respond(down-tab-port){
+                    width: 100%;
+                    padding: 5rem 4rem;
+                }
                 h3{
                     font-size: 4rem;
                     margin-bottom: 3rem;
@@ -85,6 +98,9 @@ main[page=profile]{
                 .tag{
                     font-size: 4rem;
                     margin-top: 4rem;
+                    @include respond(down-tab-port){
+                        font-size: 2rem;
+                    }
                 }
             }
         }
@@ -94,6 +110,9 @@ main[page=profile]{
         &-left{
             padding: 15rem 8rem;
             height: 100%;
+            @include respond(down-tab-port){
+                padding: 4rem;
+            }
             h3{
                 font-size: 5rem;
                 margin-bottom: 4rem;
@@ -116,6 +135,9 @@ main[page=profile]{
     .section__third{
         background-color: $color_red;
         padding: 12rem;
+        @include respond(down-tab-port){
+            padding: 4rem;
+        }
         .top-img{
             img{
                 object-fit: contain;
@@ -128,6 +150,9 @@ main[page=profile]{
             height: 100%;
             display: flex;
             align-items: center;
+            @include respond(down-tab-port){
+                padding-left: 0rem;
+            }
             h3{
                 font-size: 5rem;
                 margin-bottom: 2rem;
@@ -170,6 +195,9 @@ main[page=profile]{
             height: 100%;
             display: flex;
             align-items: center;
+            @include respond(down-tab-port){
+                padding: 4rem 0 4rem 0rem;
+            }
             p{
                 margin-bottom: 0;
                 border-left: 2px solid $color_yellow;
@@ -181,6 +209,9 @@ main[page=profile]{
     .section__fourth{
         background-color: $color_yellow;
         padding: 8rem;
+        @include respond(down-tab-port){
+            padding: 4rem;
+        }
         h3{
             font-size: 5rem;
             color: $color_red;
@@ -189,6 +220,9 @@ main[page=profile]{
 
         &-desc{
             padding-right: 8rem;
+            @include respond(down-tab-port){
+                padding-right: 0rem;
+            }
         }
     }
 }

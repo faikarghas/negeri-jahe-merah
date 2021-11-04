@@ -63,9 +63,15 @@ main[page=news]{
         .wrapper{
             padding: 4rem 6rem;
             background-color: $color_yellow;
+            @include respond(down-tab-port){
+                padding: 4rem;
+            }
             .latestNews__item{
                 margin: 2rem;
                 box-shadow: 0 10px 20px rgb(0 0 0 / 8%), 0 5px 12px rgb(0 0 0 / 10%);
+                @include respond(down-tab-port){
+                    margin: 2rem 0;
+                }
                 &-img{
                     height: 220px;
                     img{
@@ -75,6 +81,9 @@ main[page=news]{
                     }
                     &.first-item{
                         height: 600px;
+                        @include respond(down-tab-port){
+                            height: 320px;
+                        }
                     }
                 }
                 &-title{
@@ -84,6 +93,9 @@ main[page=news]{
                     display: flex;
                     flex-direction: column;
                     justify-content: space-between;
+                    @include respond(down-tab-port){
+                        height: 170px;
+                    }
                     h4{
                         font-size: 1.8rem;
                         font-family: "JosefinSans-Bold";
@@ -108,6 +120,9 @@ main[page=events]{
         .header__sec1{
             padding: 14rem 8rem 4rem 8rem;
             background-color: $color_red;
+            @include respond(down-tab-port){
+                padding: 4rem 8rem 4rem 4rem;
+            }
             h2{
                 font-size: 4rem;
             }
@@ -117,12 +132,18 @@ main[page=events]{
         .header__sec2{
             padding: 4rem 8rem 3rem 8rem;
             background-color: white;
+            @include respond(down-tab-port){
+                padding: 4rem;
+            }
             h2{
                 font-size: 3rem;
             }
         }
         .slider-wrapper{
             padding-left: 8rem;
+            @include respond(down-tab-port){
+                padding: 0 4rem;
+            }
             .event__item{
                 width: 280px;
                 height: 280px;
@@ -145,6 +166,9 @@ main[page=events]{
                     p{
                         color: white;
                         margin-bottom: 0;
+                        @include respond(down-tab-port){
+                            font-size: 2rem;
+                        }
                     }
                     .date{
                         .num{
@@ -164,6 +188,10 @@ main[page=events]{
         .mid-text{
             padding-left: 8rem;
             margin-top: 4rem;
+            @include respond(down-tab-port){
+                padding: 4rem;
+                margin-top: 0;
+            }
             .pl{
                 padding-left: 4rem;
                 margin-left: 11rem;
@@ -173,6 +201,8 @@ main[page=events]{
                 width: 700px;
                 @include respond(down-tab-port){
                     width: 100%;
+                    margin-left: 0rem;
+                    padding-left: 4rem;
                 }
                 p{
                     margin-bottom: 0;

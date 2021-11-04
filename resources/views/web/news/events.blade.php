@@ -179,12 +179,28 @@
                 arrows: false,
                 slidesToShow: 4,
                 slidesToScroll: 1,
+                responsive: [
+                    {
+                        breakpoint: 800,
+                        settings: {
+                            slidesToShow: 1,
+                        }
+                    },
+                ]
             });
             $('.slider-past-events').slick({
                 dots: false,
                 arrows: false,
                 slidesToShow: 4,
                 slidesToScroll: 1,
+                responsive: [
+                    {
+                        breakpoint: 800,
+                        settings: {
+                            slidesToShow: 1,
+                        }
+                    },
+                ]
             });
         })
     </script>

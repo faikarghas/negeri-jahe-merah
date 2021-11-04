@@ -1,13 +1,13 @@
 
 <div class="row g-0">
-    <div class="col-lg-4">
+    <div class="col-3 col-lg-4">
         <div class="logo">
             <a href="{{route('home')}}">
                 <img src="{{asset('images/negeri_jahe_merah_logo.png')}}" width="80px" alt="" srcset="">
             </a>
         </div>
     </div>
-    <div class="col-lg-6">
+    <div class="col-lg-6 forDesktop">
         <div class="h-100 d-flex align-items-center">
             <div class="menu__wrapper position-relative w-100 forDesktop">
                 <div class="menu__wrapper-top">
@@ -66,9 +66,17 @@
             </div>
         </div>
     </div>
-    <div class="col-lg-2">
-        <div class="logo2">
-            <img class="bt" src="{{asset('images/bintang_toedjoe_logo.png')}}" width="80px" alt="" srcset="">
+    <div class="col-9 col-lg-2">
+        <div class="m-mobile">
+            <div class="logo2">
+                <img class="bt" src="{{asset('images/bintang_toedjoe_logo.png')}}" width="80px" alt="" srcset="">
+            </div>
+            <div id="menu-hamburger" class="forMobile">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
     </div>
 </div>

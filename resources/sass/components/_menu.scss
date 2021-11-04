@@ -10,6 +10,9 @@ menu{
         img{
             width: 94px;
             object-fit: contain;
+            @include respond(down-tab-port){
+                width: 76px;
+            }
         }
     }
     .logo2{
@@ -17,9 +20,23 @@ menu{
         display: flex;
         align-items: center;
         justify-content: flex-end;
+        @include respond(down-tab-port){
+            margin-right: 3rem;
+        }
         img{
             width: 140px;
             object-fit: contain;
+            @include respond(down-tab-port){
+                width: 114px;
+            }
+        }
+    }
+    .m-mobile{
+        @include respond(down-tab-port){
+            display: flex;
+            height: 100%;
+            justify-content: flex-end;
+            align-items: center;
         }
     }
     .menu__wrapper{

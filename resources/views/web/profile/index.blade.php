@@ -213,6 +213,14 @@
                 slidesToScroll: 1,
                 prevArrow: $('.arrow-left'),
                 nextArrow: $('.arrow-right'),
+                responsive: [
+                    {
+                        breakpoint: 800,
+                        settings: {
+                            slidesToShow: 1,
+                        }
+                    },
+                ]
             });
         })
     </script>
