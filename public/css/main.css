@@ -1865,6 +1865,11 @@ main[page=business] .section__first {
 main[page=business] .section__first .header-business h2 {
   font-size: 4rem;
 }
+@media only screen and (max-width: 62em) {
+  main[page=business] .section__first .header-business h2 {
+    text-align: center;
+  }
+}
 main[page=business] .section__first .top-img img {
   -o-object-fit: contain;
      object-fit: contain;

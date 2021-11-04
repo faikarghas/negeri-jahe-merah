@@ -62,6 +62,9 @@ main[page=business]{
         .header-business{
             h2{
                 font-size: 4rem;
+                @include respond(down-tab-port){
+                    text-align: center;
+                }
             }
         }
         .top-img{
