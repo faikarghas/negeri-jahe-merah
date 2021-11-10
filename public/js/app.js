@@ -2065,6 +2065,12 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 $(document).ready(function (params) {
   $('#menu-hamburger').on('click', function (params) {
     $(this).toggleClass('open');
+    $('.menu__mobile').toggleClass('open');
+  });
+  $('.hasSub').each(function (params) {
+    $(this).on('click', function (params) {
+      $(this).find('.ul_submenu').toggleClass('open');
+    });
   });
   $('.cl').click(function (e) {
     $('.collapse').collapse('hide');

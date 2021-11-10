@@ -299,6 +299,72 @@ a {
   z-index: 99;
 }
 
+.menu__mobile {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 75%;
+  height: 100%;
+  background-color: white;
+  z-index: 9999;
+  transition: 0.5s all;
+  padding: 8rem 4rem;
+  overflow: auto;
+}
+.menu__mobile.open {
+  left: 0;
+}
+.menu__mobile .ul_menu {
+  padding: 0;
+}
+.menu__mobile .ul_menu .fs-big {
+  font-size: 2.2rem;
+  font-family: "JosefinSans-Regular";
+}
+.menu__mobile .ul_menu > li {
+  list-style: none;
+  margin-bottom: 1rem;
+  border: none;
+  color: #721414;
+  font-size: 1.6rem;
+}
+.menu__mobile .ul_menu > li .search {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  border-bottom: 1px solid #721414;
+  width: 100%;
+  margin-bottom: 4rem;
+  font-size: 1.6rem;
+}
+.menu__mobile .ul_menu > li a {
+  color: #721414;
+  font-size: 1.6rem;
+  text-decoration: none;
+  font-family: "JosefinSans-Regular";
+}
+.menu__mobile .ul_menu > li span {
+  margin-bottom: 1.5rem;
+  display: block;
+}
+.menu__mobile .ul_menu .ul_submenu {
+  padding: 0;
+  margin-bottom: 4rem;
+  display: none;
+}
+.menu__mobile .ul_menu .ul_submenu.open {
+  display: block;
+}
+.menu__mobile .ul_menu .ul_submenu li {
+  list-style: none;
+  margin-bottom: 1.4rem;
+}
+.menu__mobile .ul_menu .ul_submenu li strong {
+  margin-bottom: 1.6rem;
+  display: block;
+}
+
 @font-face {
   font-family: "JosefinSans-Light";
   src: url("/fonts/JosefinSans-Light.woff") format("woff");

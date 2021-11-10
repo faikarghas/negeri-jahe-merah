@@ -24,7 +24,40 @@
     </head>
     <body>
         @yield('header')
-
+        <div class="menu__mobile">
+            <ul class="ul_menu">
+                <li><input type="text" placeholder="search" class="search"></li>
+                <li><a class="fs-big" href="{{route('profile')}}"><strong>Profile</strong></a></li>
+                <li class="hasSub">
+                    <span class="fs-big"><strong>Products</strong></span>
+                    <ul class="ul_submenu">
+                        <li><strong>Redgine Variant</strong></li>
+                        <li><a href="{{route('product-detail','red-ginger-powder-extract-premium')}}">Red Ginger Powder Extract Premium</a></li>
+                        <li><a href="{{route('product-detail','red-ginger-powder-extract-standardized')}}">Red Ginger Powder Extract Standardized</a></li>
+                        <li><a href="{{route('product-detail','red-ginger-powder')}}">Red Ginger Powder</a></li>
+                        <li><a href="{{route('product-detail','red-ginger-instant-powder')}}">Red Ginger Instant Powder with Palm Sugar</a></li>
+                        <li><a href="{{route('product-detail','red-ginger-powder-extract-premium')}}">Red Ginger Fresh</a></li>
+                        <li><strong>Made By Redgine</strong></li>
+                        <li><a href="{{route('product-detail','red-ginger-powder-extract-premium')}}">Bejo Jahe Merah</a></li>
+                        <li><a href="{{route('product-detail','red-ginger-powder-extract-premium')}}">Bejo Sujamer</a></li>
+                        <li><a href="{{route('product-detail','red-ginger-powder-extract-premium')}}">Komix Herbal</a></li>
+                        <li><strong>Other Commodities</strong></li>
+                        <li><a href="{{route('product-detail','red-ginger-powder-extract-premium')}}">Citronella Oil</a></li>
+                    </ul>
+                </li>
+                <li><a class="fs-big" href="{{route('business')}}"><strong>Business</strong></a></li>
+                <li class="hasSub">
+                    <span class="fs-big"><strong>News</strong></span>
+                    <ul class="ul_submenu">
+                        <li><a href="{{route('latest-news')}}">Latest News</a></li>
+                        <li><a href="{{route('events')}}">Events</a></li>
+                        <li><a href="{{route('literatures')}}">Literatures</a></li>
+                    </ul>
+                </li>
+                <li><a class="fs-big" href="{{route('visit')}}"><strong>Visit Us</strong></a></li>
+                <li><a class="fs-big" href="{{route('contact')}}"><strong>Contact Us</strong></a></li>
+            </ul>
+        </div>
         @yield('main')
 
         <footer>
