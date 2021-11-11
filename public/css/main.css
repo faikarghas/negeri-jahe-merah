@@ -468,7 +468,7 @@ menu .logo2 img {
 }
 menu .menu__wrapper-top {
   position: relative;
-  z-index: 2;
+  z-index: 10;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
