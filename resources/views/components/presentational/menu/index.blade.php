@@ -29,11 +29,22 @@
                             <div class="list_submenu">
                                 <ul>
                                     <li><strong>Redgine Variant</strong></li>
-                                    <li><a href="{{route('product-detail','red-ginger-powder-extract-premium')}}">Red Ginger Powder Extract Premium</a></li>
-                                    <li><a href="{{route('product-detail','red-ginger-powder-extract-standardized')}}">Red Ginger Powder Extract Standardized</a></li>
-                                    <li><a href="{{route('product-detail','red-ginger-powder')}}">Red Ginger Powder</a></li>
-                                    <li><a href="{{route('product-detail','red-ginger-instant-powder')}}">Red Ginger Instant Powder with Palm Sugar</a></li>
-                                    <li><a href="{{route('product-detail','red-ginger-powder-extract-premium')}}">Red Ginger Fresh</a></li>
+                                    <ul class="pl-3">
+                                        <li><strong>Red Ginger Product</strong></li>
+                                        <li><a href="{{route('product-detail','red-ginger-powder-extract-premium')}}">Red Ginger Powder Extract Premium</a></li>
+                                        <li><a href="{{route('product-detail','red-ginger-powder-extract-standardized')}}">Red Ginger Powder Extract Standardized</a></li>
+                                        <li><a href="{{route('product-detail','red-ginger-powder')}}">Red Ginger Powder</a></li>
+                                        <li><a href="{{route('product-detail','red-ginger-instant-powder')}}">Red Ginger Instant Powder with Palm Sugar</a></li>
+                                        <li><a href="{{route('product-detail','red-ginger-powder-extract-premium')}}">Red Ginger Fresh</a></li>
+                                        <li><a href="{{route('product-detail','red-ginger-simplicia')}}">Red Ginger Simplicia</a></li>
+                                        <li><a href="{{route('product-detail','red-ginger-oil')}}">Red Ginger Oil</a></li>
+                                        <li><a href="{{route('product-detail','red-ginger-liquid-extract-standardized')}}">Red Ginger Liquid Extract Standardized</a></li>
+
+                                    </ul>
+                                    <ul class="pl-3">
+                                        <li><strong>Citronella Oil Products</strong></li>
+                                        <li><a href="{{route('product-detail','red-ginger-powder-extract-premium')}}">Redgine Citronella Oil</a></li>
+                                    </ul>
                                 </ul>
                                 <ul>
                                     <li><strong>Made By Redgine</strong></li>
@@ -41,10 +52,10 @@
                                     <li><a href="{{route('product-detail','red-ginger-powder-extract-premium')}}">Bejo Sujamer</a></li>
                                     <li><a href="{{route('product-detail','red-ginger-powder-extract-premium')}}">Komix Herbal</a></li>
                                 </ul>
-                                <ul>
+                                {{-- <ul>
                                     <li><strong>Other Commodities</strong></li>
                                     <li><a href="{{route('product-detail','red-ginger-powder-extract-premium')}}">Citronella Oil</a></li>
-                                </ul>
+                                </ul> --}}
                             </div>
                         </li>
                         <li class="li-item {{ Request::is('business') ? 'active' : '' }}"><a href="{{route('business')}}">Business</a></li>

@@ -102,10 +102,10 @@
                             <div class="slider-profile">
                                 <div class="slider-profile-item">
                                     <div class="item-wrapper">
-                                       <img src="{{asset('images/ekosistem_nursery.jpg')}}" width="100%" height="100%"/>
+                                    <img src="{{asset('images/ekosistem_nursery.jpg')}}" width="100%" height="100%"/>
                                         <div class="info">
                                             <h5>Nursery</h5>
-                                            <p>CONVENTIAL & TISSUE CULTURE TECHNOLOGY</p>
+                                            <p>CONVENTIONAL & TISSUE CULTURE TECHNOLOGY</p>
                                         </div>
                                     </div>
                                 </div>
@@ -123,7 +123,7 @@
                                         <img src="{{asset('images/ekosistem_post_harvest.jpg')}}" width="100%" height="100%"/>
                                         <div class="info">
                                             <h5>Post Harvest</h5>
-                                            <p>EDUCATING, FACILITATING, PROCEDURE STANDARIZATION METHODOLOGY DEVELOPMENT</p>
+                                            <p>EDUCATING, FACILITATING, PROCEDURE STANDARDIZATION METHODOLOGY DEVELOPMENT</p>
                                         </div>
                                     </div>
                                 </div>
@@ -132,7 +132,7 @@
                                         <img src="{{asset('images/ekosistem_extraction_distillation.jpg')}}" width="100%" height="100%"/>
                                         <div class="info">
                                             <h5>Extraction & Distillation</h5>
-                                            <p>EDUCATING, FACILITATING, MONITORING OPERATING PROCEDURES</p>
+                                            <p>TECHNOLOGY DEVELOPMENT 3RD PARTY COLLABORATION PILOT & SCALE UP RESEARCH</p>
                                         </div>
                                     </div>
                                 </div>
@@ -141,7 +141,7 @@
                                         <img src="{{asset('images/ekosistem_pharmacology.jpg')}}" width="100%" height="100%"/>
                                         <div class="info">
                                             <h5>Pharmacology</h5>
-                                            <p>EDUCATING, FACILITATING, MONITORING OPERATING PROCEDURES</p>
+                                            <p>PRE CLINICAL & CLINICAL STUDY 3RD PARTY COLLABORATION EVIDENCE BASED HERBAL MEDICINE</p>
                                         </div>
                                     </div>
                                 </div>
@@ -150,7 +150,7 @@
                                         <img src="{{asset('images/ekosistem_commercialization.jpg')}}" width="100%" height="100%"/>
                                         <div class="info">
                                             <h5>Commercialization</h5>
-                                            <p>EDUCATING, FACILITATING, MONITORING OPERATING PROCEDURES</p>
+                                            <p>SUSTAINABLE SUPPLY OF HERBAL MATERIAL SUSTAINABLE GROWTH GOING GLOBAL</p>
                                         </div>
                                     </div>
                                 </div>
@@ -159,7 +159,7 @@
                                         <img src="{{asset('images/ekosistem_community_development.jpg')}}" width="100%" height="100%"/>
                                         <div class="info">
                                             <h5>Community Development</h5>
-                                            <p>EDUCATING, FACILITATING, MONITORING OPERATING PROCEDURES</p>
+                                            <p>TRAINING, EDUTAINMENT, INCENTIVES, SCHOLARSHIP, RESEARCH SPONSORSHIP</p>
                                         </div>
                                     </div>
                                 </div>

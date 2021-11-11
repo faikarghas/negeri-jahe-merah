@@ -37,12 +37,13 @@
                         <li><a href="{{route('product-detail','red-ginger-powder')}}">Red Ginger Powder</a></li>
                         <li><a href="{{route('product-detail','red-ginger-instant-powder')}}">Red Ginger Instant Powder with Palm Sugar</a></li>
                         <li><a href="{{route('product-detail','red-ginger-powder-extract-premium')}}">Red Ginger Fresh</a></li>
+                        <li><a href="{{route('product-detail','red-ginger-powder-extract-premium')}}">Citronella Oil</a></li>
                         <li><strong>Made By Redgine</strong></li>
                         <li><a href="{{route('product-detail','red-ginger-powder-extract-premium')}}">Bejo Jahe Merah</a></li>
                         <li><a href="{{route('product-detail','red-ginger-powder-extract-premium')}}">Bejo Sujamer</a></li>
                         <li><a href="{{route('product-detail','red-ginger-powder-extract-premium')}}">Komix Herbal</a></li>
-                        <li><strong>Other Commodities</strong></li>
-                        <li><a href="{{route('product-detail','red-ginger-powder-extract-premium')}}">Citronella Oil</a></li>
+                        {{-- <li><strong>Other Commodities</strong></li> --}}
+                        {{-- <li><a href="{{route('product-detail','red-ginger-powder-extract-premium')}}">Citronella Oil</a></li> --}}
                     </ul>
                 </li>
                 <li><a class="fs-big" href="{{route('business')}}"><strong>Business</strong></a></li>

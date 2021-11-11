@@ -72,7 +72,6 @@
                     </div>
                     <div class="col-6">
                         <div class="addr">
-                            
                         </div>
                     </div>
                 </div>

@@ -569,6 +569,14 @@ menu .menu__wrapper-bottom ul .sub-init .list_submenu ul {
 }
 menu .menu__wrapper-bottom ul .sub-init .list_submenu ul:nth-child(1) {
   margin-bottom: 4rem;
+  width: 60%;
+}
+menu .menu__wrapper-bottom ul .sub-init .list_submenu ul:nth-child(1) ul {
+  padding-left: 2rem;
+}
+menu .menu__wrapper-bottom ul .sub-init .list_submenu ul:nth-child(2) {
+  margin-bottom: 4rem;
+  width: 40%;
 }
 menu .menu__wrapper-bottom ul .sub-init .list_submenu ul li {
   display: block;
@@ -581,7 +589,7 @@ menu .menu__wrapper-bottom ul .sub-init .list_submenu ul li:first-child {
 }
 menu .menu__wrapper .menu__showcase {
   width: calc(100% + 10rem);
-  height: 450px;
+  height: 550px;
   background-color: #721414;
   position: absolute;
   top: -800px;

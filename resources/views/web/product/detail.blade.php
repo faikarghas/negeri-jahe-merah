@@ -57,7 +57,7 @@
                         </a>
                         <div class="collapse" id="coll-benefits">
                             <div class="collapse-box">
-                                <p class="p-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam qui minima excepturi unde! Exercitationem aut beatae error eaque dolore quia laudantium eum sunt commodi veritatis.</p>
+                                <p class="p-white">Red ginger is a unique Indonesian ginger variety,  that primarily cultivated and used for traditional medicine, health supplement, or beverages.  It has stronger aroma and warming sensation (due to its higher gingerol content),  compared to regular ginger.  Gingerol in red ginger, has benefit or efficacy as anti inflammatory, analgetic,  anti hyperglicemic, plasma lipid lowering, uric acid lowering, and wound healing.</p>
                             </div>
                         </div>
                     </div>
