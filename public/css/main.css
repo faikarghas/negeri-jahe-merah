@@ -412,7 +412,7 @@ a {
 
 menu {
   position: relative;
-  z-index: 5;
+  z-index: 7;
   padding: 3.5rem 4rem;
 }
 menu .logo {
@@ -507,7 +507,7 @@ menu .menu__wrapper-top img {
 }
 menu .menu__wrapper-bottom {
   position: relative;
-  z-index: 2;
+  z-index: 8;
   border-top: 1px solid rgba(255, 255, 255, 0.678);
 }
 menu .menu__wrapper-bottom ul {
@@ -562,6 +562,7 @@ menu .menu__wrapper-bottom ul .sub-init .list_submenu {
   padding-left: 0;
   margin-bottom: 0;
   margin-top: 35px;
+  z-index: 7;
 }
 menu .menu__wrapper-bottom ul .sub-init .list_submenu ul {
   display: block;
@@ -584,7 +585,7 @@ menu .menu__wrapper .menu__showcase {
   background-color: #721414;
   position: absolute;
   top: -800px;
-  z-index: 1;
+  z-index: 6;
   left: 50%;
   transform: translateX(-50%);
   transition: 0.5s all;
@@ -2910,8 +2911,8 @@ header[page=visit] .head_content-img {
 header[page=visit] .head_content-img img {
   position: absolute;
   right: 115px;
-  bottom: -33px;
-  z-index: 10;
+  bottom: -84px;
+  z-index: 5;
   width: 525px;
   -o-object-fit: contain;
      object-fit: contain;

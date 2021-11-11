@@ -50,7 +50,7 @@
                             <img src="{{asset('images/bumi-jahe-merah--aromatik.jpg')}}" width="100%" height="100%"/>
                             <div class="go__det-content">
                                 <h4 class="p-white">Bumi Jahe Merah Aromatik</h4>
-                                <p class="p-white">Bumi Jahe Merah Aromatic (BJMA) is spread across 60 hectares in Ciganea, Purwakarta. BJMA, with its expanse of aromatic lemongrass and scarlet ginger, is the upstream of high-quality herbal goods. Citronella distillation, proceed with a distillation capacity of more than 100 tons, is also available here, ready to create premium products for you.</p>
+                                <p class="p-white">Bumi Jahe Merah Aromatic is spread across 60 hectares in Ciganea, Purwakarta. BJMA, with its expanse of aromatic lemongrass and scarlet ginger, is the upstream of high-quality herbal goods. Citronella distillation, proceed with a distillation capacity of more than 100 tons, is also available here, ready to create premium products for you.</p>
                                 <div class="btn-njm-yellow">GO DETAIL</div>
                             </div>
                         </div>

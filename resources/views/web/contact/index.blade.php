@@ -55,7 +55,7 @@
                 <div class="row g-0">
                     <div class="col-12 col-lg-6">
                         <div class="addr">
-                            <h6>Redgine Head Office</h6>
+                            <h6>Head Office Bintang Toedjoe</h6>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores nobis quaerat cupiditate culpa accusamus corrupti!</p>
                             <ul>
                                 <li>
@@ -80,7 +80,7 @@
                 <div class="row g-0">
                     <div class="col-12 col-lg-6">
                         <div class="addr">
-                            <h6>Redgine Head Office</h6>
+                            <h6>Taman Jahe Merah</h6>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores nobis quaerat cupiditate culpa accusamus corrupti!</p>
                             <ul>
                                 <li>
@@ -106,7 +106,7 @@
                     </div>
                     <div class="col-12 col-lg-6">
                         <div class="addr">
-                            <h6>Redgine Head Office</h6>
+                            <h6>Bumi Jahe Merah Aromatik</h6>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores nobis quaerat cupiditate culpa accusamus corrupti!</p>
                             <ul>
                                 <li>

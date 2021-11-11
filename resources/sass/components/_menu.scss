@@ -1,6 +1,6 @@
 menu{
     position: relative;
-    z-index: 5;
+    z-index: 7;
     padding: 3.5rem 4rem;
     .logo{
         height: 100%;
@@ -79,7 +79,7 @@ menu{
         }
         &-bottom{
             position: relative;
-            z-index: 2;
+            z-index: 8;
             border-top: 1px solid rgba(255, 255, 255, 0.678);
             ul{
                 margin-bottom: 0;
@@ -129,6 +129,7 @@ menu{
                         padding-left: 0;
                         margin-bottom: 0;
                         margin-top: 35px;
+                        z-index: 7;
                         ul{
                             display: block;
                             &:nth-child(1){
@@ -155,7 +156,7 @@ menu{
             background-color: #721414;
             position: absolute;
             top: -800px;
-            z-index: 1;
+            z-index: 6;
             left: 50%;
             transform: translateX(-50%);
             transition: 0.5s all;
