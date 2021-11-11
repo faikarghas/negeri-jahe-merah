@@ -65,8 +65,9 @@
                                     <div class="yt-cover">
                                         <p class="num-float">O1</p>
                                         <img class="yt-img" src="{{asset('images/youtube.jpg')}}" width="100%" height="100%"/>
-                                        <img class="logo" src="{{asset('images/youtube-logo.png')}}" alt="" srcset="">
+                                        <img class="logo open-yt" src="{{asset('images/youtube-logo.png')}}" alt="" srcset="" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                     </div>
+                                   
                                 </div>
                                 <div class="section__first-left--desc">
                                     <div>
@@ -363,6 +364,17 @@
             </div>
         </section>
     </main>
+
+     <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/JwdmWPdRjic" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
 @endsection
 @section('script')
     <script>
@@ -500,6 +512,10 @@
             $('.header__boxWrapper-m').slick({
                 slidesToShow: 1,
                 slidesToScroll: 1,
+            })
+
+            $('.open-yt').on('click',function (params) {
+                
             })
 
 
