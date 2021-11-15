@@ -35,3 +35,4 @@ Route::get('/literatures',[NewsController::class,'literatures'])->name('literatu
 Route::get('/visit-us',[VisitController::class,'index'])->name('visit');
 Route::get('/contact-us',[ContactController::class,'index'])->name('contact');
 
+Route::get('lang/{lang}', ['as' => 'lang.switch', 'uses' => 'App\Http\Controllers\LanguageController@switchLang']);

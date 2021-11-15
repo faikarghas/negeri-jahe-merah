@@ -14,6 +14,11 @@
                     <ul>
                         <li>
                             <select name="" id="">
+                                {{-- @foreach (Config::get('languages') as $lang => $language)
+                                    @if ($lang != App::getLocale())
+                                        <option value=""><a class="dropdown-item" href="{{ route('lang.switch', $lang) }}"> {{$language}}</a></option>
+                                    @endif
+                                @endforeach --}}
                                 <option value="">English</option>
                                 <option value="">Indonesia</option>
                             </select>
