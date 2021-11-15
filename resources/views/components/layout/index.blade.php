@@ -75,51 +75,53 @@
                                 <div class="faq__box-collapseBox">
                                     <div class="faq__box-collapseBox--item">
                                         <a class="cl p-white" data-bs-toggle="collapse" href="#coll-faq1" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                            Link with href
+                                            Di mana produk Redgine dapat dibeli?
                                         </a>
                                         <div class="collapse" id="coll-faq1">
                                             <div class="collapse-box">
-                                                <p class="p-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam qui minima excepturi unde! Exercitationem aut beatae error eaque dolore quia laudantium eum sunt commodi veritatis.</p>
+                                                <p class="p-white">Melalui e-commerce favorit Anda dan dapat diakses melalui Ejol App yang dapat diunduh di Play Store dan App Store.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="faq__box-collapseBox--item">
                                         <a class="cl p-white" data-bs-toggle="collapse" href="#coll-faq2" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                            Link with href
+                                            Apakah produk Redgine aman untuk semua kalangan?
                                         </a>
                                         <div class="collapse" id="coll-faq2">
                                             <div class="collapse-box">
-                                                <p class="p-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam qui minima excepturi unde! Exercitationem aut beatae error eaque dolore quia laudantium eum sunt commodi veritatis.</p>
+                                                <p class="p-white">Ya, Anda dapat merasakan khasiat jahe merah dengan takaran yang tepat.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="faq__box-collapseBox--item">
                                         <a class="cl p-white" data-bs-toggle="collapse" href="#coll-faq3" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                            Link with href
+                                            Bagaimana cara bergabung di ekosistem Negeri Jahe Merah?
                                         </a>
                                         <div class="collapse" id="coll-faq3">
                                             <div class="collapse-box">
-                                                <p class="p-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam qui minima excepturi unde! Exercitationem aut beatae error eaque dolore quia laudantium eum sunt commodi veritatis.</p>
+                                                <p class="p-white">Anda cukup mengisi form di halaman kategori yang Anda minati, dan tim kami akan segera menghubungi Anda.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="faq__box-collapseBox--item">
                                         <a class="cl p-white" data-bs-toggle="collapse" href="#coll-faq4" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                            Link with href
+                                            Apakah dapat menjadi reseller produk BEJO?
                                         </a>
                                         <div class="collapse" id="coll-faq4">
                                             <div class="collapse-box">
-                                                <p class="p-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam qui minima excepturi unde! Exercitationem aut beatae error eaque dolore quia laudantium eum sunt commodi veritatis.</p>
+                                                <p class="p-white">Ya. Anda bisa mengisi form di bagian Kontak Kami, dan tim kami akan segera menghubungi Anda.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="faq__box-collapseBox--item">
                                         <a class="cl p-white" data-bs-toggle="collapse" href="#coll-faq5" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                            Link with href
+                                            Berapa harga tiket Taman Jahe Merah dan bagaimana cara membeli tiketnya?
                                         </a>
                                         <div class="collapse" id="coll-faq5">
                                             <div class="collapse-box">
-                                                <p class="p-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam qui minima excepturi unde! Exercitationem aut beatae error eaque dolore quia laudantium eum sunt commodi veritatis.</p>
+                                                <p class="p-white">Weekday: Rp00.000</p>
+                                                <p class="p-white">Weekend: Rp00.000</p>
+                                                <p class="p-white">Tiket dapat dibeli secara langsung di booth tiket Taman Jahe Merah</p>
                                             </div>
                                         </div>
                                     </div>
