@@ -43,7 +43,7 @@
                     </div>
                     <div class="det__box-collapseBox--item">
                         <a class="cl p-white" data-bs-toggle="collapse" href="#coll-users" role="button" aria-expanded="false" aria-controls="collapseExample">
-                            Users
+                            Usage
                         </a>
                         <div class="collapse" id="coll-users">
                             <div class="collapse-box">
