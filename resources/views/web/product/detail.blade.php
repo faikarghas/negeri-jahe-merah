@@ -121,6 +121,14 @@
                 arrows: false,
                 slidesToShow: 2,
                 slidesToScroll: 1,
+                responsive: [
+                    {
+                        breakpoint: 800,
+                        settings: {
+                            slidesToShow: 1,
+                        }
+                    },
+                ]
             });
         })
     </script>
