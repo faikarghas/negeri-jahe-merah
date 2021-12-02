@@ -1592,7 +1592,7 @@ main[page=product] .section__first .header__sec1 {
 }
 main[page=product] .section__first .header__sec1 h2 {
   font-size: 4rem;
-  z-index: 99;
+  z-index: 1;
   position: relative;
 }
 main[page=product] .section__first .header__sec1 .bg-yellow {
@@ -2243,6 +2243,15 @@ main[page=business] .section__first .contact__business-right form .form-wr {
 }
 main[page=business] .section__first .contact__business-right form .form-wr .form-50 {
   width: 49%;
+}
+main[page=business] .section__first .contact__business-right .download-qr {
+  padding: 0 1rem;
+}
+main[page=business] .section__first .contact__business-right .download-qr p {
+  color: white;
+}
+main[page=business] .section__first .contact__business-right .download-qr .br-bt {
+  border-bottom: 1px solid white;
 }
 
 header[page=news] {
