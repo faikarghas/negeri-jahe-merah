@@ -149,99 +149,342 @@
                                     <img src="{{asset('images/arrow.svg')}}" width="20px" alt="" srcset="">
                                 </div>
                                 <h3 class="p-yellow">Be a Part of Our Community!</h3>
-                                {{-- <form action="">
-                                    <div class="mb-3 form-gr">
-                                        <div class="box-icon">
-
-                                        </div>
-                                        <div class="box-input">
-                                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
-                                        </div>
-                                    </div>
-                                    <div class="form-wr">
-                                        <div class="mb-3 form-gr form-50">
-                                            <div class="box-icon">
-
-                                            </div>
-                                            <div class="box-input">
-                                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Email">
-                                            </div>
-                                        </div>
-                                        <div class="mb-3 form-gr form-50">
-                                            <div class="box-icon">
-
-                                            </div>
-                                            <div class="box-input">
-                                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Phone Number">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="mb-3 form-gr">
-                                        <div class="box-icon">
-
-                                        </div>
-                                        <div class="box-input">
-                                            <select class="form-select" aria-label="Default select example">
-                                                <option selected>Choose Provinsi</option>
-                                                <option value="1">One</option>
-                                                <option value="2">Two</option>
-                                                <option value="3">Three</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="mb-3 form-gr">
-                                        <div class="box-icon">
-
-                                        </div>
-                                        <div class="box-input">
-                                            <select class="form-select" aria-label="Default select example">
-                                                <option selected>Choose Kabupaten</option>
-                                                <option value="1">One</option>
-                                                <option value="2">Two</option>
-                                                <option value="3">Three</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="mb-3 form-gr">
-                                        <div class="box-icon">
-
-                                        </div>
-                                        <div class="box-input">
-                                            <select class="form-select" aria-label="Default select example">
-                                                <option selected>Choose Kota</option>
-                                                <option value="1">One</option>
-                                                <option value="2">Two</option>
-                                                <option value="3">Three</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="mb-3 form-gr">
-                                        <div class="box-input-area">
-                                            <textarea class="form-control" aria-label="With textarea" placeholder="Message"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="d-flex justify-content-center">
-                                        <div class="btn-njm-yellow">SEND</div>
-                                    </div>
-                                </form> --}}
-
-                                <div class="download-qr">
-                                    <div class="container-fluid g-0">
-                                        <div class="row">
-                                            <div class="col-6 br-bt p-0">
-                                                <p class="mb-5">Scan to join!</p>
-                                            </div>
-                                            <div class="col-6 br-bt p-0">
-                                                <p class="mb-5">Download and join now!</p>
-                                            </div>
-                                            <div class="col-6 p-0">
-                                                <div class="pt-5">
-                                                    <img src="{{asset('images/qrcode.png')}}" width="200px" alt="" srcset="">
+                                <div class="slider-form">
+                                    <div>
+                                        <div class="download-qr">
+                                            <div class="container-fluid g-0">
+                                                <div class="row">
+                                                    <div class="col-6 br-bt p-0">
+                                                        <p class="mb-5">Scan to join!</p>
+                                                    </div>
+                                                    <div class="col-6 br-bt p-0">
+                                                        <p class="mb-5">Download and join now!</p>
+                                                    </div>
+                                                    <div class="col-6 p-0">
+                                                        <div class="pt-5">
+                                                            <img src="{{asset('images/qrcode.png')}}" width="200px" alt="" srcset="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6 p-0 d-flex align-items-center">
+                                                        <div class="pt-5">
+                                                            <img src="{{asset('images/googleplay.png')}}" width="200px" alt="" srcset="">
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="col-6 p-0 d-flex align-items-center">
-                                                <div class="pt-5">
-                                                    <img src="{{asset('images/googleplay.png')}}" width="200px" alt="" srcset="">
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="download-qr">
+                                            <div class="container-fluid g-0">
+                                                <div class="row">
+                                                    <div class="col-6 br-bt p-0">
+                                                        <p class="mb-5">Scan to join!</p>
+                                                    </div>
+                                                    <div class="col-6 br-bt p-0">
+                                                        <p class="mb-5">Download and join now!</p>
+                                                    </div>
+                                                    <div class="col-6 p-0">
+                                                        <div class="pt-5">
+                                                            <img src="{{asset('images/qrcode.png')}}" width="200px" alt="" srcset="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6 p-0 d-flex align-items-center">
+                                                        <div class="pt-5">
+                                                            <img src="{{asset('images/googleplay.png')}}" width="200px" alt="" srcset="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="download-qr">
+                                            <div class="container-fluid g-0">
+                                                <div class="row">
+                                                    <div class="col-6 br-bt p-0">
+                                                        <p class="mb-5">Scan to join!</p>
+                                                    </div>
+                                                    <div class="col-6 br-bt p-0">
+                                                        <p class="mb-5">Download and join now!</p>
+                                                    </div>
+                                                    <div class="col-6 p-0">
+                                                        <div class="pt-5">
+                                                            <img src="{{asset('images/qrcode.png')}}" width="200px" alt="" srcset="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6 p-0 d-flex align-items-center">
+                                                        <div class="pt-5">
+                                                            <img src="{{asset('images/googleplay.png')}}" width="200px" alt="" srcset="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="p-3">
+                                            <form action="">
+                                                <div class="mb-3 form-gr">
+                                                    <div class="box-icon">
+            
+                                                    </div>
+                                                    <div class="box-input">
+                                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                                                    </div>
+                                                </div>
+                                                <div class="form-wr">
+                                                    <div class="mb-3 form-gr form-50">
+                                                        <div class="box-icon">
+            
+                                                        </div>
+                                                        <div class="box-input">
+                                                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                                                        </div>
+                                                    </div>
+                                                    <div class="mb-3 form-gr form-50">
+                                                        <div class="box-icon">
+            
+                                                        </div>
+                                                        <div class="box-input">
+                                                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Phone Number">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="mb-3 form-gr">
+                                                    <div class="box-icon">
+            
+                                                    </div>
+                                                    <div class="box-input">
+                                                        <select class="form-select" aria-label="Default select example">
+                                                            <option selected>Choose Provinsi</option>
+                                                            <option value="1">One</option>
+                                                            <option value="2">Two</option>
+                                                            <option value="3">Three</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="mb-3 form-gr">
+                                                    <div class="box-icon">
+            
+                                                    </div>
+                                                    <div class="box-input">
+                                                        <select class="form-select" aria-label="Default select example">
+                                                            <option selected>Choose Kabupaten</option>
+                                                            <option value="1">One</option>
+                                                            <option value="2">Two</option>
+                                                            <option value="3">Three</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="mb-3 form-gr">
+                                                    <div class="box-icon">
+            
+                                                    </div>
+                                                    <div class="box-input">
+                                                        <select class="form-select" aria-label="Default select example">
+                                                            <option selected>Choose Kota</option>
+                                                            <option value="1">One</option>
+                                                            <option value="2">Two</option>
+                                                            <option value="3">Three</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="mb-3 form-gr">
+                                                    <div class="box-input-area">
+                                                        <textarea class="form-control" aria-label="With textarea" placeholder="Message"></textarea>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center">
+                                                    <div class="btn-njm-yellow">SEND</div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="p-3">
+                                            <form action="">
+                                                <div class="mb-3 form-gr">
+                                                    <div class="box-icon">
+            
+                                                    </div>
+                                                    <div class="box-input">
+                                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                                                    </div>
+                                                </div>
+                                                <div class="form-wr">
+                                                    <div class="mb-3 form-gr form-50">
+                                                        <div class="box-icon">
+            
+                                                        </div>
+                                                        <div class="box-input">
+                                                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                                                        </div>
+                                                    </div>
+                                                    <div class="mb-3 form-gr form-50">
+                                                        <div class="box-icon">
+            
+                                                        </div>
+                                                        <div class="box-input">
+                                                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Phone Number">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="mb-3 form-gr">
+                                                    <div class="box-icon">
+            
+                                                    </div>
+                                                    <div class="box-input">
+                                                        <select class="form-select" aria-label="Default select example">
+                                                            <option selected>Choose Provinsi</option>
+                                                            <option value="1">One</option>
+                                                            <option value="2">Two</option>
+                                                            <option value="3">Three</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="mb-3 form-gr">
+                                                    <div class="box-icon">
+            
+                                                    </div>
+                                                    <div class="box-input">
+                                                        <select class="form-select" aria-label="Default select example">
+                                                            <option selected>Choose Kabupaten</option>
+                                                            <option value="1">One</option>
+                                                            <option value="2">Two</option>
+                                                            <option value="3">Three</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="mb-3 form-gr">
+                                                    <div class="box-icon">
+            
+                                                    </div>
+                                                    <div class="box-input">
+                                                        <select class="form-select" aria-label="Default select example">
+                                                            <option selected>Choose Kota</option>
+                                                            <option value="1">One</option>
+                                                            <option value="2">Two</option>
+                                                            <option value="3">Three</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="mb-3 form-gr">
+                                                    <div class="box-input-area">
+                                                        <textarea class="form-control" aria-label="With textarea" placeholder="Message"></textarea>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center">
+                                                    <div class="btn-njm-yellow">SEND</div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="p-3">
+                                            <form action="">
+                                                <div class="mb-3 form-gr">
+                                                    <div class="box-icon">
+            
+                                                    </div>
+                                                    <div class="box-input">
+                                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                                                    </div>
+                                                </div>
+                                                <div class="form-wr">
+                                                    <div class="mb-3 form-gr form-50">
+                                                        <div class="box-icon">
+            
+                                                        </div>
+                                                        <div class="box-input">
+                                                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                                                        </div>
+                                                    </div>
+                                                    <div class="mb-3 form-gr form-50">
+                                                        <div class="box-icon">
+            
+                                                        </div>
+                                                        <div class="box-input">
+                                                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Phone Number">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="mb-3 form-gr">
+                                                    <div class="box-icon">
+            
+                                                    </div>
+                                                    <div class="box-input">
+                                                        <select class="form-select" aria-label="Default select example">
+                                                            <option selected>Choose Provinsi</option>
+                                                            <option value="1">One</option>
+                                                            <option value="2">Two</option>
+                                                            <option value="3">Three</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="mb-3 form-gr">
+                                                    <div class="box-icon">
+            
+                                                    </div>
+                                                    <div class="box-input">
+                                                        <select class="form-select" aria-label="Default select example">
+                                                            <option selected>Choose Kabupaten</option>
+                                                            <option value="1">One</option>
+                                                            <option value="2">Two</option>
+                                                            <option value="3">Three</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="mb-3 form-gr">
+                                                    <div class="box-icon">
+            
+                                                    </div>
+                                                    <div class="box-input">
+                                                        <select class="form-select" aria-label="Default select example">
+                                                            <option selected>Choose Kota</option>
+                                                            <option value="1">One</option>
+                                                            <option value="2">Two</option>
+                                                            <option value="3">Three</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="mb-3 form-gr">
+                                                    <div class="box-input-area">
+                                                        <textarea class="form-control" aria-label="With textarea" placeholder="Message"></textarea>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center">
+                                                    <div class="btn-njm-yellow">SEND</div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="download-qr">
+                                            <div class="container-fluid g-0">
+                                                <div class="row">
+                                                    <div class="col-6 br-bt p-0">
+                                                        <p class="mb-5">Scan to join!</p>
+                                                    </div>
+                                                    <div class="col-6 br-bt p-0">
+                                                        <p class="mb-5">Download and join now!</p>
+                                                    </div>
+                                                    <div class="col-6 p-0">
+                                                        <div class="pt-5">
+                                                            <img src="{{asset('images/qrcode.png')}}" width="200px" alt="" srcset="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6 p-0 d-flex align-items-center">
+                                                        <div class="pt-5">
+                                                            <img src="{{asset('images/googleplay.png')}}" width="200px" alt="" srcset="">
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -268,7 +511,7 @@
                 arrows: true,
                 slidesToShow: 3,
                 slidesToScroll: 1,
-                asNavFor:$('.slider-eco, .slider-desc'),
+                asNavFor:$('.slider-eco, .slider-desc, .slider-form'),
                 prevArrow: $('.arrow-left'),
                 nextArrow: $('.arrow-right'),
                 focusOnSelect: true,
@@ -300,7 +543,7 @@
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 fade: true,
-                asNavFor: $('.slider-desc, .slider-profile'),
+                asNavFor: $('.slider-desc, .slider-profile, .slider-form'),
                 prevArrow: $('.arrow_rec-left'),
                 nextArrow: $('.arrow_rec'),
             })
@@ -314,6 +557,38 @@
                 asNavFor: $('.slider-profile, .slider-eco'),
                 prevArrow: $('.arrow_rec-left'),
                 nextArrow: $('.arrow_rec'),
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 1,
+                            adaptiveHeight: true
+
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 1,
+                            adaptiveHeight: true
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            adaptiveHeight: true
+                        }
+                    }
+                ]
+            })
+
+            $('.slider-form').slick({
+                dots: false,
+                arrows: false,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                fade: true,
                 responsive: [
                     {
                         breakpoint: 1024,
