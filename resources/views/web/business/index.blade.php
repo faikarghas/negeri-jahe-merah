@@ -585,9 +585,12 @@
 
             $('.slider-form').slick({
                 dots: false,
-                arrows: false,
+                arrows: true,
                 slidesToShow: 1,
                 slidesToScroll: 1,
+                asNavFor: $('.slider-profile, .slider-eco'),
+                prevArrow: $('.arrow_rec-left'),
+                nextArrow: $('.arrow_rec'),
                 fade: true,
                 responsive: [
                     {
