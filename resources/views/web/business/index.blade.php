@@ -149,7 +149,7 @@
                                     <img src="{{asset('images/arrow.svg')}}" width="20px" alt="" srcset="">
                                 </div>
                                 <h3 class="p-yellow">Be a Part of Our Community!</h3>
-                                <form action="">
+                                {{-- <form action="">
                                     <div class="mb-3 form-gr">
                                         <div class="box-icon">
 
@@ -223,7 +223,30 @@
                                     <div class="d-flex justify-content-center">
                                         <div class="btn-njm-yellow">SEND</div>
                                     </div>
-                                </form>
+                                </form> --}}
+
+                                <div class="download-qr">
+                                    <div class="container-fluid g-0">
+                                        <div class="row">
+                                            <div class="col-6 br-bt p-0">
+                                                <p class="mb-5">Scan to join!</p>
+                                            </div>
+                                            <div class="col-6 br-bt p-0">
+                                                <p class="mb-5">Download and join now!</p>
+                                            </div>
+                                            <div class="col-6 p-0">
+                                                <div class="pt-5">
+                                                    <img src="{{asset('images/qrcode.png')}}" width="200px" alt="" srcset="">
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 d-flex align-items-center">
+                                                <div class="pt-5">
+                                                    <img src="{{asset('images/googleplay.png')}}" width="200px" alt="" srcset="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
