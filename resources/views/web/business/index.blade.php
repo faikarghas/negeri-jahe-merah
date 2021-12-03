@@ -260,6 +260,7 @@
                                                     </div>
                                                     <div class="box-input">
                                                         <select class="form-select provinsi select-provinsi" aria-label="Default select example">
+                                                            <option selected>Choose Provinsi</option>
                                                         </select>
                                                     </div>
                                                 </div>
@@ -269,6 +270,7 @@
                                                     </div>
                                                     <div class="box-input">
                                                         <select class="form-select select-kabupaten" aria-label="Default select example">
+                                                            <option selected>Choose Kabupaten/Kota</option>
                                                         </select>
                                                     </div>
                                                 </div>
@@ -278,6 +280,7 @@
                                                     </div>
                                                     <div class="box-input">
                                                         <select class="form-select select-kecamatan" aria-label="Default select example">
+                                                            <option selected>Choose Kecamatan</option>
                                                         </select>
                                                     </div>
                                                 </div>
@@ -328,6 +331,7 @@
                                                     </div>
                                                     <div class="box-input">
                                                         <select class="form-select provinsi select-provinsi" aria-label="Default select example">
+                                                            <option selected>Choose Provinsi</option>
                                                         </select>
                                                     </div>
                                                 </div>
@@ -337,7 +341,7 @@
                                                     </div>
                                                     <div class="box-input">
                                                         <select class="form-select select-kabupaten" aria-label="Default select example">
-                                                           
+                                                            <option selected>Choose Kabupaten/Kota</option>
                                                         </select>
                                                     </div>
                                                 </div>
@@ -347,7 +351,7 @@
                                                     </div>
                                                     <div class="box-input">
                                                         <select class="form-select select-kecamatan" aria-label="Default select example">
-                                                           
+                                                            <option selected>Choose Kecamatan</option>
                                                         </select>
                                                     </div>
                                                 </div>
@@ -398,6 +402,7 @@
                                                     </div>
                                                     <div class="box-input">
                                                         <select class="form-select provinsi select-provinsi" aria-label="Default select example">
+                                                            <option selected>Choose Provinsi</option>
                                                         </select>
                                                     </div>
                                                 </div>
@@ -407,7 +412,7 @@
                                                     </div>
                                                     <div class="box-input">
                                                         <select class="form-select select-kabupaten" aria-label="Default select example">
-                                                           
+                                                            <option selected>Choose Kabupaten/Kota</option>
                                                         </select>
                                                     </div>
                                                 </div>
@@ -417,7 +422,7 @@
                                                     </div>
                                                     <div class="box-input">
                                                         <select class="form-select select-kecamatan" aria-label="Default select example">
-                                                            
+                                                            <option selected>Choose Kecamatan</option>
                                                         </select>
                                                     </div>
                                                 </div>
@@ -587,7 +592,7 @@
             })
 
 
-            var url='http://www.emsifa.com/api-wilayah-indonesia/api/provinces.json';
+            var url='https://www.emsifa.com/api-wilayah-indonesia/api/provinces.json';
             $.ajax({
                 type: "GET",
                 url: url,
@@ -606,7 +611,7 @@
 
                     $.ajax({
                         type: "GET",
-                        url: `http://www.emsifa.com/api-wilayah-indonesia/api/regencies/${idenKabupaten}.json`,
+                        url: `https://www.emsifa.com/api-wilayah-indonesia/api/regencies/${idenKabupaten}.json`,
                         data: "",
                         cache: false,
                         success: function(result){
@@ -625,7 +630,7 @@
 
                     $.ajax({
                         type: "GET",
-                        url: `http://www.emsifa.com/api-wilayah-indonesia/api/districts/${idenKecamatan}.json`,
+                        url: `https://www.emsifa.com/api-wilayah-indonesia/api/districts/${idenKecamatan}.json`,
                         data: "",
                         cache: false,
                         success: function(result){
