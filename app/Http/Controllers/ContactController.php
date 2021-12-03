@@ -15,4 +15,12 @@ class ContactController extends Controller
         return view('web.contact.index',$data);
     }
 
+    public function term(){
+
+        $data = [
+        ];
+
+        return view('web.term.index',$data);
+    }
+
 }
