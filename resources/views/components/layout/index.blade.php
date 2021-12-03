@@ -156,7 +156,7 @@
                         <div class="footerMenu__wrapper">
                             <div class="footerMenu__wrapper-left tpc">
                                 <ul>
-                                    <li><a href="">Term & Conditions</a></li>
+                                    <li><a href="{{route('term')}}">Term & Conditions</a></li>
                                     <li><a href="">Privacy Policy</a></li>
                                     <li><a href="">Cookie Policy</a></li>
                                 </ul>
