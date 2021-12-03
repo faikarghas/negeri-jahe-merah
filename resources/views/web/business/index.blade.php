@@ -230,7 +230,7 @@
                                             <form action="">
                                                 <div class="mb-3 form-gr">
                                                     <div class="box-icon">
-            
+
                                                     </div>
                                                     <div class="box-input">
                                                         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
@@ -239,7 +239,7 @@
                                                 <div class="form-wr">
                                                     <div class="mb-3 form-gr form-50">
                                                         <div class="box-icon">
-            
+
                                                         </div>
                                                         <div class="box-input">
                                                             <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Email">
@@ -247,7 +247,7 @@
                                                     </div>
                                                     <div class="mb-3 form-gr form-50">
                                                         <div class="box-icon">
-            
+
                                                         </div>
                                                         <div class="box-input">
                                                             <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Phone Number">
@@ -256,40 +256,28 @@
                                                 </div>
                                                 <div class="mb-3 form-gr">
                                                     <div class="box-icon">
-            
+
                                                     </div>
                                                     <div class="box-input">
-                                                        <select class="form-select" aria-label="Default select example">
-                                                            <option selected>Choose Provinsi</option>
-                                                            <option value="1">One</option>
-                                                            <option value="2">Two</option>
-                                                            <option value="3">Three</option>
+                                                        <select class="form-select provinsi select-provinsi" aria-label="Default select example">
                                                         </select>
                                                     </div>
                                                 </div>
                                                 <div class="mb-3 form-gr">
                                                     <div class="box-icon">
-            
+
                                                     </div>
                                                     <div class="box-input">
-                                                        <select class="form-select" aria-label="Default select example">
-                                                            <option selected>Choose Kabupaten</option>
-                                                            <option value="1">One</option>
-                                                            <option value="2">Two</option>
-                                                            <option value="3">Three</option>
+                                                        <select class="form-select select-kabupaten" aria-label="Default select example">
                                                         </select>
                                                     </div>
                                                 </div>
                                                 <div class="mb-3 form-gr">
                                                     <div class="box-icon">
-            
+
                                                     </div>
                                                     <div class="box-input">
-                                                        <select class="form-select" aria-label="Default select example">
-                                                            <option selected>Choose Kota</option>
-                                                            <option value="1">One</option>
-                                                            <option value="2">Two</option>
-                                                            <option value="3">Three</option>
+                                                        <select class="form-select select-kecamatan" aria-label="Default select example">
                                                         </select>
                                                     </div>
                                                 </div>
@@ -310,7 +298,7 @@
                                             <form action="">
                                                 <div class="mb-3 form-gr">
                                                     <div class="box-icon">
-            
+
                                                     </div>
                                                     <div class="box-input">
                                                         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
@@ -319,7 +307,7 @@
                                                 <div class="form-wr">
                                                     <div class="mb-3 form-gr form-50">
                                                         <div class="box-icon">
-            
+
                                                         </div>
                                                         <div class="box-input">
                                                             <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Email">
@@ -327,7 +315,7 @@
                                                     </div>
                                                     <div class="mb-3 form-gr form-50">
                                                         <div class="box-icon">
-            
+
                                                         </div>
                                                         <div class="box-input">
                                                             <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Phone Number">
@@ -336,40 +324,30 @@
                                                 </div>
                                                 <div class="mb-3 form-gr">
                                                     <div class="box-icon">
-            
+
                                                     </div>
                                                     <div class="box-input">
-                                                        <select class="form-select" aria-label="Default select example">
-                                                            <option selected>Choose Provinsi</option>
-                                                            <option value="1">One</option>
-                                                            <option value="2">Two</option>
-                                                            <option value="3">Three</option>
+                                                        <select class="form-select provinsi select-provinsi" aria-label="Default select example">
                                                         </select>
                                                     </div>
                                                 </div>
                                                 <div class="mb-3 form-gr">
                                                     <div class="box-icon">
-            
+
                                                     </div>
                                                     <div class="box-input">
-                                                        <select class="form-select" aria-label="Default select example">
-                                                            <option selected>Choose Kabupaten</option>
-                                                            <option value="1">One</option>
-                                                            <option value="2">Two</option>
-                                                            <option value="3">Three</option>
+                                                        <select class="form-select select-kabupaten" aria-label="Default select example">
+                                                           
                                                         </select>
                                                     </div>
                                                 </div>
                                                 <div class="mb-3 form-gr">
                                                     <div class="box-icon">
-            
+
                                                     </div>
                                                     <div class="box-input">
-                                                        <select class="form-select" aria-label="Default select example">
-                                                            <option selected>Choose Kota</option>
-                                                            <option value="1">One</option>
-                                                            <option value="2">Two</option>
-                                                            <option value="3">Three</option>
+                                                        <select class="form-select select-kecamatan" aria-label="Default select example">
+                                                           
                                                         </select>
                                                     </div>
                                                 </div>
@@ -390,7 +368,7 @@
                                             <form action="">
                                                 <div class="mb-3 form-gr">
                                                     <div class="box-icon">
-            
+
                                                     </div>
                                                     <div class="box-input">
                                                         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
@@ -399,7 +377,7 @@
                                                 <div class="form-wr">
                                                     <div class="mb-3 form-gr form-50">
                                                         <div class="box-icon">
-            
+
                                                         </div>
                                                         <div class="box-input">
                                                             <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Email">
@@ -407,7 +385,7 @@
                                                     </div>
                                                     <div class="mb-3 form-gr form-50">
                                                         <div class="box-icon">
-            
+
                                                         </div>
                                                         <div class="box-input">
                                                             <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Phone Number">
@@ -416,40 +394,30 @@
                                                 </div>
                                                 <div class="mb-3 form-gr">
                                                     <div class="box-icon">
-            
+
                                                     </div>
                                                     <div class="box-input">
-                                                        <select class="form-select" aria-label="Default select example">
-                                                            <option selected>Choose Provinsi</option>
-                                                            <option value="1">One</option>
-                                                            <option value="2">Two</option>
-                                                            <option value="3">Three</option>
+                                                        <select class="form-select provinsi select-provinsi" aria-label="Default select example">
                                                         </select>
                                                     </div>
                                                 </div>
                                                 <div class="mb-3 form-gr">
                                                     <div class="box-icon">
-            
+
                                                     </div>
                                                     <div class="box-input">
-                                                        <select class="form-select" aria-label="Default select example">
-                                                            <option selected>Choose Kabupaten</option>
-                                                            <option value="1">One</option>
-                                                            <option value="2">Two</option>
-                                                            <option value="3">Three</option>
+                                                        <select class="form-select select-kabupaten" aria-label="Default select example">
+                                                           
                                                         </select>
                                                     </div>
                                                 </div>
                                                 <div class="mb-3 form-gr">
                                                     <div class="box-icon">
-            
+
                                                     </div>
                                                     <div class="box-input">
-                                                        <select class="form-select" aria-label="Default select example">
-                                                            <option selected>Choose Kota</option>
-                                                            <option value="1">One</option>
-                                                            <option value="2">Two</option>
-                                                            <option value="3">Three</option>
+                                                        <select class="form-select select-kecamatan" aria-label="Default select example">
+                                                            
                                                         </select>
                                                     </div>
                                                 </div>
@@ -617,6 +585,59 @@
                     }
                 ]
             })
+
+
+            var url='http://www.emsifa.com/api-wilayah-indonesia/api/provinces.json';
+            $.ajax({
+                type: "GET",
+                url: url,
+                data: "",
+                cache: false,
+                success: function(result){
+                    result.map((i,a)=>{
+                        $('.provinsi').append(`<option value="${i.name}" data-id="${i.id}">${i.name}</option>`)
+                    })
+                }
+            });
+
+            $('.select-provinsi').each(function name(params) {
+                $(this).on('change',function (params) {
+                    let idenKabupaten = $(this).find("option:selected").attr('data-id')
+
+                    $.ajax({
+                        type: "GET",
+                        url: `http://www.emsifa.com/api-wilayah-indonesia/api/regencies/${idenKabupaten}.json`,
+                        data: "",
+                        cache: false,
+                        success: function(result){
+                            $('.select-kabupaten').empty()
+                            result.map((i,a)=>{
+                                $('.select-kabupaten').append(`<option value="${i.name}" data-id="${i.id}">${i.name}</option>`)
+                            })
+                        }
+                    });
+                })
+            })
+
+            $('.select-kabupaten').each(function (params) {
+                $(this).on('change',function (params) {
+                    let idenKecamatan = $(this).find("option:selected").attr('data-id')
+
+                    $.ajax({
+                        type: "GET",
+                        url: `http://www.emsifa.com/api-wilayah-indonesia/api/districts/${idenKecamatan}.json`,
+                        data: "",
+                        cache: false,
+                        success: function(result){
+                            $('.select-kecamatan').empty()
+                            result.map((i,a)=>{
+                                $('.select-kecamatan').append(`<option value="${i.name}">${i.name}</option>`)
+                            })
+                        }
+                    });
+                })
+            })
+
 
         })
     </script>
